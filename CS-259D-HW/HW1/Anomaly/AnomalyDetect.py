@@ -22,18 +22,19 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 SCOPE = 6
 
 #Global map from command name to index number
-commandToIndex = {}
+command_to_index = {}
+command_to_occ = {}
 
 #Data matrix for storing training sequences in row major form
-trainingData = csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
+training_data = csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 
 #Data vector for storing mean of the training sequences for centering
 #meanData = csr_matrix((1, M*M), dtype = float)
 #numVals = csr_matrix((1, M*M), dtype = float)
 
 #Function to generate a co-occurence matrix vector of length M*M from command sequence
-def generateSequenceVector(sequence):
-	global commandToIndex
+def generate_sequence_vector(sequence):
+	global command_to_index
 	global SCOPE
 
 	#Currently adds one for every co-occurence, update to Gaussian?
@@ -42,12 +43,12 @@ def generateSequenceVector(sequence):
 	for i in range(len(sequence)):
 		for j in range(SCOPE):
 			if i + j + 1 < len(sequence):
-				listIndex = commandToIndex.get(sequence[i])*M + commandToIndex.get(sequence[j + i + 1])
-				if listIndex not in y:
-					y.append(listIndex)
+				list_index = command_to_index.get(sequence[i])*M + command_to_index.get(sequence[j + i + 1])
+				if list_index not in y:
+					y.append(list_index)
 					data.append(1)
 				else:
-					ind = y.index(listIndex)
+					ind = y.index(list_index)
 					data[ind] = data[ind] + 1
 	return y, data
 
@@ -62,38 +63,32 @@ for i in range(50):
 
 	counter = 0
 	#List to divide User data into sequences
-	commandList = []
-	seqNo = 0
+	command_list = []
+	seq_no = 0
 
 	for line in file:
 		counter = counter+1
 		if counter > 5000:
 			break
-		commandList.append(line)
-		if not commandToIndex.has_key(line):
-			commandToIndex[line] = m
-			#print m, line
+		command_list.append(line)
+		if not command_to_index.has_key(line):
+			command_to_index[line] = m
+			command_to_occ[line] = 0
 			m = m+1
+        else:
+            command_to_occ[line] += 1
 
-		if counter%LENGTH_SEQUENCES == 0:
-			y, data = generateSequenceVector(commandList)
-			commandList = []
-			x = [seqNo + i*TRAINING_SEQ]*len(y)
-			seqNo = seqNo + 1
-			trainingData = trainingData + csr_matrix((data, (x, y)), shape = (TOTAL_TRAINING_SEQUENCES, M*M))
-			#meanData = meanData + csr_matrix((data, ([0]*len(y), y)), shape = (1, M*M))
-			#numVals = numVals + csr_matrix(([1]*len(y), ([0]*len(y), y)), shape = (1, M*M))
+        if counter%LENGTH_SEQUENCES == 0:
+			y, data = generate_sequence_vector(command_list)
+			command_list = []
+			x = [seq_no + i*TRAINING_SEQ]*len(y)
+			seq_no = seq_no + 1
+			training_data = training_data + csr_matrix((data, (x, y)), shape = (TOTAL_TRAINING_SEQUENCES, M*M))
 
+print command_to_occ
 
-	if len(commandList) > 0:
-		y, data = generateSequenceVector(commandList)
-		commandList = []
-		trainingData = trainingData + csr_matrix((data, (x, y)), shape = (TOTAL_TRAINING_SEQUENCES, M*M))
-		#meanData = meanData + csr_matrix((data, ([0]*len(y), y)), shape = (1, M*M))
-		#numVals = numVals + csr_matrix(([1]*len(y), ([0]*len(y), y)), shape = (1, M*M))
- 
 #Centering training data
-meanData = trainingData.mean(axis = 0)
+meanData = training_data.mean(axis = 0)
 np.expand_dims(meanData, axis = 1)
-trainingDataCentered = trainingData - (meanData*([1]*TOTAL_TRAINING_SEQUENCES)).T
-del trainingData
+training_data_centered = training_data - (meanData*([1]*TOTAL_TRAINING_SEQUENCES)).T
+del training_data
