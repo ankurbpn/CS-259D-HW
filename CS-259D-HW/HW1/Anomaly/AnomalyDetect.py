@@ -1,7 +1,8 @@
 from scipy.sparse import csr_matrix
 import numpy as np
+from sklearn.decomposition import RandomizedPCA
 #Global parameters
-#Index numer for commands, will get updated as we encounter new commands
+#Index number for commands, will get updated as we encounter new commands
 m = 0
 M = 856 #Total number of commands in dataset
 
@@ -94,3 +95,7 @@ np.expand_dims(mean_data, axis = 1)
 ones_array = np.matrix([1]*TOTAL_TRAINING_SEQUENCES).T
 training_data_centered = training_data - ones_array*mean_data
 del training_data
+
+pca = RandomizedPCA(n_components = 100)
+pca.fit(training_data_centered)
+print pca.explained_variance_ratio_
