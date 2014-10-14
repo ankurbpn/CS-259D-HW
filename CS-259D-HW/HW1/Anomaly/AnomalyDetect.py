@@ -23,7 +23,7 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 SCOPE = 6
 
 #Dimension of reduced space
-N = 200
+N = 33
 
 #Global map from command name to index number
 command_to_index = {}
@@ -122,3 +122,9 @@ print 'the normalized contribution ratio is', contribution_ratio
 
 reduced_feature_vectors = pca.transform(training_data_centered)
 print pca.components_.shape
+
+##Add code to get the feature vectors corresponding to Users 1-5, 21 and use that to construct layered networks for each training sequence for these users.
+
+
+
+##Add code to compare two layered networks and output a similarity score, based on this decide a threshold.
