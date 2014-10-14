@@ -4,7 +4,7 @@ from sklearn.decomposition import RandomizedPCA
 #Global parameters
 #Index number for commands, will get updated as we encounter new commands
 m = 0
-M = 856 #Total number of commands in dataset
+M = 635 #Total number of commands in training dataset
 
 #Total number of sequences
 NUM_SEQUENCES = 0
@@ -23,7 +23,7 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 SCOPE = 6
 
 #Dimension of reduced space
-N = 50
+N = 200
 
 #Global map from command name to index number
 command_to_index = {}
@@ -89,8 +89,16 @@ for i in range(50):
             x = [seq_no + i*TRAINING_SEQ]*len(y)
             seq_no = seq_no + 1
             training_data = training_data + csr_matrix((data, (x, y)), shape = (TOTAL_TRAINING_SEQUENCES, M*M))
+    NUM_SEQUENCES = NUM_SEQUENCES + seq_no
 
-print command_to_occ
+print 'Number of sequences = ', NUM_SEQUENCES
+print 'Number of different commands = ', m, len(command_to_index.keys()), len(command_to_occ.keys())
+
+index = M* command_to_index['rm'] +  command_to_index['ls']
+print 'Number of co-occurences of rm with ls for user 1 and 2 for the first 5 sequences are:'
+print 'User 1: ', training_data[0, index], training_data[1, index],training_data[2, index],training_data[3, index],training_data[4, index] 
+print 'User 2: ', training_data[1*TRAINING_SEQ, index],training_data[1+TRAINING_SEQ, index],training_data[2+TRAINING_SEQ, index],training_data[3+TRAINING_SEQ, index],training_data[4+TRAINING_SEQ, index]
+
 
 #Centering training data
 mean_data = training_data.mean(axis = 0)
@@ -98,10 +106,19 @@ np.expand_dims(mean_data, axis = 1)
 ones_array = np.matrix([1]*TOTAL_TRAINING_SEQUENCES).T
 training_data_centered = training_data - ones_array*mean_data
 del training_data
+print 'We chose exact mean centering (destroys sparsity of the training matrix)'
+index = M* command_to_index['rm'] +  command_to_index['ls']
+print 'Centered correlation of rm with ls for user 1 and 2 for the first 5 sequences are:'
+print 'User 1: ', training_data_centered[0, index], training_data_centered[1, index],training_data_centered[2, index],training_data_centered[3, index],training_data_centered[4, index]
+print 'User 2: ', training_data_centered[1*TRAINING_SEQ, index],training_data_centered[1+TRAINING_SEQ, index],training_data_centered[2+TRAINING_SEQ, index],training_data_centered[3+TRAINING_SEQ, index],training_data_centered[4+TRAINING_SEQ, index]
 
 pca = RandomizedPCA(n_components = N)
 pca.fit(training_data_centered)
-print pca.explained_variance_ratio_
+contribution_ratio = np.sqrt(pca.explained_variance_ratio_)
+print 'The unnormalized contribution ratio is', contribution_ratio
+net_contribution = np.sum(contribution_ratio)
+contribution_ratio = contribution_ratio/net_contribution
+print 'the normalized contribution ratio is', contribution_ratio
 
 reduced_feature_vectors = pca.transform(training_data_centered)
 print pca.components_.shape
