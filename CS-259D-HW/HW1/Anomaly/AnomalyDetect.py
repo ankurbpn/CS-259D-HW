@@ -22,6 +22,9 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 #Curently we assign 1 for each co-occurence within window irrespective of distance
 SCOPE = 6
 
+#Dimension of reduced space
+N = 50
+
 #Global map from command name to index number
 command_to_index = {}
 command_to_occ = {}
@@ -96,6 +99,9 @@ ones_array = np.matrix([1]*TOTAL_TRAINING_SEQUENCES).T
 training_data_centered = training_data - ones_array*mean_data
 del training_data
 
-pca = RandomizedPCA(n_components = 100)
+pca = RandomizedPCA(n_components = N)
 pca.fit(training_data_centered)
 print pca.explained_variance_ratio_
+
+reduced_feature_vectors = pca.transform(training_data_centered)
+print pca.components_.shape
