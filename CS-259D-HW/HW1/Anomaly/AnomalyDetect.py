@@ -23,14 +23,14 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 SCOPE = 6
 
 #Dimension of reduced space
-N = 33
+N = 48
 
 #Global map from command name to index number
 command_to_index = {}
 command_to_occ = {}
 
 #Data matrix for storing training sequences in row major form
-training_data = csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
+training_data = csc_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 
 #Data vector for storing mean of the training sequences for centering
 #meanData = csr_matrix((1, M*M), dtype = float)
@@ -123,8 +123,14 @@ print 'the normalized contribution ratio is', contribution_ratio
 reduced_feature_vectors = pca.transform(training_data_centered)
 print pca.components_.shape
 
-##Add code to get the feature vectors corresponding to Users 1-5, 21 and use that to construct layered networks for each training sequence for these users.
+#Code to extract the feature vectors for all sequences for users 1 to 5 
+training_data_1_to_5 = training_data_centered[0:(TRAINING_SEQ*5-1), :]
+features_1_to_5 = pca.transform(training_data_1_to_5)
+#Code to extract feature vectors for all sequences for user 21
+training_data_21 = training_data_centered[(TRAINING_SEQ*20):(21*TRAINING_SEQ-1),:]
+features_21 = pca.transform(training_data_21)
+del training_data_centered
 
 
-
-##Add code to compare two layered networks and output a similarity score, based on this decide a threshold.
+##Add function that takes in a sequence feature vector and the pca components as input and outputs the cooresponding layered network
+##Add function to compare two layered networks and output a similarity score, based on this decide a threshold.
