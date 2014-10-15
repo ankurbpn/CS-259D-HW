@@ -39,6 +39,6 @@ x = [ 0.06851554,  0.04393158,  0.04066495,  0.03053649,  0.02504059,  0.0236969
 
 x = np.square(x)
 x = x/np.sum(x)
-print np.add.accumulate(x)>0.9
+print np.add.accumulate(x)>0.95
 plt.plot(np.add.accumulate(x))
 plt.show()
