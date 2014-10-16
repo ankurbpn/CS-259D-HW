@@ -34,7 +34,7 @@ command_to_index = {}
 command_to_occ = {}
 
 #Data matrix for storing training sequences in row major form
-training_data = csc_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
+training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 
 #Data vector for storing mean of the training sequences for centering
 #meanData = csr_matrix((1, M*M), dtype = float)
@@ -148,7 +148,7 @@ def get_pca_decompositions():
 	np.savetxt("mean.csv", mean_data, delimiter=",")
 	np.savetxt("pca.csv", pca.components_, delimiter=",")
 	for i in range(50):
-		np.savetxt("feature%d.csv" (i+1), features_1_to_50((TRAINING_SEQ*i):(TRAINING_SEQ*(i+1)),:), delimiter=",")
+		np.savetxt("feature%d.csv" (i+1), features_1_to_50[(TRAINING_SEQ*i):(TRAINING_SEQ*(i+1)),:], delimiter=",")
  
 #Code to convert all these feature vectors into layered networks (N layered networks per sequence) and using them to find outputs for sequences 
 #from the test set
@@ -165,7 +165,7 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	    reference_layered_network_pos = np.matrix(shape = (TRAINING_SEQ*N, M*M))
 	    reference_layered_network_neg = np.matrix(shape = (TRAINING_SEQ*N, M*M))
  	for j in range(TRAINING_SEQ):
-		reference_layered_network_pos[(N*j):(N*(j+1)-1), :], reference_layered_network_neg[(N*j):(N*(j+1)-1), :] =  get_layered_network(training_features[j, :], pca)
+	    reference_layered_network_pos[(N*j):(N*(j+1)-1), :], reference_layered_network_neg[(N*j):(N*(j+1)-1), :] =  get_layered_network(training_features[j, :], pca)
 	    userNo = i+1
 	    #print "User %d" % userNo
 	    file = open("User%d" % userNo, 'r')
@@ -195,9 +195,9 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 			sim = 0.0
 			for k in range(N):
 				sim = sim + (get_layered_network_similarity(sequence_layered_network_pos[k, :], reference_layered_network_pos[j*N+k, :]) + get_layered_network_similarity(sequence_layered_network_neg[k, :], reference_layered_network_neg[j*N+k, :]))/2
-			if max_similarity < sim
+			if max_similarity < sim:
 				max_similarity = sim
-		    if max_similarity < SIM_THRESHOLD
+		    if max_similarity < SIM_THRESHOLD:
 			test_data_malicious[seq_no-1, i] = 1
 	np.savetxt("results.csv", test_data_malicious, delimiter=",")
 
