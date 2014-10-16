@@ -1,4 +1,5 @@
 from scipy.sparse import csr_matrix
+from scipy.sparse import lil_matrix
 import numpy as np
 from sklearn.decomposition import RandomizedPCA
 import csv
@@ -57,18 +58,23 @@ def generate_sequence_vector(sequence, command_to_index):
 def get_layered_network(X, pca):
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
         temp_matrix = csr_matrix((N, N), dtype = float)
-	print temp_matrix.shape, X.shape
+	#print temp_matrix.shape, X.shape
 	temp_matrix.setdiag(X)
 	layered_matrix = temp_matrix*pca
 	#Removing elements below the threshold from the positive layered matrix
-	positive_bool_matrix = layered_matrix > THRESHOLD
-	negative_bool_matrix = layered_matrix < -THRESHOLD
-	#print positive_bool_matrix.shape
+	positive_bool_matrix = lil_matrix(layered_matrix > THRESHOLD)
+	negative_bool_matrix = lil_matrix(layered_matrix < -THRESHOLD)
+	#print np.sum(positive_bool_matrix)
 	return positive_bool_matrix, negative_bool_matrix
 
 #Add function to compare two layered networks and output a similarity score, based on this decide a threshold.
 def get_layered_network_similarity(X, Y):
-	return 2*np.sum(np.logical_and(X, Y))/(np.sum(X)+np.sum(Y))
+	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
+	score = X.multiply(Y)
+	den =(X.sum(axis=1) +Y.sum(axis=1))/2
+	#print "zeros in denominator", lil_matrix.sum(den==0), den.shape
+	
+	return np.mean(np.divide((score.sum(axis=1))[np.where(den!= 0)], den[np.where(den!= 0)]))
 
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
@@ -159,7 +165,7 @@ def get_pca_decompositions():
  
 #Code to convert all these feature vectors into layered networks (N layered networks per sequence) and using them to find outputs for sequences 
 #from the test set
-def find_malicious_users(SIM_THRESHOLD=0.5):
+def find_malicious_users():
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
         command_to_index = {}
 	for key, val in csv.reader(open("dict.csv")):
@@ -172,6 +178,7 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	test_data_malicious = np.zeros(shape = (100, 50))
 	
 	#To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
+	#for i in [0]:
 	for i in range(50):
 	    print 'User%d' %(i+1)
 	    training_features = np.loadtxt(open("feature%d.csv" %(i+1), "rb"), delimiter = "," )
@@ -179,10 +186,10 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	    reference_layered_network_neg = []
             for j in range(TRAINING_SEQ):
 		    temp1, temp2 =  get_layered_network(training_features[j, :], pca)
-		    reference_layered_network_pos.append(temp1)
-		    reference_layered_network_neg.append(temp2)
+		    reference_layered_network_pos.append(temp1.astype(int))
+		    reference_layered_network_neg.append(temp2.astype(int))
 		    userNo = i+1
-		    print "Generating network for sequence %d" %j
+		    #print "Generating network for sequence %d" %j
 	    file = open("User%d" % userNo, 'r')
 
 	    counter = 0
@@ -193,10 +200,12 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	    for line in file:
 		cmd = line.strip('\n')
 		counter = counter+1
+		#if counter <= 6600:
 		if counter <= 5000:
 		    continue
 		command_list.append(cmd)
-		
+		#if counter > 6800:
+		#	break
 		if counter%LENGTH_SEQUENCES == 0:
 		    y, data = generate_sequence_vector(command_list, command_to_index)
 		    command_list = []
@@ -210,23 +219,45 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 		    #print features.T.shape
 		    sequence_layered_network_pos, sequence_layered_network_neg = get_layered_network(features.T, pca)
 		    max_similarity = 0.0
-		    print 'Got layered network'
+		    #print 'Got layered network'
 		    for j in range(TRAINING_SEQ):
-			print 'computing similarity of user %d test seq %d with %d' %((i+1),seq_no, j)
-			sim = 0.0
-			for k in range(N):
-				sim = sim + (get_layered_network_similarity(sequence_layered_network_pos[k, :], reference_layered_network_pos[j]) + get_layered_network_similarity(sequence_layered_network_neg[k, :], reference_layered_network_neg[j]))/2
-			if max_similarity < sim:
-				max_similarity = sim
-			print max_similarity
-			test_data_malicious[seq_no-1, i] = max_similarity
+                        #print 'computing similarity of user %d test seq %d with %d' %((i+1),seq_no, j)
+                        sim = (get_layered_network_similarity(sequence_layered_network_pos, reference_layered_network_pos[j]) + get_layered_network_similarity(sequence_layered_network_neg, reference_layered_network_neg[j]))/2
+                        if max_similarity < sim:
+                            max_similarity = sim
+                        #print sim
+                    test_data_malicious[seq_no-1, i] = max_similarity
+		    print "Test Sequence %d :%f\n" %(seq_no, max_similarity)
 	np.savetxt("results.csv", test_data_malicious, delimiter=",")
 
+def find_best_threshold():
+	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
+	m2 = np.loadtxt(open("results.csv", 'rb'), delimiter = ',')
+	m1 = np.loadtxt(open("reference.txt", 'rb'), delimiter = ' ')
+	
+	m1 = m1 > -0.5
+	true_users = np.sum(m1) + 100
+	lis = list(xrange(100))
+	fp = []
+	fn = []
+	for thr in lis:
+		thres = .01*thr
+		temp = m2 > thres
+		true_correctly_predicted = np.sum(np.multiply(m1, temp))
+		#print true_correctly_predicted
+		true_total_predicted = np.sum(temp)
+		#print true_total_predicted
+		fp.append((true_users - true_correctly_predicted)/true_users)
+		fn.append((true_total_predicted - true_correctly_predicted)/(9000-true_users))
+	with open("threshold_finding.txt", "a") as myfile:
+		
+	
+		for item in fp:
+			myfile.write("%f," % item)
+		myfile.write("\n")
+		for iter in fn:
+			myfile.write("%f," % iter )
+		myfile.write("\n")	
+		
 find_malicious_users()
-
-
-
-
-
-
-
+find_best_threshold()
