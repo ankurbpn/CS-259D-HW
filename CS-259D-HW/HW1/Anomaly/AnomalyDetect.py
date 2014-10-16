@@ -1,9 +1,8 @@
 from scipy.sparse import csr_matrix
 import numpy as np
 from sklearn.decomposition import RandomizedPCA
+import csv
 #Global parameters
-#Index number for commands, will get updated as we encounter new commands
-m = 0
 M = 635 #Total number of commands in training dataset
 
 #Total number of sequences
@@ -29,10 +28,6 @@ N = 48
 THRESHOLD = 0.1
 
  
-#Global map from command name to index number
-command_to_index = {}
-command_to_occ = {}
-
 #Data matrix for storing training sequences in row major form
 training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 
@@ -43,7 +38,6 @@ training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 #Function to generate a co-occurence matrix vector of length M*M from command sequence
 def generate_sequence_vector(sequence):
     global command_to_index
-    global SCOPE
 
     #Currently adds one for every co-occurence, update to Gaussian?
     y = []
@@ -77,6 +71,9 @@ def layered_network_similarity(X, Y):
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 def get_pca_decompositions():
+	m=0
+	command_to_index = {}
+	command_to_occ = {}
 	for i in range(50):
 	    userNo = i+1
 	    #print "User %d" % userNo
@@ -149,11 +146,16 @@ def get_pca_decompositions():
 	np.savetxt("pca.csv", pca.components_, delimiter=",")
 	for i in range(50):
 		np.savetxt("feature%d.csv" (i+1), features_1_to_50[(TRAINING_SEQ*i):(TRAINING_SEQ*(i+1)),:], delimiter=",")
+	w = csv.writer(open("dict.csv", "w"))
+	for key, val in command_to_index.items():
+    		w.writerow([key, val])
  
 #Code to convert all these feature vectors into layered networks (N layered networks per sequence) and using them to find outputs for sequences 
 #from the test set
 def find_malicious_users(SIM_THRESHOLD=0.5):
-	
+	command_to_index = {}
+	for key, val in csv.reader(open("dict.csv")):
+    		command_to_index[key] = val
 	pca = np.readtxt(open("pca.csv","rb"),delimiter=",")
 	mean_data = np.readtxt(open("mean.csv","rb"),delimiter=",")
 	
