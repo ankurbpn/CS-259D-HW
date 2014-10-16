@@ -41,29 +41,34 @@ def generate_sequence_vector(sequence, command_to_index):
     for i in range(len(sequence)):
 	for j in range(SCOPE):
 	    if i + j + 1 < len(sequence):
-		list_index = command_to_index.get(sequence[i])*M + command_to_index.get(sequence[j + i + 1])
-		if list_index not in y:
-		    y.append(list_index)
-		    data.append(1)
-		else:
-		    ind = y.index(list_index)
-		    data[ind] = data[ind] + 1
+		if command_to_index.has_key(sequence[i]):
+			if command_to_index.has_key(sequence[i+j+1]):
+				list_index = command_to_index.get(sequence[i])*M + command_to_index.get(sequence[j + i + 1])
+				if list_index not in y:
+		    			y.append(list_index)
+		    			data.append(1.0)
+				else:
+		    			ind = y.index(list_index)
+		    			data[ind] = data[ind] + 1.0
     return y, data
 
 
 ##Add function that takes in a sequence feature vector and the pca components as input and outputs the corresponding layered network matrix
 def get_layered_network(X, pca):
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
-        temp_matrix = csr_matrix((N, N))
-	layered_matrix = temp_matrix.setdiag(X)*pca
+        temp_matrix = csr_matrix((N, N), dtype = float)
+	print temp_matrix.shape, X.shape
+	temp_matrix.setdiag(X)
+	layered_matrix = temp_matrix*pca
 	#Removing elements below the threshold from the positive layered matrix
 	positive_bool_matrix = layered_matrix > THRESHOLD
 	negative_bool_matrix = layered_matrix < -THRESHOLD
-	return positive_bool_network, negative_bool_network
+	#print positive_bool_matrix.shape
+	return positive_bool_matrix, negative_bool_matrix
 
 #Add function to compare two layered networks and output a similarity score, based on this decide a threshold.
-def layered_network_similarity(self, X, Y):
-	return 2*np.sum(logical_and(X, Y))/(np.sum(X)+np.sum(Y))
+def get_layered_network_similarity(X, Y):
+	return 2*np.sum(np.logical_and(X, Y))/(np.sum(X)+np.sum(Y))
 
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
@@ -158,21 +163,26 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
         command_to_index = {}
 	for key, val in csv.reader(open("dict.csv")):
-    		command_to_index[key] = val
-	pca = np.readtxt(open("pca.csv","rb"),delimiter=",")
-	mean_data = np.readtxt(open("mean.csv","rb"),delimiter=",")
+    		command_to_index[key] = int(val)
+		if int(val)>100000:
+			print key, val
+	pca = np.loadtxt(open("pca.csv","rb"),delimiter=",")
+	mean_data = np.loadtxt(open("mean.csv","rb"),delimiter=",")
 	
 	test_data_malicious = np.zeros(shape = (100, 50))
 	
 	#To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 	for i in range(50):
-	    training_features = np.readtxt("feature%d.csv" %(i+1), "rb", delimiter = "," )
-	    reference_layered_network_pos = np.matrix(shape = (TRAINING_SEQ*N, M*M))
-	    reference_layered_network_neg = np.matrix(shape = (TRAINING_SEQ*N, M*M))
- 	for j in range(TRAINING_SEQ):
-	    reference_layered_network_pos[(N*j):(N*(j+1)-1), :], reference_layered_network_neg[(N*j):(N*(j+1)-1), :] =  get_layered_network(training_features[j, :], pca)
-	    userNo = i+1
-	    #print "User %d" % userNo
+	    print 'User%d' %(i+1)
+	    training_features = np.loadtxt(open("feature%d.csv" %(i+1), "rb"), delimiter = "," )
+	    reference_layered_network_pos = []
+	    reference_layered_network_neg = []
+            for j in range(TRAINING_SEQ):
+		    temp1, temp2 =  get_layered_network(training_features[j, :], pca)
+		    reference_layered_network_pos.append(temp1)
+		    reference_layered_network_neg.append(temp2)
+		    userNo = i+1
+		    print "Generating network for sequence %d" %j
 	    file = open("User%d" % userNo, 'r')
 
 	    counter = 0
@@ -192,22 +202,27 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 		    command_list = []
 		    x = [0]*len(y)
 		    seq_no = seq_no + 1
-		    sequence_matrix = csr_matrix((data, (x, y)), shape = (1, M*M)) - mean_data
+		    #print len(data)
+		    #print max(data)
+		    #print max(y)
+		    sequence_matrix = csr_matrix((data, (x, y)),shape = (1, M*M)) - mean_data
 		    features = sequence_matrix*pca.T
-		    sequence_layered_network_pos, sequence_layered_network_neg = get_layered_network(features, pca)
+		    #print features.T.shape
+		    sequence_layered_network_pos, sequence_layered_network_neg = get_layered_network(features.T, pca)
 		    max_similarity = 0.0
+		    print 'Got layered network'
 		    for j in range(TRAINING_SEQ):
+			print 'computing similarity of user %d test seq %d with %d' %((i+1),seq_no, j)
 			sim = 0.0
 			for k in range(N):
-				sim = sim + (get_layered_network_similarity(sequence_layered_network_pos[k, :], reference_layered_network_pos[j*N+k, :]) + get_layered_network_similarity(sequence_layered_network_neg[k, :], reference_layered_network_neg[j*N+k, :]))/2
+				sim = sim + (get_layered_network_similarity(sequence_layered_network_pos[k, :], reference_layered_network_pos[j]) + get_layered_network_similarity(sequence_layered_network_neg[k, :], reference_layered_network_neg[j]))/2
 			if max_similarity < sim:
 				max_similarity = sim
-		    if max_similarity < SIM_THRESHOLD:
-			test_data_malicious[seq_no-1, i] = 1
+			print max_similarity
+			test_data_malicious[seq_no-1, i] = max_similarity
 	np.savetxt("results.csv", test_data_malicious, delimiter=",")
 
-get_pca_decompositions()
-
+find_malicious_users()
 
 
 
