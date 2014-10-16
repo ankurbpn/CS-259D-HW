@@ -2,6 +2,8 @@ from scipy.sparse import csr_matrix
 import numpy as np
 from sklearn.decomposition import RandomizedPCA
 import csv
+
+
 #Global parameters
 M = 635 #Total number of commands in training dataset
 
@@ -21,37 +23,54 @@ TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 #Curently we assign 1 for each co-occurence within window irrespective of distance
 SCOPE = 6
 
-#Dimension of reduced space
-N = 48
-
-#Co-occurence Threshold
 THRESHOLD = 0.1
 
- 
-#Data matrix for storing training sequences in row major form
-training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
-
+#Dimension of reduced space
+N = 48
 #Data vector for storing mean of the training sequences for centering
 #meanData = csr_matrix((1, M*M), dtype = float)
 #numVals = csr_matrix((1, M*M), dtype = float)
 
 #Function to generate a co-occurence matrix vector of length M*M from command sequence
-def generate_sequence_vector(sequence):
-    global command_to_index
+def generate_sequence_vector(sequence, command_to_index):
 
+#Global parameters
+  M = 635 #Total number of commands in training dataset
+
+#Total number of sequences
+NUM_SEQUENCES = 0
+
+#Length of sequences
+LENGTH_SEQUENCES = 100
+
+    #Total number of sequences for training
+    TOTAL_TRAINING_SEQUENCES = 5000*50/LENGTH_SEQUENCES
+
+#Training sequences per user
+    TRAINING_SEQ = 5000/LENGTH_SEQUENCES
+
+#Window size for co-occurence calculation/Scope
+#Curently we assign 1 for each co-occurence within window irrespective of distance
+    SCOPE = 6
+
+    THRESHOLD = 0.1
+
+#Dimension of reduced space
+    N = 48
+    #
     #Currently adds one for every co-occurence, update to Gaussian?
     y = []
     data = []
     for i in range(len(sequence)):
-        for j in range(SCOPE):
-            if i + j + 1 < len(sequence):
-                list_index = command_to_index.get(sequence[i])*M + command_to_index.get(sequence[j + i + 1])
-                if list_index not in y:
-                    y.append(list_index)
-                    data.append(1)
-                else:
-                    ind = y.index(list_index)
-                    data[ind] = data[ind] + 1
+	for j in range(SCOPE):
+	    if i + j + 1 < len(sequence):
+		list_index = command_to_index.get(sequence[i])*M + command_to_index.get(sequence[j + i + 1])
+		if list_index not in y:
+		    y.append(list_index)
+		    data.append(1)
+		else:
+		    ind = y.index(list_index)
+		    data[ind] = data[ind] + 1
     return y, data
 
 
@@ -65,12 +84,16 @@ def get_layered_network(X, pca):
 	return positive_bool_network, negative_bool_network
 
 #Add function to compare two layered networks and output a similarity score, based on this decide a threshold.
-def layered_network_similarity(X, Y):
+def layered_network_similarity(self, X, Y):
 	return 2*np.sum(logical_and(X, Y))/(np.sum(X)+np.sum(Y))
 
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 def get_pca_decompositions():
+	 
+	#Data matrix for storing training sequences in row major form
+	training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
+
 	m=0
 	command_to_index = {}
 	command_to_occ = {}
@@ -98,7 +121,7 @@ def get_pca_decompositions():
 		    m = m+1
 
 		if counter%LENGTH_SEQUENCES == 0:
-		    y, data = generate_sequence_vector(command_list)
+		    y, data = generate_sequence_vector(command_list, command_to_index)
 		    command_list = []
 		    x = [seq_no + i*TRAINING_SEQ]*len(y)
 		    seq_no = seq_no + 1
@@ -185,7 +208,7 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 		command_list.append(cmd)
 		
 		if counter%LENGTH_SEQUENCES == 0:
-		    y, data = generate_sequence_vector(command_list)
+		    y, data = generate_sequence_vector(command_list, command_to_index)
 		    command_list = []
 		    x = [0]*len(y)
 		    seq_no = seq_no + 1
