@@ -3,61 +3,38 @@ import numpy as np
 from sklearn.decomposition import RandomizedPCA
 import csv
 
+def get_global_vars():
+	#Global parameters
+	M = 635 #Total number of commands in training dataset
 
-#Global parameters
-M = 635 #Total number of commands in training dataset
+	#Total number of sequences
+	NUM_SEQUENCES = 0
 
-#Total number of sequences
-NUM_SEQUENCES = 0
+	#Length of sequences
+	LENGTH_SEQUENCES = 100
 
-#Length of sequences
-LENGTH_SEQUENCES = 100
+	#Total number of sequences for training
+	TOTAL_TRAINING_SEQUENCES = 5000*50/LENGTH_SEQUENCES
 
-#Total number of sequences for training
-TOTAL_TRAINING_SEQUENCES = 5000*50/LENGTH_SEQUENCES
+	#Training sequences per user
+	TRAINING_SEQ = 5000/LENGTH_SEQUENCES
 
-#Training sequences per user
-TRAINING_SEQ = 5000/LENGTH_SEQUENCES
+	#Window size for co-occurence calculation/Scope
+	#Curently we assign 1 for each co-occurence within window irrespective of distance
+	SCOPE = 6
 
-#Window size for co-occurence calculation/Scope
-#Curently we assign 1 for each co-occurence within window irrespective of distance
-SCOPE = 6
+	THRESHOLD = 0.1
 
-THRESHOLD = 0.1
-
-#Dimension of reduced space
-N = 48
-#Data vector for storing mean of the training sequences for centering
-#meanData = csr_matrix((1, M*M), dtype = float)
-#numVals = csr_matrix((1, M*M), dtype = float)
+	#Dimension of reduced space
+	N = 48
+	#Data vector for storing mean of the training sequences for centering
+	#meanData = csr_matrix((1, M*M), dtype = float)
+	#numVals = csr_matrix((1, M*M), dtype = float)
+	return M, NUM_SEQUENCES,LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES, TRAINING_SEQ, SCOPE, THRESHOLD, N
 
 #Function to generate a co-occurence matrix vector of length M*M from command sequence
 def generate_sequence_vector(sequence, command_to_index):
-
-#Global parameters
-  M = 635 #Total number of commands in training dataset
-
-#Total number of sequences
-NUM_SEQUENCES = 0
-
-#Length of sequences
-LENGTH_SEQUENCES = 100
-
-    #Total number of sequences for training
-    TOTAL_TRAINING_SEQUENCES = 5000*50/LENGTH_SEQUENCES
-
-#Training sequences per user
-    TRAINING_SEQ = 5000/LENGTH_SEQUENCES
-
-#Window size for co-occurence calculation/Scope
-#Curently we assign 1 for each co-occurence within window irrespective of distance
-    SCOPE = 6
-
-    THRESHOLD = 0.1
-
-#Dimension of reduced space
-    N = 48
-    #
+    M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
     #Currently adds one for every co-occurence, update to Gaussian?
     y = []
     data = []
@@ -76,7 +53,8 @@ LENGTH_SEQUENCES = 100
 
 ##Add function that takes in a sequence feature vector and the pca components as input and outputs the corresponding layered network matrix
 def get_layered_network(X, pca):
-	temp_matrix = csr_matrix((N, N))
+	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
+        temp_matrix = csr_matrix((N, N))
 	layered_matrix = temp_matrix.setdiag(X)*pca
 	#Removing elements below the threshold from the positive layered matrix
 	positive_bool_matrix = layered_matrix > THRESHOLD
@@ -90,7 +68,8 @@ def layered_network_similarity(self, X, Y):
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 def get_pca_decompositions():
-	 
+	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
+    
 	#Data matrix for storing training sequences in row major form
 	training_data =csr_matrix((TOTAL_TRAINING_SEQUENCES, M*M), dtype = float)
 
@@ -168,7 +147,7 @@ def get_pca_decompositions():
 	np.savetxt("mean.csv", mean_data, delimiter=",")
 	np.savetxt("pca.csv", pca.components_, delimiter=",")
 	for i in range(50):
-		np.savetxt("feature%d.csv" (i+1), features_1_to_50[(TRAINING_SEQ*i):(TRAINING_SEQ*(i+1)),:], delimiter=",")
+		np.savetxt("feature%d.csv" %(i+1), features_1_to_50[(TRAINING_SEQ*i):(TRAINING_SEQ*(i+1)),:], delimiter=",")
 	w = csv.writer(open("dict.csv", "w"))
 	for key, val in command_to_index.items():
     		w.writerow([key, val])
@@ -176,7 +155,8 @@ def get_pca_decompositions():
 #Code to convert all these feature vectors into layered networks (N layered networks per sequence) and using them to find outputs for sequences 
 #from the test set
 def find_malicious_users(SIM_THRESHOLD=0.5):
-	command_to_index = {}
+	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
+        command_to_index = {}
 	for key, val in csv.reader(open("dict.csv")):
     		command_to_index[key] = val
 	pca = np.readtxt(open("pca.csv","rb"),delimiter=",")
@@ -186,7 +166,7 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 	
 	#To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 	for i in range(50):
-	    training_features = np.readtxt("feature%d.csv", "rb", delimiter = "," )
+	    training_features = np.readtxt("feature%d.csv" %(i+1), "rb", delimiter = "," )
 	    reference_layered_network_pos = np.matrix(shape = (TRAINING_SEQ*N, M*M))
 	    reference_layered_network_neg = np.matrix(shape = (TRAINING_SEQ*N, M*M))
  	for j in range(TRAINING_SEQ):
@@ -226,7 +206,7 @@ def find_malicious_users(SIM_THRESHOLD=0.5):
 			test_data_malicious[seq_no-1, i] = 1
 	np.savetxt("results.csv", test_data_malicious, delimiter=",")
 
-
+get_pca_decompositions()
 
 
 
