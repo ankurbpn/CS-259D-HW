@@ -55,21 +55,10 @@ def pca_visual_analysis():
 			full_matrix = np.append(full_matrix, subject_to_values[key], axis = 0)
 	pca = PCA(n_components=2)
 	pca.fit(full_matrix)
-	out = None
-	colors = None
-	counter = 0
 	for key in subject_to_values.keys():
-		if out is None:
-			out = pca.transform(subject_to_values[key])
-			colors = [counter]*out.shape[0]
-			counter = counter + 1
-		else:
-			out = np.append(out, pca.transform(subject_to_values[key]), axis=0)
-			colors = [counter]*out.shape[0]
-			counter = counter + 1
-	x = np.squeeze(out[:, 0])
-	y = np.squeeze(out[:, 1])	
-	plt.scatter(x, y, c = colors)
+		plt.scatter(pca.transform(subject_to_values[key])[:, 0], pca.transform(subject_to_values[key])[:, 1], c = np.random.random_sample((3,)))
+	plt.xlim(0,4)
+	plt.ylim(-1, 1)
 	plt.show()
 pca_visual_analysis()
 
