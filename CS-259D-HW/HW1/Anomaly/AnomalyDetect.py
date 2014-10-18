@@ -24,7 +24,7 @@ def get_global_vars():
 	#Curently we assign 1 for each co-occurence within window irrespective of distance
 	SCOPE = 6
 
-	THRESHOLD = 0.5
+	THRESHOLD = 0.4
 
 	#Dimension of reduced space
 	N = 48
@@ -75,16 +75,6 @@ def get_layered_network_similarity(X, Y):
 	#print "zeros in denominator", lil_matrix.sum(den==0), den.shape
 	
 	return np.mean(np.divide((score.sum(axis=1))[np.where(den!= 0)], den[np.where(den!= 0)]))
-
-#Add function to return the R largest values in each row of the pca matrix
-def find_largest_pca(orig_pca, R):
-	y = []
-	x = []
-	data = []
-	for i in range(1):
-		max = orig_pca.max(axis=1)
-		print max
-	return orig_pca
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 def get_pca_decompositions():
@@ -183,9 +173,7 @@ def find_malicious_users():
 			print key, val
 	pca = np.loadtxt(open("pca.csv","rb"),delimiter=",")
 	mean_data = np.loadtxt(open("mean.csv","rb"),delimiter=",")
-	R = 50
-	pca = find_largest_pca(pca, R)
-	
+
 	test_data_malicious = np.zeros(shape = (100, 50))
 	
 	#To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
@@ -239,11 +227,11 @@ def find_malicious_users():
                         #print sim
                     test_data_malicious[seq_no-1, i] = max_similarity
 		    print "Test Sequence %d :%f\n" %(seq_no, max_similarity)
-	np.savetxt("THRESHOLD_05/results.csv", test_data_malicious, delimiter=",")
+	np.savetxt("THRESHOLD_04/results.csv", test_data_malicious, delimiter=",")
 
 def find_best_threshold():
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
-	m2 = np.matrix(np.loadtxt(open("THRESHOLD_05/results.csv", 'rb'), delimiter = ','))
+	m2 = np.matrix(np.loadtxt(open("THRESHOLD_04/results.csv", 'rb'), delimiter = ','))
 	m1 = np.matrix(np.loadtxt(open("reference.txt", 'rb'), delimiter = ' '))
 	user_21_sim = m2[:,20]
 	print m1[1, 20]
@@ -266,7 +254,7 @@ def find_best_threshold():
 		fp.append((malicious_total_predicted - malicious_correctly_predicted)/(9000-malicious_users))
 		fn.append((malicious_users - malicious_correctly_predicted)/(malicious_users))
 		#acc.append(malicious_correctly_predicted/malicious_users)
-	with open("THRESHOLD_05/threshold_finding.txt", "w") as myfile:
+	with open("THRESHOLD_04/threshold_finding.txt", "w") as myfile:
 		myfile.write("False Positives")
 		for item in fp:
 			myfile.write("%f," % item)
