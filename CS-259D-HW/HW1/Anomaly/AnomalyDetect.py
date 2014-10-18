@@ -24,7 +24,7 @@ def get_global_vars():
 	#Curently we assign 1 for each co-occurence within window irrespective of distance
 	SCOPE = 6
 
-	THRESHOLD = 0.4
+	THRESHOLD = 0.0
 
 	#Dimension of reduced space
 	N = 48
@@ -227,11 +227,11 @@ def find_malicious_users():
                         #print sim
                     test_data_malicious[seq_no-1, i] = max_similarity
 		    print "Test Sequence %d :%f\n" %(seq_no, max_similarity)
-	np.savetxt("THRESHOLD_04/results.csv", test_data_malicious, delimiter=",")
+	np.savetxt("THRESHOLD_00/results.csv", test_data_malicious, delimiter=",")
 
 def find_best_threshold():
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
-	m2 = np.matrix(np.loadtxt(open("THRESHOLD_04/results.csv", 'rb'), delimiter = ','))
+	m2 = np.matrix(np.loadtxt(open("THRESHOLD_00/results.csv", 'rb'), delimiter = ','))
 	m1 = np.matrix(np.loadtxt(open("reference.txt", 'rb'), delimiter = ' '))
 	user_21_sim = m2[:,20]
 	print m1[1, 20]
@@ -254,7 +254,7 @@ def find_best_threshold():
 		fp.append((malicious_total_predicted - malicious_correctly_predicted)/(9000-malicious_users))
 		fn.append((malicious_users - malicious_correctly_predicted)/(malicious_users))
 		#acc.append(malicious_correctly_predicted/malicious_users)
-	with open("THRESHOLD_04/threshold_finding.txt", "w") as myfile:
+	with open("THRESHOLD_00/threshold_finding.txt", "w") as myfile:
 		myfile.write("False Positives")
 		for item in fp:
 			myfile.write("%f," % item)
