@@ -1,0 +1,10050 @@
+User1
+Test Sequence 1 :0.557276
+
+Test Sequence 2 :0.248918
+
+Test Sequence 3 :0.212406
+
+Test Sequence 4 :0.559553
+
+Test Sequence 5 :0.514286
+
+Test Sequence 6 :0.515584
+
+Test Sequence 7 :0.648399
+
+Test Sequence 8 :0.555556
+
+Test Sequence 9 :0.498331
+
+Test Sequence 10 :0.638889
+
+Test Sequence 11 :0.460685
+
+Test Sequence 12 :0.318067
+
+Test Sequence 13 :0.576709
+
+Test Sequence 14 :0.562003
+
+Test Sequence 15 :0.473810
+
+Test Sequence 16 :0.367669
+
+Test Sequence 17 :0.319737
+
+Test Sequence 18 :0.578125
+
+Test Sequence 19 :0.162388
+
+Test Sequence 20 :0.149313
+
+Test Sequence 21 :0.328205
+
+Test Sequence 22 :0.217763
+
+Test Sequence 23 :0.377381
+
+Test Sequence 24 :0.443548
+
+Test Sequence 25 :0.242834
+
+Test Sequence 26 :0.280556
+
+Test Sequence 27 :0.469771
+
+Test Sequence 28 :0.209752
+
+Test Sequence 29 :0.477311
+
+Test Sequence 30 :0.241196
+
+Test Sequence 31 :0.448480
+
+Test Sequence 32 :0.324324
+
+Test Sequence 33 :0.301109
+
+Test Sequence 34 :0.274775
+
+Test Sequence 35 :0.274775
+
+Test Sequence 36 :0.274775
+
+Test Sequence 37 :0.301109
+
+Test Sequence 38 :0.407540
+
+Test Sequence 39 :0.290116
+
+Test Sequence 40 :0.228469
+
+Test Sequence 41 :0.416071
+
+Test Sequence 42 :0.464286
+
+Test Sequence 43 :0.544974
+
+Test Sequence 44 :0.693939
+
+Test Sequence 45 :0.343501
+
+Test Sequence 46 :0.491431
+
+Test Sequence 47 :0.332622
+
+Test Sequence 48 :0.555099
+
+Test Sequence 49 :0.662838
+
+Test Sequence 50 :0.560714
+
+Test Sequence 51 :0.615789
+
+Test Sequence 52 :0.263188
+
+Test Sequence 53 :0.366431
+
+Test Sequence 54 :0.589610
+
+Test Sequence 55 :0.278840
+
+Test Sequence 56 :0.366667
+
+Test Sequence 57 :0.358659
+
+Test Sequence 58 :0.288095
+
+Test Sequence 59 :0.259259
+
+Test Sequence 60 :0.271429
+
+Test Sequence 61 :0.256347
+
+Test Sequence 62 :0.383170
+
+Test Sequence 63 :0.252323
+
+Test Sequence 64 :0.151163
+
+Test Sequence 65 :0.158318
+
+Test Sequence 66 :0.368519
+
+Test Sequence 67 :0.688735
+
+Test Sequence 68 :0.200125
+
+Test Sequence 69 :0.695652
+
+Test Sequence 70 :0.528571
+
+Test Sequence 71 :0.195122
+
+Test Sequence 72 :0.381579
+
+Test Sequence 73 :0.195238
+
+Test Sequence 74 :0.264354
+
+Test Sequence 75 :0.480843
+
+Test Sequence 76 :0.158385
+
+Test Sequence 77 :0.470547
+
+Test Sequence 78 :0.761936
+
+Test Sequence 79 :0.617996
+
+Test Sequence 80 :0.222502
+
+Test Sequence 81 :0.172256
+
+Test Sequence 82 :0.234520
+
+Test Sequence 83 :0.333333
+
+Test Sequence 84 :0.339216
+
+Test Sequence 85 :0.558824
+
+Test Sequence 86 :0.134596
+
+Test Sequence 87 :0.343750
+
+Test Sequence 88 :0.248120
+
+Test Sequence 89 :0.215019
+
+Test Sequence 90 :0.175109
+
+Test Sequence 91 :0.187984
+
+Test Sequence 92 :0.182767
+
+Test Sequence 93 :0.190476
+
+Test Sequence 94 :0.164734
+
+Test Sequence 95 :0.148171
+
+Test Sequence 96 :0.277149
+
+Test Sequence 97 :0.450000
+
+Test Sequence 98 :0.281250
+
+Test Sequence 99 :0.218421
+
+Test Sequence 100 :0.599905
+
+User2
+Test Sequence 1 :0.167105
+
+Test Sequence 2 :0.716667
+
+Test Sequence 3 :1.000000
+
+Test Sequence 4 :1.000000
+
+Test Sequence 5 :0.610870
+
+Test Sequence 6 :0.295238
+
+Test Sequence 7 :0.191775
+
+Test Sequence 8 :0.811818
+
+Test Sequence 9 :0.228571
+
+Test Sequence 10 :0.164884
+
+Test Sequence 11 :0.180051
+
+Test Sequence 12 :0.166667
+
+Test Sequence 13 :0.157143
+
+Test Sequence 14 :0.161968
+
+Test Sequence 15 :0.733202
+
+Test Sequence 16 :1.000000
+
+Test Sequence 17 :0.975000
+
+Test Sequence 18 :0.285963
+
+Test Sequence 19 :0.424812
+
+Test Sequence 20 :0.238587
+
+Test Sequence 21 :0.594203
+
+Test Sequence 22 :1.000000
+
+Test Sequence 23 :1.000000
+
+Test Sequence 24 :1.000000
+
+Test Sequence 25 :0.451613
+
+Test Sequence 26 :0.767316
+
+Test Sequence 27 :0.544513
+
+Test Sequence 28 :1.000000
+
+Test Sequence 29 :1.000000
+
+Test Sequence 30 :0.666008
+
+Test Sequence 31 :0.437037
+
+Test Sequence 32 :0.679348
+
+Test Sequence 33 :0.713211
+
+Test Sequence 34 :0.931548
+
+Test Sequence 35 :1.000000
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :0.839286
+
+Test Sequence 38 :1.000000
+
+Test Sequence 39 :1.000000
+
+Test Sequence 40 :1.000000
+
+Test Sequence 41 :0.955357
+
+Test Sequence 42 :0.958261
+
+Test Sequence 43 :0.741667
+
+Test Sequence 44 :0.688735
+
+Test Sequence 45 :1.000000
+
+Test Sequence 46 :0.681159
+
+Test Sequence 47 :0.308108
+
+Test Sequence 48 :0.643634
+
+Test Sequence 49 :0.481366
+
+Test Sequence 50 :0.800395
+
+Test Sequence 51 :1.000000
+
+Test Sequence 52 :0.766304
+
+Test Sequence 53 :0.106838
+
+Test Sequence 54 :0.186700
+
+Test Sequence 55 :0.152778
+
+Test Sequence 56 :0.221612
+
+Test Sequence 57 :0.245074
+
+Test Sequence 58 :0.197368
+
+Test Sequence 59 :0.666008
+
+Test Sequence 60 :0.391538
+
+Test Sequence 61 :0.392780
+
+Test Sequence 62 :1.000000
+
+Test Sequence 63 :0.711310
+
+Test Sequence 64 :0.569024
+
+Test Sequence 65 :0.293506
+
+Test Sequence 66 :0.145833
+
+Test Sequence 67 :0.142140
+
+Test Sequence 68 :0.085145
+
+Test Sequence 69 :0.093478
+
+Test Sequence 70 :0.085145
+
+Test Sequence 71 :0.155138
+
+Test Sequence 72 :0.203380
+
+Test Sequence 73 :0.223684
+
+Test Sequence 74 :0.337419
+
+Test Sequence 75 :0.767316
+
+Test Sequence 76 :0.768398
+
+Test Sequence 77 :1.000000
+
+Test Sequence 78 :1.000000
+
+Test Sequence 79 :0.766234
+
+Test Sequence 80 :1.000000
+
+Test Sequence 81 :1.000000
+
+Test Sequence 82 :1.000000
+
+Test Sequence 83 :1.000000
+
+Test Sequence 84 :1.000000
+
+Test Sequence 85 :1.000000
+
+Test Sequence 86 :1.000000
+
+Test Sequence 87 :0.772727
+
+Test Sequence 88 :1.000000
+
+Test Sequence 89 :0.696970
+
+Test Sequence 90 :0.745833
+
+Test Sequence 91 :0.931548
+
+Test Sequence 92 :0.931548
+
+Test Sequence 93 :0.931548
+
+Test Sequence 94 :0.460317
+
+Test Sequence 95 :0.517857
+
+Test Sequence 96 :0.175676
+
+Test Sequence 97 :0.171569
+
+Test Sequence 98 :0.368304
+
+Test Sequence 99 :0.869318
+
+Test Sequence 100 :1.000000
+
+User3
+Test Sequence 1 :0.301233
+
+Test Sequence 2 :0.158802
+
+Test Sequence 3 :0.418269
+
+Test Sequence 4 :0.372286
+
+Test Sequence 5 :0.451042
+
+Test Sequence 6 :0.395010
+
+Test Sequence 7 :0.354839
+
+Test Sequence 8 :0.350877
+
+Test Sequence 9 :0.329762
+
+Test Sequence 10 :0.354839
+
+Test Sequence 11 :0.477311
+
+Test Sequence 12 :0.509485
+
+Test Sequence 13 :0.480000
+
+Test Sequence 14 :0.479412
+
+Test Sequence 15 :0.336248
+
+Test Sequence 16 :0.346154
+
+Test Sequence 17 :0.452703
+
+Test Sequence 18 :0.438419
+
+Test Sequence 19 :0.381955
+
+Test Sequence 20 :0.427831
+
+Test Sequence 21 :0.460215
+
+Test Sequence 22 :0.239286
+
+Test Sequence 23 :0.397368
+
+Test Sequence 24 :0.264957
+
+Test Sequence 25 :0.593750
+
+Test Sequence 26 :0.261655
+
+Test Sequence 27 :0.324675
+
+Test Sequence 28 :0.337398
+
+Test Sequence 29 :0.321062
+
+Test Sequence 30 :0.381696
+
+Test Sequence 31 :0.205556
+
+Test Sequence 32 :0.367693
+
+Test Sequence 33 :0.313725
+
+Test Sequence 34 :0.358260
+
+Test Sequence 35 :0.336364
+
+Test Sequence 36 :0.397321
+
+Test Sequence 37 :0.489286
+
+Test Sequence 38 :0.322055
+
+Test Sequence 39 :0.370536
+
+Test Sequence 40 :0.356250
+
+Test Sequence 41 :0.484797
+
+Test Sequence 42 :0.373733
+
+Test Sequence 43 :0.321429
+
+Test Sequence 44 :0.357684
+
+Test Sequence 45 :0.454365
+
+Test Sequence 46 :0.575287
+
+Test Sequence 47 :0.343109
+
+Test Sequence 48 :0.301802
+
+Test Sequence 49 :0.216667
+
+Test Sequence 50 :0.180541
+
+Test Sequence 51 :0.737557
+
+Test Sequence 52 :0.354167
+
+Test Sequence 53 :0.398148
+
+Test Sequence 54 :0.600000
+
+Test Sequence 55 :0.534091
+
+Test Sequence 56 :0.422414
+
+Test Sequence 57 :0.344828
+
+Test Sequence 58 :0.336466
+
+Test Sequence 59 :0.409091
+
+Test Sequence 60 :0.455688
+
+Test Sequence 61 :0.604167
+
+Test Sequence 62 :0.524199
+
+Test Sequence 63 :0.451049
+
+Test Sequence 64 :0.306944
+
+Test Sequence 65 :0.339080
+
+Test Sequence 66 :0.320090
+
+Test Sequence 67 :0.519512
+
+Test Sequence 68 :0.515280
+
+Test Sequence 69 :0.415909
+
+Test Sequence 70 :0.373434
+
+Test Sequence 71 :0.311828
+
+Test Sequence 72 :0.309524
+
+Test Sequence 73 :0.339655
+
+Test Sequence 74 :0.601307
+
+Test Sequence 75 :0.309132
+
+Test Sequence 76 :0.419328
+
+Test Sequence 77 :0.305423
+
+Test Sequence 78 :0.531451
+
+Test Sequence 79 :0.406250
+
+Test Sequence 80 :0.303411
+
+Test Sequence 81 :0.205435
+
+Test Sequence 82 :0.203620
+
+Test Sequence 83 :0.294515
+
+Test Sequence 84 :0.303819
+
+Test Sequence 85 :0.311404
+
+Test Sequence 86 :0.500000
+
+Test Sequence 87 :0.216546
+
+Test Sequence 88 :0.340822
+
+Test Sequence 89 :0.346407
+
+Test Sequence 90 :0.442857
+
+Test Sequence 91 :0.446970
+
+Test Sequence 92 :0.350649
+
+Test Sequence 93 :0.317647
+
+Test Sequence 94 :0.455652
+
+Test Sequence 95 :0.425654
+
+Test Sequence 96 :0.562831
+
+Test Sequence 97 :0.448739
+
+Test Sequence 98 :0.521836
+
+Test Sequence 99 :0.399107
+
+Test Sequence 100 :0.332773
+
+User4
+Test Sequence 1 :0.225427
+
+Test Sequence 2 :0.311413
+
+Test Sequence 3 :0.350877
+
+Test Sequence 4 :0.212320
+
+Test Sequence 5 :0.312500
+
+Test Sequence 6 :0.613798
+
+Test Sequence 7 :0.827991
+
+Test Sequence 8 :0.601496
+
+Test Sequence 9 :0.986842
+
+Test Sequence 10 :0.535354
+
+Test Sequence 11 :0.600284
+
+Test Sequence 12 :0.686404
+
+Test Sequence 13 :0.769413
+
+Test Sequence 14 :0.382684
+
+Test Sequence 15 :1.000000
+
+Test Sequence 16 :0.599146
+
+Test Sequence 17 :0.631579
+
+Test Sequence 18 :0.667496
+
+Test Sequence 19 :0.601496
+
+Test Sequence 20 :1.000000
+
+Test Sequence 21 :0.378676
+
+Test Sequence 22 :1.000000
+
+Test Sequence 23 :0.439900
+
+Test Sequence 24 :1.000000
+
+Test Sequence 25 :0.608108
+
+Test Sequence 26 :0.601496
+
+Test Sequence 27 :1.000000
+
+Test Sequence 28 :0.500000
+
+Test Sequence 29 :0.720463
+
+Test Sequence 30 :0.200163
+
+Test Sequence 31 :0.289674
+
+Test Sequence 32 :0.333215
+
+Test Sequence 33 :0.240079
+
+Test Sequence 34 :0.294872
+
+Test Sequence 35 :0.216945
+
+Test Sequence 36 :0.500000
+
+Test Sequence 37 :0.424925
+
+Test Sequence 38 :0.195007
+
+Test Sequence 39 :0.183929
+
+Test Sequence 40 :0.303406
+
+Test Sequence 41 :0.785256
+
+Test Sequence 42 :0.294372
+
+Test Sequence 43 :0.238248
+
+Test Sequence 44 :1.000000
+
+Test Sequence 45 :0.262647
+
+Test Sequence 46 :0.222866
+
+Test Sequence 47 :0.187500
+
+Test Sequence 48 :0.207317
+
+Test Sequence 49 :0.195122
+
+Test Sequence 50 :0.210061
+
+Test Sequence 51 :0.200000
+
+Test Sequence 52 :0.208165
+
+Test Sequence 53 :0.175000
+
+Test Sequence 54 :0.243902
+
+Test Sequence 55 :0.221362
+
+Test Sequence 56 :0.205645
+
+Test Sequence 57 :0.246626
+
+Test Sequence 58 :0.176360
+
+Test Sequence 59 :0.415203
+
+Test Sequence 60 :0.600284
+
+Test Sequence 61 :0.253205
+
+Test Sequence 62 :0.506757
+
+Test Sequence 63 :0.309028
+
+Test Sequence 64 :0.187500
+
+Test Sequence 65 :0.760313
+
+Test Sequence 66 :0.293421
+
+Test Sequence 67 :0.313008
+
+Test Sequence 68 :0.274436
+
+Test Sequence 69 :0.274436
+
+Test Sequence 70 :0.338824
+
+Test Sequence 71 :0.276316
+
+Test Sequence 72 :0.256098
+
+Test Sequence 73 :0.221612
+
+Test Sequence 74 :0.172527
+
+Test Sequence 75 :0.167005
+
+Test Sequence 76 :1.000000
+
+Test Sequence 77 :0.233468
+
+Test Sequence 78 :0.216216
+
+Test Sequence 79 :0.792173
+
+Test Sequence 80 :0.452347
+
+Test Sequence 81 :0.560455
+
+Test Sequence 82 :0.246289
+
+Test Sequence 83 :0.779015
+
+Test Sequence 84 :0.446395
+
+Test Sequence 85 :0.519915
+
+Test Sequence 86 :0.484848
+
+Test Sequence 87 :0.692235
+
+Test Sequence 88 :1.000000
+
+Test Sequence 89 :0.448810
+
+Test Sequence 90 :1.000000
+
+Test Sequence 91 :0.390756
+
+Test Sequence 92 :1.000000
+
+Test Sequence 93 :0.374903
+
+Test Sequence 94 :0.377525
+
+Test Sequence 95 :0.816667
+
+Test Sequence 96 :0.333333
+
+Test Sequence 97 :0.578656
+
+Test Sequence 98 :0.499614
+
+Test Sequence 99 :0.348485
+
+Test Sequence 100 :0.775641
+
+User5
+Test Sequence 1 :0.782343
+
+Test Sequence 2 :0.268293
+
+Test Sequence 3 :0.224786
+
+Test Sequence 4 :0.241543
+
+Test Sequence 5 :0.485714
+
+Test Sequence 6 :0.393011
+
+Test Sequence 7 :0.446607
+
+Test Sequence 8 :0.388417
+
+Test Sequence 9 :0.319701
+
+Test Sequence 10 :0.410119
+
+Test Sequence 11 :0.210672
+
+Test Sequence 12 :0.339583
+
+Test Sequence 13 :0.225141
+
+Test Sequence 14 :0.707143
+
+Test Sequence 15 :0.907136
+
+Test Sequence 16 :0.606641
+
+Test Sequence 17 :0.424074
+
+Test Sequence 18 :0.227885
+
+Test Sequence 19 :0.301684
+
+Test Sequence 20 :0.425641
+
+Test Sequence 21 :0.412713
+
+Test Sequence 22 :0.264569
+
+Test Sequence 23 :0.293381
+
+Test Sequence 24 :0.352778
+
+Test Sequence 25 :0.207827
+
+Test Sequence 26 :0.229532
+
+Test Sequence 27 :0.292735
+
+Test Sequence 28 :0.285432
+
+Test Sequence 29 :0.219512
+
+Test Sequence 30 :0.479701
+
+Test Sequence 31 :0.377193
+
+Test Sequence 32 :0.220608
+
+Test Sequence 33 :0.320768
+
+Test Sequence 34 :0.234122
+
+Test Sequence 35 :0.536616
+
+Test Sequence 36 :0.382883
+
+Test Sequence 37 :0.170833
+
+Test Sequence 38 :0.441970
+
+Test Sequence 39 :0.464683
+
+Test Sequence 40 :0.329060
+
+Test Sequence 41 :0.356549
+
+Test Sequence 42 :0.269231
+
+Test Sequence 43 :0.328947
+
+Test Sequence 44 :0.311066
+
+Test Sequence 45 :0.199248
+
+Test Sequence 46 :0.377419
+
+Test Sequence 47 :0.291667
+
+Test Sequence 48 :0.269648
+
+Test Sequence 49 :0.228947
+
+Test Sequence 50 :0.296992
+
+Test Sequence 51 :0.305556
+
+Test Sequence 52 :0.153623
+
+Test Sequence 53 :0.195652
+
+Test Sequence 54 :0.233131
+
+Test Sequence 55 :0.230357
+
+Test Sequence 56 :0.442810
+
+Test Sequence 57 :0.443548
+
+Test Sequence 58 :0.446970
+
+Test Sequence 59 :0.331818
+
+Test Sequence 60 :0.398034
+
+Test Sequence 61 :0.273385
+
+Test Sequence 62 :0.438905
+
+Test Sequence 63 :0.231707
+
+Test Sequence 64 :0.221622
+
+Test Sequence 65 :0.319079
+
+Test Sequence 66 :0.434473
+
+Test Sequence 67 :0.331269
+
+Test Sequence 68 :0.316667
+
+Test Sequence 69 :0.402497
+
+Test Sequence 70 :0.329589
+
+Test Sequence 71 :0.307185
+
+Test Sequence 72 :0.377311
+
+Test Sequence 73 :0.334868
+
+Test Sequence 74 :0.319659
+
+Test Sequence 75 :0.574449
+
+Test Sequence 76 :0.466541
+
+Test Sequence 77 :0.260504
+
+Test Sequence 78 :0.376786
+
+Test Sequence 79 :0.199834
+
+Test Sequence 80 :0.316701
+
+Test Sequence 81 :0.209979
+
+Test Sequence 82 :0.304247
+
+Test Sequence 83 :0.447222
+
+Test Sequence 84 :0.394841
+
+Test Sequence 85 :0.249226
+
+Test Sequence 86 :0.319346
+
+Test Sequence 87 :0.241787
+
+Test Sequence 88 :0.239409
+
+Test Sequence 89 :0.634615
+
+Test Sequence 90 :0.334559
+
+Test Sequence 91 :0.263889
+
+Test Sequence 92 :0.166761
+
+Test Sequence 93 :0.304247
+
+Test Sequence 94 :0.316008
+
+Test Sequence 95 :0.214555
+
+Test Sequence 96 :0.146003
+
+Test Sequence 97 :0.478175
+
+Test Sequence 98 :0.257143
+
+Test Sequence 99 :0.213371
+
+Test Sequence 100 :0.140921
+
+User6
+Test Sequence 1 :0.416667
+
+Test Sequence 2 :0.899554
+
+Test Sequence 3 :0.314506
+
+Test Sequence 4 :0.152778
+
+Test Sequence 5 :0.356944
+
+Test Sequence 6 :0.429730
+
+Test Sequence 7 :0.237469
+
+Test Sequence 8 :0.282895
+
+Test Sequence 9 :0.376462
+
+Test Sequence 10 :0.379630
+
+Test Sequence 11 :0.339286
+
+Test Sequence 12 :0.828571
+
+Test Sequence 13 :0.308841
+
+Test Sequence 14 :0.770903
+
+Test Sequence 15 :0.674908
+
+Test Sequence 16 :0.325275
+
+Test Sequence 17 :0.523571
+
+Test Sequence 18 :0.484954
+
+Test Sequence 19 :0.543779
+
+Test Sequence 20 :0.236111
+
+Test Sequence 21 :0.282392
+
+Test Sequence 22 :0.294297
+
+Test Sequence 23 :0.341216
+
+Test Sequence 24 :0.321882
+
+Test Sequence 25 :0.484556
+
+Test Sequence 26 :0.844575
+
+Test Sequence 27 :0.380111
+
+Test Sequence 28 :0.419355
+
+Test Sequence 29 :0.339606
+
+Test Sequence 30 :0.313953
+
+Test Sequence 31 :0.478065
+
+Test Sequence 32 :0.458791
+
+Test Sequence 33 :0.564441
+
+Test Sequence 34 :0.723615
+
+Test Sequence 35 :0.501045
+
+Test Sequence 36 :0.482143
+
+Test Sequence 37 :0.391935
+
+Test Sequence 38 :0.931034
+
+Test Sequence 39 :0.619163
+
+Test Sequence 40 :0.615942
+
+Test Sequence 41 :0.447720
+
+Test Sequence 42 :0.697143
+
+Test Sequence 43 :0.684380
+
+Test Sequence 44 :0.491705
+
+Test Sequence 45 :0.540323
+
+Test Sequence 46 :0.483333
+
+Test Sequence 47 :0.466435
+
+Test Sequence 48 :0.490230
+
+Test Sequence 49 :0.779461
+
+Test Sequence 50 :0.447857
+
+Test Sequence 51 :0.393333
+
+Test Sequence 52 :0.412143
+
+Test Sequence 53 :0.465278
+
+Test Sequence 54 :0.483633
+
+Test Sequence 55 :0.471537
+
+Test Sequence 56 :0.252778
+
+Test Sequence 57 :0.870629
+
+Test Sequence 58 :0.893813
+
+Test Sequence 59 :0.814381
+
+Test Sequence 60 :0.506944
+
+Test Sequence 61 :0.487037
+
+Test Sequence 62 :0.407407
+
+Test Sequence 63 :0.416667
+
+Test Sequence 64 :0.745370
+
+Test Sequence 65 :0.307143
+
+Test Sequence 66 :0.230921
+
+Test Sequence 67 :0.507056
+
+Test Sequence 68 :0.311111
+
+Test Sequence 69 :0.505388
+
+Test Sequence 70 :0.397401
+
+Test Sequence 71 :0.555914
+
+Test Sequence 72 :0.462054
+
+Test Sequence 73 :0.510101
+
+Test Sequence 74 :0.444643
+
+Test Sequence 75 :0.484649
+
+Test Sequence 76 :0.467166
+
+Test Sequence 77 :0.407169
+
+Test Sequence 78 :0.423963
+
+Test Sequence 79 :0.558007
+
+Test Sequence 80 :0.401045
+
+Test Sequence 81 :0.401045
+
+Test Sequence 82 :0.401045
+
+Test Sequence 83 :0.401045
+
+Test Sequence 84 :0.367216
+
+Test Sequence 85 :0.397108
+
+Test Sequence 86 :0.346520
+
+Test Sequence 87 :0.645833
+
+Test Sequence 88 :0.803241
+
+Test Sequence 89 :0.433077
+
+Test Sequence 90 :0.474194
+
+Test Sequence 91 :0.527066
+
+Test Sequence 92 :0.427121
+
+Test Sequence 93 :0.606481
+
+Test Sequence 94 :0.395161
+
+Test Sequence 95 :0.396584
+
+Test Sequence 96 :0.385294
+
+Test Sequence 97 :0.383333
+
+Test Sequence 98 :0.396584
+
+Test Sequence 99 :0.385294
+
+Test Sequence 100 :0.414838
+
+User7
+Test Sequence 1 :0.632161
+
+Test Sequence 2 :0.488088
+
+Test Sequence 3 :0.321429
+
+Test Sequence 4 :0.481998
+
+Test Sequence 5 :0.305648
+
+Test Sequence 6 :0.284742
+
+Test Sequence 7 :0.214154
+
+Test Sequence 8 :0.304762
+
+Test Sequence 9 :0.469222
+
+Test Sequence 10 :0.345238
+
+Test Sequence 11 :0.280357
+
+Test Sequence 12 :0.270210
+
+Test Sequence 13 :0.186450
+
+Test Sequence 14 :0.320395
+
+Test Sequence 15 :0.414634
+
+Test Sequence 16 :0.494193
+
+Test Sequence 17 :0.347782
+
+Test Sequence 18 :0.413071
+
+Test Sequence 19 :0.406250
+
+Test Sequence 20 :0.566845
+
+Test Sequence 21 :0.322917
+
+Test Sequence 22 :0.430556
+
+Test Sequence 23 :0.158656
+
+Test Sequence 24 :0.151163
+
+Test Sequence 25 :0.451190
+
+Test Sequence 26 :0.380128
+
+Test Sequence 27 :0.183929
+
+Test Sequence 28 :0.296875
+
+Test Sequence 29 :0.253528
+
+Test Sequence 30 :0.314068
+
+Test Sequence 31 :0.300752
+
+Test Sequence 32 :0.483382
+
+Test Sequence 33 :0.596014
+
+Test Sequence 34 :0.295089
+
+Test Sequence 35 :0.479853
+
+Test Sequence 36 :0.310518
+
+Test Sequence 37 :0.227273
+
+Test Sequence 38 :0.512500
+
+Test Sequence 39 :0.493590
+
+Test Sequence 40 :0.411406
+
+Test Sequence 41 :0.500000
+
+Test Sequence 42 :0.317262
+
+Test Sequence 43 :0.282392
+
+Test Sequence 44 :0.197159
+
+Test Sequence 45 :0.164911
+
+Test Sequence 46 :0.195272
+
+Test Sequence 47 :0.233333
+
+Test Sequence 48 :0.188889
+
+Test Sequence 49 :0.190909
+
+Test Sequence 50 :0.155138
+
+Test Sequence 51 :0.112626
+
+Test Sequence 52 :0.124806
+
+Test Sequence 53 :0.230676
+
+Test Sequence 54 :0.251587
+
+Test Sequence 55 :0.215909
+
+Test Sequence 56 :0.191162
+
+Test Sequence 57 :0.215762
+
+Test Sequence 58 :0.226873
+
+Test Sequence 59 :0.228571
+
+Test Sequence 60 :0.141135
+
+Test Sequence 61 :0.112626
+
+Test Sequence 62 :0.112626
+
+Test Sequence 63 :0.165514
+
+Test Sequence 64 :0.211111
+
+Test Sequence 65 :0.200000
+
+Test Sequence 66 :0.142754
+
+Test Sequence 67 :0.126586
+
+Test Sequence 68 :0.112626
+
+Test Sequence 69 :0.163926
+
+Test Sequence 70 :0.179545
+
+Test Sequence 71 :0.177778
+
+Test Sequence 72 :0.154644
+
+Test Sequence 73 :0.102273
+
+Test Sequence 74 :0.112626
+
+Test Sequence 75 :0.126190
+
+Test Sequence 76 :0.226708
+
+Test Sequence 77 :0.155556
+
+Test Sequence 78 :0.144269
+
+Test Sequence 79 :0.287879
+
+Test Sequence 80 :0.211153
+
+Test Sequence 81 :0.179545
+
+Test Sequence 82 :0.188889
+
+Test Sequence 83 :0.177778
+
+Test Sequence 84 :0.101263
+
+Test Sequence 85 :0.112626
+
+Test Sequence 86 :0.103330
+
+Test Sequence 87 :0.196970
+
+Test Sequence 88 :0.298413
+
+Test Sequence 89 :0.264286
+
+Test Sequence 90 :0.260352
+
+Test Sequence 91 :0.268453
+
+Test Sequence 92 :0.211197
+
+Test Sequence 93 :0.134848
+
+Test Sequence 94 :0.238613
+
+Test Sequence 95 :0.136364
+
+Test Sequence 96 :0.147727
+
+Test Sequence 97 :0.145707
+
+Test Sequence 98 :0.232708
+
+Test Sequence 99 :0.137949
+
+Test Sequence 100 :0.256112
+
+User8
+Test Sequence 1 :0.737662
+
+Test Sequence 2 :0.964286
+
+Test Sequence 3 :0.319346
+
+Test Sequence 4 :0.227035
+
+Test Sequence 5 :0.721444
+
+Test Sequence 6 :0.314171
+
+Test Sequence 7 :0.246964
+
+Test Sequence 8 :0.476153
+
+Test Sequence 9 :0.295756
+
+Test Sequence 10 :0.363147
+
+Test Sequence 11 :0.590074
+
+Test Sequence 12 :0.238076
+
+Test Sequence 13 :0.246964
+
+Test Sequence 14 :0.295788
+
+Test Sequence 15 :0.225427
+
+Test Sequence 16 :0.380952
+
+Test Sequence 17 :0.321429
+
+Test Sequence 18 :0.279734
+
+Test Sequence 19 :0.384384
+
+Test Sequence 20 :0.773596
+
+Test Sequence 21 :0.213919
+
+Test Sequence 22 :0.230059
+
+Test Sequence 23 :0.779654
+
+Test Sequence 24 :0.520604
+
+Test Sequence 25 :0.250129
+
+Test Sequence 26 :0.279107
+
+Test Sequence 27 :0.244798
+
+Test Sequence 28 :0.834670
+
+Test Sequence 29 :0.735294
+
+Test Sequence 30 :0.319444
+
+Test Sequence 31 :0.588095
+
+Test Sequence 32 :0.704203
+
+Test Sequence 33 :0.473647
+
+Test Sequence 34 :0.887363
+
+Test Sequence 35 :0.366667
+
+Test Sequence 36 :0.356838
+
+Test Sequence 37 :0.484375
+
+Test Sequence 38 :0.688578
+
+Test Sequence 39 :0.602381
+
+Test Sequence 40 :0.328431
+
+Test Sequence 41 :0.272784
+
+Test Sequence 42 :0.270210
+
+Test Sequence 43 :0.300676
+
+Test Sequence 44 :0.252567
+
+Test Sequence 45 :0.322727
+
+Test Sequence 46 :0.279221
+
+Test Sequence 47 :0.121542
+
+Test Sequence 48 :0.130496
+
+Test Sequence 49 :0.108647
+
+Test Sequence 50 :0.122036
+
+Test Sequence 51 :0.123485
+
+Test Sequence 52 :0.123232
+
+Test Sequence 53 :0.111729
+
+Test Sequence 54 :0.117663
+
+Test Sequence 55 :0.132905
+
+Test Sequence 56 :0.125323
+
+Test Sequence 57 :0.113998
+
+Test Sequence 58 :0.121542
+
+Test Sequence 59 :0.110672
+
+Test Sequence 60 :0.115079
+
+Test Sequence 61 :0.125323
+
+Test Sequence 62 :0.121542
+
+Test Sequence 63 :0.132905
+
+Test Sequence 64 :0.125323
+
+Test Sequence 65 :0.116342
+
+Test Sequence 66 :0.121542
+
+Test Sequence 67 :0.125323
+
+Test Sequence 68 :0.112121
+
+Test Sequence 69 :0.123232
+
+Test Sequence 70 :0.123232
+
+Test Sequence 71 :0.123232
+
+Test Sequence 72 :0.123232
+
+Test Sequence 73 :0.123232
+
+Test Sequence 74 :0.123232
+
+Test Sequence 75 :0.123232
+
+Test Sequence 76 :0.123232
+
+Test Sequence 77 :0.123232
+
+Test Sequence 78 :0.123232
+
+Test Sequence 79 :0.123232
+
+Test Sequence 80 :0.130969
+
+Test Sequence 81 :0.123232
+
+Test Sequence 82 :0.123232
+
+Test Sequence 83 :0.123232
+
+Test Sequence 84 :0.123232
+
+Test Sequence 85 :0.132126
+
+Test Sequence 86 :0.121542
+
+Test Sequence 87 :0.113998
+
+Test Sequence 88 :0.121542
+
+Test Sequence 89 :0.121542
+
+Test Sequence 90 :0.121542
+
+Test Sequence 91 :0.121542
+
+Test Sequence 92 :0.121542
+
+Test Sequence 93 :0.121542
+
+Test Sequence 94 :0.114958
+
+Test Sequence 95 :0.113636
+
+Test Sequence 96 :0.113998
+
+Test Sequence 97 :0.114958
+
+Test Sequence 98 :0.113998
+
+Test Sequence 99 :0.120773
+
+Test Sequence 100 :0.111111
+
+User9
+Test Sequence 1 :0.346897
+
+Test Sequence 2 :0.506944
+
+Test Sequence 3 :0.225000
+
+Test Sequence 4 :0.277778
+
+Test Sequence 5 :0.231378
+
+Test Sequence 6 :0.233062
+
+Test Sequence 7 :0.243902
+
+Test Sequence 8 :0.420906
+
+Test Sequence 9 :0.259023
+
+Test Sequence 10 :0.187930
+
+Test Sequence 11 :0.246992
+
+Test Sequence 12 :0.255952
+
+Test Sequence 13 :0.389098
+
+Test Sequence 14 :0.326023
+
+Test Sequence 15 :0.181511
+
+Test Sequence 16 :0.227660
+
+Test Sequence 17 :0.187741
+
+Test Sequence 18 :0.355163
+
+Test Sequence 19 :0.211365
+
+Test Sequence 20 :0.281746
+
+Test Sequence 21 :0.208665
+
+Test Sequence 22 :0.447368
+
+Test Sequence 23 :0.381944
+
+Test Sequence 24 :0.202564
+
+Test Sequence 25 :0.245852
+
+Test Sequence 26 :0.180556
+
+Test Sequence 27 :0.301389
+
+Test Sequence 28 :0.169034
+
+Test Sequence 29 :0.210478
+
+Test Sequence 30 :0.355263
+
+Test Sequence 31 :0.274399
+
+Test Sequence 32 :0.215909
+
+Test Sequence 33 :0.270833
+
+Test Sequence 34 :0.208108
+
+Test Sequence 35 :0.358753
+
+Test Sequence 36 :0.237699
+
+Test Sequence 37 :0.134596
+
+Test Sequence 38 :0.270608
+
+Test Sequence 39 :0.382622
+
+Test Sequence 40 :0.357143
+
+Test Sequence 41 :0.351587
+
+Test Sequence 42 :0.162338
+
+Test Sequence 43 :0.164452
+
+Test Sequence 44 :0.181818
+
+Test Sequence 45 :0.273681
+
+Test Sequence 46 :0.278779
+
+Test Sequence 47 :0.277778
+
+Test Sequence 48 :0.217949
+
+Test Sequence 49 :0.242857
+
+Test Sequence 50 :0.420651
+
+Test Sequence 51 :0.162289
+
+Test Sequence 52 :0.263158
+
+Test Sequence 53 :0.273279
+
+Test Sequence 54 :0.247301
+
+Test Sequence 55 :0.244472
+
+Test Sequence 56 :0.291667
+
+Test Sequence 57 :0.323067
+
+Test Sequence 58 :0.291385
+
+Test Sequence 59 :0.379365
+
+Test Sequence 60 :0.163889
+
+Test Sequence 61 :0.313008
+
+Test Sequence 62 :0.262934
+
+Test Sequence 63 :0.148649
+
+Test Sequence 64 :0.260511
+
+Test Sequence 65 :0.327957
+
+Test Sequence 66 :0.385598
+
+Test Sequence 67 :0.301802
+
+Test Sequence 68 :0.153409
+
+Test Sequence 69 :0.206023
+
+Test Sequence 70 :0.291667
+
+Test Sequence 71 :0.313889
+
+Test Sequence 72 :0.255147
+
+Test Sequence 73 :0.260459
+
+Test Sequence 74 :0.264957
+
+Test Sequence 75 :0.222256
+
+Test Sequence 76 :0.264569
+
+Test Sequence 77 :0.246328
+
+Test Sequence 78 :0.171971
+
+Test Sequence 79 :0.267262
+
+Test Sequence 80 :0.264739
+
+Test Sequence 81 :0.310023
+
+Test Sequence 82 :0.320699
+
+Test Sequence 83 :0.231283
+
+Test Sequence 84 :0.271140
+
+Test Sequence 85 :0.302419
+
+Test Sequence 86 :0.244079
+
+Test Sequence 87 :0.452083
+
+Test Sequence 88 :0.287262
+
+Test Sequence 89 :0.419414
+
+Test Sequence 90 :0.249421
+
+Test Sequence 91 :0.328453
+
+Test Sequence 92 :0.293004
+
+Test Sequence 93 :0.431707
+
+Test Sequence 94 :0.202703
+
+Test Sequence 95 :0.183599
+
+Test Sequence 96 :0.231640
+
+Test Sequence 97 :0.326193
+
+Test Sequence 98 :0.488066
+
+Test Sequence 99 :0.409148
+
+Test Sequence 100 :0.205285
+
+User10
+Test Sequence 1 :0.320513
+
+Test Sequence 2 :0.275899
+
+Test Sequence 3 :0.252782
+
+Test Sequence 4 :0.339859
+
+Test Sequence 5 :0.322156
+
+Test Sequence 6 :0.363839
+
+Test Sequence 7 :0.445055
+
+Test Sequence 8 :0.320513
+
+Test Sequence 9 :0.328626
+
+Test Sequence 10 :0.272822
+
+Test Sequence 11 :0.246951
+
+Test Sequence 12 :0.195238
+
+Test Sequence 13 :0.330087
+
+Test Sequence 14 :0.311869
+
+Test Sequence 15 :0.294872
+
+Test Sequence 16 :0.332949
+
+Test Sequence 17 :0.435261
+
+Test Sequence 18 :0.251605
+
+Test Sequence 19 :0.318182
+
+Test Sequence 20 :0.385338
+
+Test Sequence 21 :0.403663
+
+Test Sequence 22 :0.318111
+
+Test Sequence 23 :0.255068
+
+Test Sequence 24 :0.242763
+
+Test Sequence 25 :0.267740
+
+Test Sequence 26 :0.394444
+
+Test Sequence 27 :0.358333
+
+Test Sequence 28 :0.395238
+
+Test Sequence 29 :0.366270
+
+Test Sequence 30 :0.348026
+
+Test Sequence 31 :0.174484
+
+Test Sequence 32 :0.400417
+
+Test Sequence 33 :0.211538
+
+Test Sequence 34 :0.337838
+
+Test Sequence 35 :0.466216
+
+Test Sequence 36 :0.354487
+
+Test Sequence 37 :0.451503
+
+Test Sequence 38 :0.263340
+
+Test Sequence 39 :0.314286
+
+Test Sequence 40 :0.220608
+
+Test Sequence 41 :0.354808
+
+Test Sequence 42 :0.247561
+
+Test Sequence 43 :0.411255
+
+Test Sequence 44 :0.269737
+
+Test Sequence 45 :0.343681
+
+Test Sequence 46 :0.347674
+
+Test Sequence 47 :0.396802
+
+Test Sequence 48 :0.381818
+
+Test Sequence 49 :0.357589
+
+Test Sequence 50 :0.424174
+
+Test Sequence 51 :0.251060
+
+Test Sequence 52 :0.323055
+
+Test Sequence 53 :0.342131
+
+Test Sequence 54 :0.284122
+
+Test Sequence 55 :0.271341
+
+Test Sequence 56 :0.466216
+
+Test Sequence 57 :0.250000
+
+Test Sequence 58 :0.321037
+
+Test Sequence 59 :0.316431
+
+Test Sequence 60 :0.287992
+
+Test Sequence 61 :0.377162
+
+Test Sequence 62 :0.318182
+
+Test Sequence 63 :0.182927
+
+Test Sequence 64 :0.365667
+
+Test Sequence 65 :0.379665
+
+Test Sequence 66 :0.230263
+
+Test Sequence 67 :0.255952
+
+Test Sequence 68 :0.273114
+
+Test Sequence 69 :0.300000
+
+Test Sequence 70 :0.303188
+
+Test Sequence 71 :0.335165
+
+Test Sequence 72 :0.348280
+
+Test Sequence 73 :0.412121
+
+Test Sequence 74 :0.296703
+
+Test Sequence 75 :0.179651
+
+Test Sequence 76 :0.264808
+
+Test Sequence 77 :0.278205
+
+Test Sequence 78 :0.429730
+
+Test Sequence 79 :0.521429
+
+Test Sequence 80 :0.309221
+
+Test Sequence 81 :0.285948
+
+Test Sequence 82 :0.226475
+
+Test Sequence 83 :0.324913
+
+Test Sequence 84 :0.316667
+
+Test Sequence 85 :0.259146
+
+Test Sequence 86 :0.505814
+
+Test Sequence 87 :0.366708
+
+Test Sequence 88 :0.286364
+
+Test Sequence 89 :0.506757
+
+Test Sequence 90 :0.192799
+
+Test Sequence 91 :0.341085
+
+Test Sequence 92 :0.291506
+
+Test Sequence 93 :0.259722
+
+Test Sequence 94 :0.228177
+
+Test Sequence 95 :0.393735
+
+Test Sequence 96 :0.359302
+
+Test Sequence 97 :0.207095
+
+Test Sequence 98 :0.225427
+
+Test Sequence 99 :0.347899
+
+Test Sequence 100 :0.265949
+
+User11
+Test Sequence 1 :0.209302
+
+Test Sequence 2 :0.439223
+
+Test Sequence 3 :0.341667
+
+Test Sequence 4 :0.438086
+
+Test Sequence 5 :0.178956
+
+Test Sequence 6 :0.460526
+
+Test Sequence 7 :0.336406
+
+Test Sequence 8 :0.397321
+
+Test Sequence 9 :0.426065
+
+Test Sequence 10 :0.573214
+
+Test Sequence 11 :0.256579
+
+Test Sequence 12 :0.269281
+
+Test Sequence 13 :0.221951
+
+Test Sequence 14 :0.259756
+
+Test Sequence 15 :0.408730
+
+Test Sequence 16 :0.358232
+
+Test Sequence 17 :0.395043
+
+Test Sequence 18 :0.122036
+
+Test Sequence 19 :0.534127
+
+Test Sequence 20 :0.444159
+
+Test Sequence 21 :0.346728
+
+Test Sequence 22 :0.149468
+
+Test Sequence 23 :0.271646
+
+Test Sequence 24 :0.298626
+
+Test Sequence 25 :0.271114
+
+Test Sequence 26 :0.358553
+
+Test Sequence 27 :0.392092
+
+Test Sequence 28 :0.366625
+
+Test Sequence 29 :0.329253
+
+Test Sequence 30 :0.414160
+
+Test Sequence 31 :0.217935
+
+Test Sequence 32 :0.478320
+
+Test Sequence 33 :0.430449
+
+Test Sequence 34 :0.556221
+
+Test Sequence 35 :0.296646
+
+Test Sequence 36 :0.250000
+
+Test Sequence 37 :0.118913
+
+Test Sequence 38 :0.206548
+
+Test Sequence 39 :0.511364
+
+Test Sequence 40 :0.313298
+
+Test Sequence 41 :0.319701
+
+Test Sequence 42 :0.400000
+
+Test Sequence 43 :0.446802
+
+Test Sequence 44 :0.520791
+
+Test Sequence 45 :0.515971
+
+Test Sequence 46 :0.602381
+
+Test Sequence 47 :0.544551
+
+Test Sequence 48 :0.144444
+
+Test Sequence 49 :0.220930
+
+Test Sequence 50 :0.211830
+
+Test Sequence 51 :0.427273
+
+Test Sequence 52 :0.209451
+
+Test Sequence 53 :0.183668
+
+Test Sequence 54 :0.459795
+
+Test Sequence 55 :0.300000
+
+Test Sequence 56 :0.299026
+
+Test Sequence 57 :0.488690
+
+Test Sequence 58 :0.325291
+
+Test Sequence 59 :0.183668
+
+Test Sequence 60 :0.416619
+
+Test Sequence 61 :0.352990
+
+Test Sequence 62 :0.399779
+
+Test Sequence 63 :0.292683
+
+Test Sequence 64 :0.290043
+
+Test Sequence 65 :0.163926
+
+Test Sequence 66 :0.317262
+
+Test Sequence 67 :0.329167
+
+Test Sequence 68 :0.304878
+
+Test Sequence 69 :0.329167
+
+Test Sequence 70 :0.329167
+
+Test Sequence 71 :0.304878
+
+Test Sequence 72 :0.385630
+
+Test Sequence 73 :0.265407
+
+Test Sequence 74 :0.209756
+
+Test Sequence 75 :0.195151
+
+Test Sequence 76 :0.538149
+
+Test Sequence 77 :0.378378
+
+Test Sequence 78 :0.205556
+
+Test Sequence 79 :0.413095
+
+Test Sequence 80 :0.175845
+
+Test Sequence 81 :0.309879
+
+Test Sequence 82 :0.256426
+
+Test Sequence 83 :0.449656
+
+Test Sequence 84 :0.189744
+
+Test Sequence 85 :0.219643
+
+Test Sequence 86 :0.323693
+
+Test Sequence 87 :0.294048
+
+Test Sequence 88 :0.423588
+
+Test Sequence 89 :0.280952
+
+Test Sequence 90 :0.402549
+
+Test Sequence 91 :0.464286
+
+Test Sequence 92 :0.294297
+
+Test Sequence 93 :0.274913
+
+Test Sequence 94 :0.246341
+
+Test Sequence 95 :0.285548
+
+Test Sequence 96 :0.290625
+
+Test Sequence 97 :0.360399
+
+Test Sequence 98 :0.544872
+
+Test Sequence 99 :0.226190
+
+Test Sequence 100 :0.257453
+
+User12
+Test Sequence 1 :0.437192
+
+Test Sequence 2 :0.304487
+
+Test Sequence 3 :0.393624
+
+Test Sequence 4 :0.556194
+
+Test Sequence 5 :0.347674
+
+Test Sequence 6 :0.285131
+
+Test Sequence 7 :0.645604
+
+Test Sequence 8 :0.258838
+
+Test Sequence 9 :0.364341
+
+Test Sequence 10 :0.358974
+
+Test Sequence 11 :0.675000
+
+Test Sequence 12 :0.319079
+
+Test Sequence 13 :0.538721
+
+Test Sequence 14 :0.352778
+
+Test Sequence 15 :0.550840
+
+Test Sequence 16 :0.305009
+
+Test Sequence 17 :0.335705
+
+Test Sequence 18 :0.757292
+
+Test Sequence 19 :0.334957
+
+Test Sequence 20 :0.526368
+
+Test Sequence 21 :0.228223
+
+Test Sequence 22 :0.263784
+
+Test Sequence 23 :0.647465
+
+Test Sequence 24 :0.441954
+
+Test Sequence 25 :0.346429
+
+Test Sequence 26 :0.350052
+
+Test Sequence 27 :0.439216
+
+Test Sequence 28 :0.290116
+
+Test Sequence 29 :0.354470
+
+Test Sequence 30 :0.533784
+
+Test Sequence 31 :0.315211
+
+Test Sequence 32 :0.338542
+
+Test Sequence 33 :0.375000
+
+Test Sequence 34 :0.284091
+
+Test Sequence 35 :0.590510
+
+Test Sequence 36 :0.352381
+
+Test Sequence 37 :0.173859
+
+Test Sequence 38 :0.269597
+
+Test Sequence 39 :0.193822
+
+Test Sequence 40 :0.479412
+
+Test Sequence 41 :0.371795
+
+Test Sequence 42 :0.472222
+
+Test Sequence 43 :0.316667
+
+Test Sequence 44 :0.276190
+
+Test Sequence 45 :0.324324
+
+Test Sequence 46 :0.550420
+
+Test Sequence 47 :0.337719
+
+Test Sequence 48 :0.554440
+
+Test Sequence 49 :0.348485
+
+Test Sequence 50 :0.452918
+
+Test Sequence 51 :0.556373
+
+Test Sequence 52 :0.240708
+
+Test Sequence 53 :0.350052
+
+Test Sequence 54 :0.278571
+
+Test Sequence 55 :0.203380
+
+Test Sequence 56 :0.550000
+
+Test Sequence 57 :0.364146
+
+Test Sequence 58 :0.474074
+
+Test Sequence 59 :0.253175
+
+Test Sequence 60 :0.416446
+
+Test Sequence 61 :0.385714
+
+Test Sequence 62 :0.409677
+
+Test Sequence 63 :0.298311
+
+Test Sequence 64 :0.255912
+
+Test Sequence 65 :0.348148
+
+Test Sequence 66 :0.359397
+
+Test Sequence 67 :0.225468
+
+Test Sequence 68 :0.309127
+
+Test Sequence 69 :0.189833
+
+Test Sequence 70 :0.618401
+
+Test Sequence 71 :0.194930
+
+Test Sequence 72 :0.321875
+
+Test Sequence 73 :0.408088
+
+Test Sequence 74 :0.352381
+
+Test Sequence 75 :0.311404
+
+Test Sequence 76 :0.399342
+
+Test Sequence 77 :0.273990
+
+Test Sequence 78 :0.474074
+
+Test Sequence 79 :0.493687
+
+Test Sequence 80 :0.475430
+
+Test Sequence 81 :0.219183
+
+Test Sequence 82 :0.391204
+
+Test Sequence 83 :0.508065
+
+Test Sequence 84 :0.285348
+
+Test Sequence 85 :0.431034
+
+Test Sequence 86 :0.296032
+
+Test Sequence 87 :0.281746
+
+Test Sequence 88 :0.292278
+
+Test Sequence 89 :0.220012
+
+Test Sequence 90 :0.188470
+
+Test Sequence 91 :0.258772
+
+Test Sequence 92 :0.185366
+
+Test Sequence 93 :0.468231
+
+Test Sequence 94 :0.341649
+
+Test Sequence 95 :0.458333
+
+Test Sequence 96 :0.320699
+
+Test Sequence 97 :0.196886
+
+Test Sequence 98 :0.232057
+
+Test Sequence 99 :0.238596
+
+Test Sequence 100 :0.273977
+
+User13
+Test Sequence 1 :0.331269
+
+Test Sequence 2 :0.444159
+
+Test Sequence 3 :0.207666
+
+Test Sequence 4 :0.574481
+
+Test Sequence 5 :0.375000
+
+Test Sequence 6 :0.445076
+
+Test Sequence 7 :0.305357
+
+Test Sequence 8 :0.289199
+
+Test Sequence 9 :0.338095
+
+Test Sequence 10 :0.449875
+
+Test Sequence 11 :0.591374
+
+Test Sequence 12 :0.346728
+
+Test Sequence 13 :0.373434
+
+Test Sequence 14 :0.289489
+
+Test Sequence 15 :0.482292
+
+Test Sequence 16 :0.308897
+
+Test Sequence 17 :0.435551
+
+Test Sequence 18 :0.384821
+
+Test Sequence 19 :0.453474
+
+Test Sequence 20 :0.199858
+
+Test Sequence 21 :0.370120
+
+Test Sequence 22 :0.346407
+
+Test Sequence 23 :0.241289
+
+Test Sequence 24 :0.239535
+
+Test Sequence 25 :0.301948
+
+Test Sequence 26 :0.533459
+
+Test Sequence 27 :0.301948
+
+Test Sequence 28 :0.256757
+
+Test Sequence 29 :0.350954
+
+Test Sequence 30 :0.332817
+
+Test Sequence 31 :0.500000
+
+Test Sequence 32 :0.416071
+
+Test Sequence 33 :0.255768
+
+Test Sequence 34 :0.213727
+
+Test Sequence 35 :0.445946
+
+Test Sequence 36 :0.617857
+
+Test Sequence 37 :0.277512
+
+Test Sequence 38 :0.202564
+
+Test Sequence 39 :0.277936
+
+Test Sequence 40 :0.344086
+
+Test Sequence 41 :0.279412
+
+Test Sequence 42 :0.507560
+
+Test Sequence 43 :0.193540
+
+Test Sequence 44 :0.154014
+
+Test Sequence 45 :0.346285
+
+Test Sequence 46 :0.350540
+
+Test Sequence 47 :0.279221
+
+Test Sequence 48 :0.385174
+
+Test Sequence 49 :0.430357
+
+Test Sequence 50 :0.247643
+
+Test Sequence 51 :0.400000
+
+Test Sequence 52 :0.280357
+
+Test Sequence 53 :0.274174
+
+Test Sequence 54 :0.272351
+
+Test Sequence 55 :0.478228
+
+Test Sequence 56 :0.305019
+
+Test Sequence 57 :0.253846
+
+Test Sequence 58 :0.315679
+
+Test Sequence 59 :0.347070
+
+Test Sequence 60 :0.341667
+
+Test Sequence 61 :0.427463
+
+Test Sequence 62 :0.337162
+
+Test Sequence 63 :0.255411
+
+Test Sequence 64 :0.459341
+
+Test Sequence 65 :0.242105
+
+Test Sequence 66 :0.314189
+
+Test Sequence 67 :0.347104
+
+Test Sequence 68 :0.459677
+
+Test Sequence 69 :0.370019
+
+Test Sequence 70 :0.369048
+
+Test Sequence 71 :0.366175
+
+Test Sequence 72 :0.232143
+
+Test Sequence 73 :0.208874
+
+Test Sequence 74 :0.300239
+
+Test Sequence 75 :0.219643
+
+Test Sequence 76 :0.324324
+
+Test Sequence 77 :0.386591
+
+Test Sequence 78 :0.306628
+
+Test Sequence 79 :0.271062
+
+Test Sequence 80 :0.448810
+
+Test Sequence 81 :0.250000
+
+Test Sequence 82 :0.328829
+
+Test Sequence 83 :0.175676
+
+Test Sequence 84 :0.705882
+
+Test Sequence 85 :0.500386
+
+Test Sequence 86 :0.592063
+
+Test Sequence 87 :0.218421
+
+Test Sequence 88 :0.145238
+
+Test Sequence 89 :0.169946
+
+Test Sequence 90 :0.208841
+
+Test Sequence 91 :0.408059
+
+Test Sequence 92 :0.338971
+
+Test Sequence 93 :0.305556
+
+Test Sequence 94 :0.550000
+
+Test Sequence 95 :0.293030
+
+Test Sequence 96 :0.422989
+
+Test Sequence 97 :0.269597
+
+Test Sequence 98 :0.386864
+
+Test Sequence 99 :0.402244
+
+Test Sequence 100 :0.464683
+
+User14
+Test Sequence 1 :0.285714
+
+Test Sequence 2 :0.215278
+
+Test Sequence 3 :0.314899
+
+Test Sequence 4 :0.296104
+
+Test Sequence 5 :0.417558
+
+Test Sequence 6 :0.785153
+
+Test Sequence 7 :0.332895
+
+Test Sequence 8 :0.295238
+
+Test Sequence 9 :0.289495
+
+Test Sequence 10 :0.277907
+
+Test Sequence 11 :0.186807
+
+Test Sequence 12 :0.310215
+
+Test Sequence 13 :0.354031
+
+Test Sequence 14 :0.533784
+
+Test Sequence 15 :0.421008
+
+Test Sequence 16 :0.480105
+
+Test Sequence 17 :0.298526
+
+Test Sequence 18 :0.175443
+
+Test Sequence 19 :0.266714
+
+Test Sequence 20 :0.426699
+
+Test Sequence 21 :0.356897
+
+Test Sequence 22 :0.259023
+
+Test Sequence 23 :0.518621
+
+Test Sequence 24 :0.358289
+
+Test Sequence 25 :0.504372
+
+Test Sequence 26 :0.333333
+
+Test Sequence 27 :0.338542
+
+Test Sequence 28 :0.393359
+
+Test Sequence 29 :0.219595
+
+Test Sequence 30 :0.208333
+
+Test Sequence 31 :0.260919
+
+Test Sequence 32 :0.282967
+
+Test Sequence 33 :0.236313
+
+Test Sequence 34 :0.290786
+
+Test Sequence 35 :0.466667
+
+Test Sequence 36 :0.365152
+
+Test Sequence 37 :0.346237
+
+Test Sequence 38 :0.229387
+
+Test Sequence 39 :0.414773
+
+Test Sequence 40 :0.258242
+
+Test Sequence 41 :0.220985
+
+Test Sequence 42 :0.247301
+
+Test Sequence 43 :0.435185
+
+Test Sequence 44 :0.385621
+
+Test Sequence 45 :0.248645
+
+Test Sequence 46 :0.152632
+
+Test Sequence 47 :0.241289
+
+Test Sequence 48 :0.317293
+
+Test Sequence 49 :0.250649
+
+Test Sequence 50 :0.259122
+
+Test Sequence 51 :0.287262
+
+Test Sequence 52 :0.255285
+
+Test Sequence 53 :0.216374
+
+Test Sequence 54 :0.283784
+
+Test Sequence 55 :0.301802
+
+Test Sequence 56 :0.212946
+
+Test Sequence 57 :0.229094
+
+Test Sequence 58 :0.181081
+
+Test Sequence 59 :0.216279
+
+Test Sequence 60 :0.265099
+
+Test Sequence 61 :0.258094
+
+Test Sequence 62 :0.250000
+
+Test Sequence 63 :0.244444
+
+Test Sequence 64 :0.197674
+
+Test Sequence 65 :0.293743
+
+Test Sequence 66 :0.317627
+
+Test Sequence 67 :0.344828
+
+Test Sequence 68 :0.380952
+
+Test Sequence 69 :0.368519
+
+Test Sequence 70 :0.310714
+
+Test Sequence 71 :0.255411
+
+Test Sequence 72 :0.258094
+
+Test Sequence 73 :0.232707
+
+Test Sequence 74 :0.316667
+
+Test Sequence 75 :0.381818
+
+Test Sequence 76 :0.320077
+
+Test Sequence 77 :0.252613
+
+Test Sequence 78 :0.298583
+
+Test Sequence 79 :0.301802
+
+Test Sequence 80 :0.216279
+
+Test Sequence 81 :0.296053
+
+Test Sequence 82 :0.278175
+
+Test Sequence 83 :0.235714
+
+Test Sequence 84 :0.324675
+
+Test Sequence 85 :0.282392
+
+Test Sequence 86 :0.264271
+
+Test Sequence 87 :0.253727
+
+Test Sequence 88 :0.371795
+
+Test Sequence 89 :0.255814
+
+Test Sequence 90 :0.268847
+
+Test Sequence 91 :0.271739
+
+Test Sequence 92 :0.270210
+
+Test Sequence 93 :0.439394
+
+Test Sequence 94 :0.277778
+
+Test Sequence 95 :0.407937
+
+Test Sequence 96 :0.413793
+
+Test Sequence 97 :0.305998
+
+Test Sequence 98 :0.273810
+
+Test Sequence 99 :0.298168
+
+Test Sequence 100 :0.268293
+
+User15
+Test Sequence 1 :1.000000
+
+Test Sequence 2 :0.351351
+
+Test Sequence 3 :0.220648
+
+Test Sequence 4 :0.608333
+
+Test Sequence 5 :0.250000
+
+Test Sequence 6 :0.714286
+
+Test Sequence 7 :0.353220
+
+Test Sequence 8 :0.538889
+
+Test Sequence 9 :0.460499
+
+Test Sequence 10 :0.740991
+
+Test Sequence 11 :0.578283
+
+Test Sequence 12 :0.283841
+
+Test Sequence 13 :0.552585
+
+Test Sequence 14 :0.598039
+
+Test Sequence 15 :0.255921
+
+Test Sequence 16 :0.245865
+
+Test Sequence 17 :0.250000
+
+Test Sequence 18 :0.397059
+
+Test Sequence 19 :1.000000
+
+Test Sequence 20 :1.000000
+
+Test Sequence 21 :1.000000
+
+Test Sequence 22 :0.560345
+
+Test Sequence 23 :0.514706
+
+Test Sequence 24 :0.741758
+
+Test Sequence 25 :0.327986
+
+Test Sequence 26 :0.441851
+
+Test Sequence 27 :0.374903
+
+Test Sequence 28 :0.493277
+
+Test Sequence 29 :1.000000
+
+Test Sequence 30 :1.000000
+
+Test Sequence 31 :1.000000
+
+Test Sequence 32 :0.235327
+
+Test Sequence 33 :0.281579
+
+Test Sequence 34 :0.389189
+
+Test Sequence 35 :0.763825
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :1.000000
+
+Test Sequence 38 :0.365385
+
+Test Sequence 39 :0.187930
+
+Test Sequence 40 :0.339184
+
+Test Sequence 41 :0.271622
+
+Test Sequence 42 :0.538889
+
+Test Sequence 43 :0.240705
+
+Test Sequence 44 :0.190476
+
+Test Sequence 45 :0.240064
+
+Test Sequence 46 :0.500000
+
+Test Sequence 47 :0.214286
+
+Test Sequence 48 :0.203216
+
+Test Sequence 49 :0.242763
+
+Test Sequence 50 :0.210498
+
+Test Sequence 51 :0.343304
+
+Test Sequence 52 :0.408333
+
+Test Sequence 53 :0.400071
+
+Test Sequence 54 :0.547917
+
+Test Sequence 55 :0.460526
+
+Test Sequence 56 :0.213371
+
+Test Sequence 57 :0.303846
+
+Test Sequence 58 :0.200000
+
+Test Sequence 59 :0.180556
+
+Test Sequence 60 :0.205330
+
+Test Sequence 61 :0.193850
+
+Test Sequence 62 :0.180556
+
+Test Sequence 63 :0.194444
+
+Test Sequence 64 :0.205330
+
+Test Sequence 65 :0.205330
+
+Test Sequence 66 :0.193850
+
+Test Sequence 67 :0.180556
+
+Test Sequence 68 :0.180556
+
+Test Sequence 69 :0.205330
+
+Test Sequence 70 :0.214169
+
+Test Sequence 71 :0.753361
+
+Test Sequence 72 :0.178571
+
+Test Sequence 73 :0.589339
+
+Test Sequence 74 :0.224563
+
+Test Sequence 75 :0.180556
+
+Test Sequence 76 :0.208333
+
+Test Sequence 77 :0.194444
+
+Test Sequence 78 :0.180556
+
+Test Sequence 79 :0.228177
+
+Test Sequence 80 :0.168651
+
+Test Sequence 81 :0.177553
+
+Test Sequence 82 :0.194444
+
+Test Sequence 83 :0.180556
+
+Test Sequence 84 :0.200000
+
+Test Sequence 85 :0.180556
+
+Test Sequence 86 :0.205330
+
+Test Sequence 87 :0.185714
+
+Test Sequence 88 :0.200000
+
+Test Sequence 89 :0.194444
+
+Test Sequence 90 :0.180556
+
+Test Sequence 91 :0.180556
+
+Test Sequence 92 :0.205330
+
+Test Sequence 93 :0.200000
+
+Test Sequence 94 :0.205330
+
+Test Sequence 95 :0.180556
+
+Test Sequence 96 :0.200000
+
+Test Sequence 97 :0.180556
+
+Test Sequence 98 :0.205330
+
+Test Sequence 99 :0.198214
+
+Test Sequence 100 :0.194444
+
+User16
+Test Sequence 1 :0.456667
+
+Test Sequence 2 :0.690981
+
+Test Sequence 3 :0.705819
+
+Test Sequence 4 :0.298246
+
+Test Sequence 5 :0.348371
+
+Test Sequence 6 :0.854396
+
+Test Sequence 7 :0.474754
+
+Test Sequence 8 :0.306543
+
+Test Sequence 9 :0.297727
+
+Test Sequence 10 :0.301163
+
+Test Sequence 11 :0.320427
+
+Test Sequence 12 :0.494483
+
+Test Sequence 13 :0.367294
+
+Test Sequence 14 :0.348485
+
+Test Sequence 15 :0.276316
+
+Test Sequence 16 :0.314542
+
+Test Sequence 17 :0.343750
+
+Test Sequence 18 :0.534483
+
+Test Sequence 19 :0.430288
+
+Test Sequence 20 :0.337761
+
+Test Sequence 21 :0.189744
+
+Test Sequence 22 :0.316028
+
+Test Sequence 23 :0.232143
+
+Test Sequence 24 :0.296937
+
+Test Sequence 25 :0.213371
+
+Test Sequence 26 :0.305556
+
+Test Sequence 27 :0.508621
+
+Test Sequence 28 :0.359132
+
+Test Sequence 29 :0.353659
+
+Test Sequence 30 :0.349662
+
+Test Sequence 31 :0.270161
+
+Test Sequence 32 :0.448661
+
+Test Sequence 33 :0.475302
+
+Test Sequence 34 :0.362121
+
+Test Sequence 35 :0.213937
+
+Test Sequence 36 :0.343254
+
+Test Sequence 37 :0.220930
+
+Test Sequence 38 :0.420651
+
+Test Sequence 39 :0.332819
+
+Test Sequence 40 :0.326797
+
+Test Sequence 41 :0.220867
+
+Test Sequence 42 :0.244589
+
+Test Sequence 43 :0.300416
+
+Test Sequence 44 :0.233062
+
+Test Sequence 45 :0.169767
+
+Test Sequence 46 :0.259447
+
+Test Sequence 47 :0.172304
+
+Test Sequence 48 :0.215245
+
+Test Sequence 49 :0.241543
+
+Test Sequence 50 :0.179545
+
+Test Sequence 51 :0.478571
+
+Test Sequence 52 :0.491954
+
+Test Sequence 53 :0.443011
+
+Test Sequence 54 :0.481090
+
+Test Sequence 55 :0.393548
+
+Test Sequence 56 :0.555804
+
+Test Sequence 57 :0.329167
+
+Test Sequence 58 :0.821659
+
+Test Sequence 59 :0.230180
+
+Test Sequence 60 :0.265705
+
+Test Sequence 61 :0.454545
+
+Test Sequence 62 :0.459846
+
+Test Sequence 63 :0.399306
+
+Test Sequence 64 :0.507102
+
+Test Sequence 65 :0.391518
+
+Test Sequence 66 :0.306926
+
+Test Sequence 67 :0.793611
+
+Test Sequence 68 :0.544444
+
+Test Sequence 69 :0.626437
+
+Test Sequence 70 :0.353220
+
+Test Sequence 71 :0.610459
+
+Test Sequence 72 :0.673740
+
+Test Sequence 73 :0.574353
+
+Test Sequence 74 :0.822884
+
+Test Sequence 75 :0.721444
+
+Test Sequence 76 :0.706178
+
+Test Sequence 77 :0.631868
+
+Test Sequence 78 :0.836870
+
+Test Sequence 79 :0.673942
+
+Test Sequence 80 :0.764828
+
+Test Sequence 81 :0.448276
+
+Test Sequence 82 :0.391518
+
+Test Sequence 83 :0.489532
+
+Test Sequence 84 :0.817500
+
+Test Sequence 85 :0.781593
+
+Test Sequence 86 :0.443939
+
+Test Sequence 87 :0.420089
+
+Test Sequence 88 :0.416667
+
+Test Sequence 89 :0.500000
+
+Test Sequence 90 :0.557692
+
+Test Sequence 91 :0.569734
+
+Test Sequence 92 :0.612637
+
+Test Sequence 93 :0.353913
+
+Test Sequence 94 :0.434375
+
+Test Sequence 95 :0.427273
+
+Test Sequence 96 :0.586905
+
+Test Sequence 97 :0.301471
+
+Test Sequence 98 :0.622530
+
+Test Sequence 99 :0.564815
+
+Test Sequence 100 :0.323390
+
+User17
+Test Sequence 1 :0.396584
+
+Test Sequence 2 :0.232095
+
+Test Sequence 3 :0.398693
+
+Test Sequence 4 :0.570881
+
+Test Sequence 5 :0.507527
+
+Test Sequence 6 :0.330808
+
+Test Sequence 7 :0.227390
+
+Test Sequence 8 :0.325676
+
+Test Sequence 9 :0.418269
+
+Test Sequence 10 :0.332375
+
+Test Sequence 11 :0.378829
+
+Test Sequence 12 :0.379167
+
+Test Sequence 13 :0.280081
+
+Test Sequence 14 :0.345439
+
+Test Sequence 15 :0.370355
+
+Test Sequence 16 :0.366858
+
+Test Sequence 17 :0.313910
+
+Test Sequence 18 :0.358128
+
+Test Sequence 19 :0.350480
+
+Test Sequence 20 :0.279762
+
+Test Sequence 21 :0.484236
+
+Test Sequence 22 :0.275451
+
+Test Sequence 23 :0.393519
+
+Test Sequence 24 :0.525304
+
+Test Sequence 25 :0.380122
+
+Test Sequence 26 :0.259722
+
+Test Sequence 27 :1.000000
+
+Test Sequence 28 :0.271341
+
+Test Sequence 29 :0.444726
+
+Test Sequence 30 :0.217460
+
+Test Sequence 31 :1.000000
+
+Test Sequence 32 :0.644097
+
+Test Sequence 33 :0.308712
+
+Test Sequence 34 :0.229365
+
+Test Sequence 35 :1.000000
+
+Test Sequence 36 :0.395833
+
+Test Sequence 37 :0.262870
+
+Test Sequence 38 :0.476190
+
+Test Sequence 39 :0.262531
+
+Test Sequence 40 :0.320513
+
+Test Sequence 41 :0.240372
+
+Test Sequence 42 :0.350219
+
+Test Sequence 43 :0.382883
+
+Test Sequence 44 :0.321053
+
+Test Sequence 45 :0.411111
+
+Test Sequence 46 :0.315315
+
+Test Sequence 47 :0.355903
+
+Test Sequence 48 :0.338095
+
+Test Sequence 49 :0.413339
+
+Test Sequence 50 :0.326302
+
+Test Sequence 51 :0.255820
+
+Test Sequence 52 :1.000000
+
+Test Sequence 53 :0.401786
+
+Test Sequence 54 :0.379808
+
+Test Sequence 55 :0.389286
+
+Test Sequence 56 :0.280228
+
+Test Sequence 57 :0.352969
+
+Test Sequence 58 :0.339383
+
+Test Sequence 59 :0.380702
+
+Test Sequence 60 :0.463509
+
+Test Sequence 61 :0.294737
+
+Test Sequence 62 :0.294737
+
+Test Sequence 63 :0.294737
+
+Test Sequence 64 :0.322017
+
+Test Sequence 65 :0.440577
+
+Test Sequence 66 :0.362041
+
+Test Sequence 67 :0.278694
+
+Test Sequence 68 :0.315679
+
+Test Sequence 69 :0.340778
+
+Test Sequence 70 :0.378844
+
+Test Sequence 71 :0.344086
+
+Test Sequence 72 :0.272942
+
+Test Sequence 73 :0.322734
+
+Test Sequence 74 :0.333105
+
+Test Sequence 75 :0.389655
+
+Test Sequence 76 :0.325203
+
+Test Sequence 77 :0.352969
+
+Test Sequence 78 :0.317761
+
+Test Sequence 79 :0.274436
+
+Test Sequence 80 :0.422368
+
+Test Sequence 81 :0.393636
+
+Test Sequence 82 :0.266645
+
+Test Sequence 83 :0.337535
+
+Test Sequence 84 :0.356643
+
+Test Sequence 85 :0.278175
+
+Test Sequence 86 :0.392361
+
+Test Sequence 87 :0.277920
+
+Test Sequence 88 :0.916807
+
+Test Sequence 89 :0.392358
+
+Test Sequence 90 :0.421875
+
+Test Sequence 91 :0.321053
+
+Test Sequence 92 :0.356086
+
+Test Sequence 93 :0.343823
+
+Test Sequence 94 :0.407895
+
+Test Sequence 95 :0.340283
+
+Test Sequence 96 :0.271341
+
+Test Sequence 97 :0.511667
+
+Test Sequence 98 :0.412713
+
+Test Sequence 99 :0.298445
+
+Test Sequence 100 :0.364583
+
+User18
+Test Sequence 1 :0.565714
+
+Test Sequence 2 :0.419580
+
+Test Sequence 3 :0.304236
+
+Test Sequence 4 :0.666667
+
+Test Sequence 5 :0.504545
+
+Test Sequence 6 :0.398190
+
+Test Sequence 7 :0.292683
+
+Test Sequence 8 :0.427419
+
+Test Sequence 9 :0.285530
+
+Test Sequence 10 :0.251792
+
+Test Sequence 11 :0.252567
+
+Test Sequence 12 :0.351190
+
+Test Sequence 13 :0.453704
+
+Test Sequence 14 :0.337398
+
+Test Sequence 15 :0.320427
+
+Test Sequence 16 :0.283144
+
+Test Sequence 17 :0.304878
+
+Test Sequence 18 :0.347059
+
+Test Sequence 19 :0.404147
+
+Test Sequence 20 :0.304878
+
+Test Sequence 21 :0.388545
+
+Test Sequence 22 :0.291346
+
+Test Sequence 23 :0.301348
+
+Test Sequence 24 :0.451411
+
+Test Sequence 25 :0.317625
+
+Test Sequence 26 :0.366597
+
+Test Sequence 27 :0.314338
+
+Test Sequence 28 :0.357585
+
+Test Sequence 29 :0.527778
+
+Test Sequence 30 :0.285309
+
+Test Sequence 31 :0.271037
+
+Test Sequence 32 :0.315385
+
+Test Sequence 33 :0.298649
+
+Test Sequence 34 :0.198017
+
+Test Sequence 35 :0.291026
+
+Test Sequence 36 :0.350000
+
+Test Sequence 37 :0.320513
+
+Test Sequence 38 :0.290698
+
+Test Sequence 39 :0.316026
+
+Test Sequence 40 :0.240708
+
+Test Sequence 41 :0.337979
+
+Test Sequence 42 :0.385174
+
+Test Sequence 43 :0.257143
+
+Test Sequence 44 :0.300193
+
+Test Sequence 45 :0.333333
+
+Test Sequence 46 :0.326401
+
+Test Sequence 47 :0.322351
+
+Test Sequence 48 :0.416667
+
+Test Sequence 49 :0.396552
+
+Test Sequence 50 :0.413525
+
+Test Sequence 51 :0.340476
+
+Test Sequence 52 :0.510000
+
+Test Sequence 53 :0.316590
+
+Test Sequence 54 :0.290210
+
+Test Sequence 55 :0.304147
+
+Test Sequence 56 :0.342672
+
+Test Sequence 57 :0.271631
+
+Test Sequence 58 :0.380832
+
+Test Sequence 59 :0.301245
+
+Test Sequence 60 :0.185728
+
+Test Sequence 61 :0.492424
+
+Test Sequence 62 :0.348569
+
+Test Sequence 63 :0.416071
+
+Test Sequence 64 :0.374903
+
+Test Sequence 65 :0.296703
+
+Test Sequence 66 :0.344322
+
+Test Sequence 67 :0.611111
+
+Test Sequence 68 :0.225564
+
+Test Sequence 69 :0.147028
+
+Test Sequence 70 :0.181574
+
+Test Sequence 71 :0.170238
+
+Test Sequence 72 :0.130952
+
+Test Sequence 73 :0.141687
+
+Test Sequence 74 :0.109907
+
+Test Sequence 75 :0.109907
+
+Test Sequence 76 :0.109907
+
+Test Sequence 77 :0.109907
+
+Test Sequence 78 :0.099673
+
+Test Sequence 79 :0.133929
+
+Test Sequence 80 :0.108014
+
+Test Sequence 81 :0.094235
+
+Test Sequence 82 :0.115873
+
+Test Sequence 83 :0.187305
+
+Test Sequence 84 :0.137500
+
+Test Sequence 85 :0.140642
+
+Test Sequence 86 :0.142938
+
+Test Sequence 87 :0.174419
+
+Test Sequence 88 :0.129157
+
+Test Sequence 89 :0.144019
+
+Test Sequence 90 :0.407407
+
+Test Sequence 91 :0.565972
+
+Test Sequence 92 :0.310215
+
+Test Sequence 93 :0.319853
+
+Test Sequence 94 :0.254919
+
+Test Sequence 95 :0.404808
+
+Test Sequence 96 :0.271622
+
+Test Sequence 97 :0.322365
+
+Test Sequence 98 :0.431457
+
+Test Sequence 99 :0.293237
+
+Test Sequence 100 :0.270510
+
+User19
+Test Sequence 1 :0.194444
+
+Test Sequence 2 :0.218552
+
+Test Sequence 3 :0.269231
+
+Test Sequence 4 :0.338542
+
+Test Sequence 5 :0.148504
+
+Test Sequence 6 :0.167173
+
+Test Sequence 7 :0.206383
+
+Test Sequence 8 :0.182195
+
+Test Sequence 9 :0.149206
+
+Test Sequence 10 :0.159173
+
+Test Sequence 11 :0.149206
+
+Test Sequence 12 :0.159173
+
+Test Sequence 13 :0.151773
+
+Test Sequence 14 :0.149206
+
+Test Sequence 15 :0.147545
+
+Test Sequence 16 :0.173522
+
+Test Sequence 17 :0.159173
+
+Test Sequence 18 :0.169255
+
+Test Sequence 19 :0.425000
+
+Test Sequence 20 :0.197585
+
+Test Sequence 21 :0.239130
+
+Test Sequence 22 :0.184783
+
+Test Sequence 23 :0.182540
+
+Test Sequence 24 :0.344692
+
+Test Sequence 25 :0.149206
+
+Test Sequence 26 :0.162088
+
+Test Sequence 27 :0.183959
+
+Test Sequence 28 :0.160317
+
+Test Sequence 29 :0.181912
+
+Test Sequence 30 :0.199406
+
+Test Sequence 31 :0.168687
+
+Test Sequence 32 :0.141135
+
+Test Sequence 33 :0.162879
+
+Test Sequence 34 :0.211034
+
+Test Sequence 35 :0.164423
+
+Test Sequence 36 :0.164911
+
+Test Sequence 37 :0.150555
+
+Test Sequence 38 :0.173995
+
+Test Sequence 39 :0.195272
+
+Test Sequence 40 :0.169028
+
+Test Sequence 41 :0.156469
+
+Test Sequence 42 :0.172561
+
+Test Sequence 43 :0.169255
+
+Test Sequence 44 :0.171053
+
+Test Sequence 45 :0.170290
+
+Test Sequence 46 :0.151773
+
+Test Sequence 47 :0.174419
+
+Test Sequence 48 :0.185928
+
+Test Sequence 49 :0.163926
+
+Test Sequence 50 :0.194669
+
+Test Sequence 51 :0.162500
+
+Test Sequence 52 :0.170290
+
+Test Sequence 53 :0.230769
+
+Test Sequence 54 :0.222222
+
+Test Sequence 55 :0.158333
+
+Test Sequence 56 :0.304622
+
+Test Sequence 57 :0.142995
+
+Test Sequence 58 :0.166008
+
+Test Sequence 59 :0.277992
+
+Test Sequence 60 :0.169110
+
+Test Sequence 61 :0.186654
+
+Test Sequence 62 :0.181912
+
+Test Sequence 63 :0.168691
+
+Test Sequence 64 :0.151773
+
+Test Sequence 65 :0.195745
+
+Test Sequence 66 :0.190849
+
+Test Sequence 67 :0.175439
+
+Test Sequence 68 :0.226873
+
+Test Sequence 69 :0.204135
+
+Test Sequence 70 :0.172222
+
+Test Sequence 71 :0.154810
+
+Test Sequence 72 :0.175290
+
+Test Sequence 73 :0.162884
+
+Test Sequence 74 :0.202564
+
+Test Sequence 75 :0.194332
+
+Test Sequence 76 :0.184921
+
+Test Sequence 77 :0.359848
+
+Test Sequence 78 :0.179980
+
+Test Sequence 79 :0.153865
+
+Test Sequence 80 :0.177273
+
+Test Sequence 81 :0.178389
+
+Test Sequence 82 :0.171518
+
+Test Sequence 83 :0.187198
+
+Test Sequence 84 :0.421711
+
+Test Sequence 85 :0.320513
+
+Test Sequence 86 :0.249226
+
+Test Sequence 87 :0.265201
+
+Test Sequence 88 :0.174242
+
+Test Sequence 89 :0.175443
+
+Test Sequence 90 :0.785714
+
+Test Sequence 91 :0.502222
+
+Test Sequence 92 :0.414286
+
+Test Sequence 93 :0.189521
+
+Test Sequence 94 :0.197256
+
+Test Sequence 95 :0.305371
+
+Test Sequence 96 :0.334921
+
+Test Sequence 97 :0.307752
+
+Test Sequence 98 :0.279221
+
+Test Sequence 99 :0.275397
+
+Test Sequence 100 :0.316260
+
+User20
+Test Sequence 1 :0.721154
+
+Test Sequence 2 :0.803970
+
+Test Sequence 3 :0.839545
+
+Test Sequence 4 :0.749565
+
+Test Sequence 5 :0.791925
+
+Test Sequence 6 :0.737037
+
+Test Sequence 7 :0.718519
+
+Test Sequence 8 :0.812937
+
+Test Sequence 9 :0.833043
+
+Test Sequence 10 :0.464286
+
+Test Sequence 11 :0.616848
+
+Test Sequence 12 :0.729167
+
+Test Sequence 13 :0.790210
+
+Test Sequence 14 :0.912381
+
+Test Sequence 15 :0.573333
+
+Test Sequence 16 :0.753953
+
+Test Sequence 17 :0.825000
+
+Test Sequence 18 :0.729021
+
+Test Sequence 19 :0.812290
+
+Test Sequence 20 :0.740909
+
+Test Sequence 21 :0.825000
+
+Test Sequence 22 :0.663690
+
+Test Sequence 23 :0.736742
+
+Test Sequence 24 :0.708333
+
+Test Sequence 25 :0.670330
+
+Test Sequence 26 :0.730769
+
+Test Sequence 27 :0.756689
+
+Test Sequence 28 :0.588710
+
+Test Sequence 29 :0.836667
+
+Test Sequence 30 :0.702840
+
+Test Sequence 31 :0.795151
+
+Test Sequence 32 :0.540509
+
+Test Sequence 33 :0.778846
+
+Test Sequence 34 :0.895000
+
+Test Sequence 35 :0.698718
+
+Test Sequence 36 :0.669732
+
+Test Sequence 37 :0.778846
+
+Test Sequence 38 :0.712500
+
+Test Sequence 39 :0.302591
+
+Test Sequence 40 :0.798077
+
+Test Sequence 41 :0.828571
+
+Test Sequence 42 :0.940000
+
+Test Sequence 43 :0.868339
+
+Test Sequence 44 :0.682870
+
+Test Sequence 45 :0.786364
+
+Test Sequence 46 :0.666422
+
+Test Sequence 47 :0.425806
+
+Test Sequence 48 :0.729167
+
+Test Sequence 49 :0.655128
+
+Test Sequence 50 :0.813665
+
+Test Sequence 51 :0.622024
+
+Test Sequence 52 :0.726087
+
+Test Sequence 53 :0.657350
+
+Test Sequence 54 :0.361020
+
+Test Sequence 55 :0.520370
+
+Test Sequence 56 :0.421216
+
+Test Sequence 57 :0.861111
+
+Test Sequence 58 :0.815735
+
+Test Sequence 59 :0.716236
+
+Test Sequence 60 :0.246626
+
+Test Sequence 61 :0.242424
+
+Test Sequence 62 :0.098792
+
+Test Sequence 63 :0.651515
+
+Test Sequence 64 :0.896853
+
+Test Sequence 65 :0.773793
+
+Test Sequence 66 :0.658710
+
+Test Sequence 67 :0.502880
+
+Test Sequence 68 :0.762422
+
+Test Sequence 69 :0.713793
+
+Test Sequence 70 :0.773411
+
+Test Sequence 71 :0.672857
+
+Test Sequence 72 :0.813043
+
+Test Sequence 73 :0.734543
+
+Test Sequence 74 :0.625000
+
+Test Sequence 75 :0.808889
+
+Test Sequence 76 :0.777244
+
+Test Sequence 77 :0.769565
+
+Test Sequence 78 :0.653333
+
+Test Sequence 79 :0.771304
+
+Test Sequence 80 :0.399160
+
+Test Sequence 81 :0.677885
+
+Test Sequence 82 :0.708851
+
+Test Sequence 83 :0.726708
+
+Test Sequence 84 :0.762422
+
+Test Sequence 85 :0.758454
+
+Test Sequence 86 :0.791925
+
+Test Sequence 87 :0.721417
+
+Test Sequence 88 :0.766087
+
+Test Sequence 89 :0.789565
+
+Test Sequence 90 :0.785926
+
+Test Sequence 91 :0.427900
+
+Test Sequence 92 :0.779178
+
+Test Sequence 93 :0.865530
+
+Test Sequence 94 :0.792271
+
+Test Sequence 95 :0.849379
+
+Test Sequence 96 :0.704969
+
+Test Sequence 97 :0.724537
+
+Test Sequence 98 :0.519231
+
+Test Sequence 99 :0.746377
+
+Test Sequence 100 :0.749565
+
+User21
+Test Sequence 1 :0.773727
+
+Test Sequence 2 :0.796983
+
+Test Sequence 3 :0.760214
+
+Test Sequence 4 :0.434211
+
+Test Sequence 5 :0.247009
+
+Test Sequence 6 :0.307237
+
+Test Sequence 7 :0.240936
+
+Test Sequence 8 :0.347222
+
+Test Sequence 9 :0.268056
+
+Test Sequence 10 :0.305556
+
+Test Sequence 11 :0.268056
+
+Test Sequence 12 :0.305556
+
+Test Sequence 13 :0.249226
+
+Test Sequence 14 :0.386591
+
+Test Sequence 15 :0.389435
+
+Test Sequence 16 :0.197222
+
+Test Sequence 17 :0.243452
+
+Test Sequence 18 :0.370798
+
+Test Sequence 19 :0.194669
+
+Test Sequence 20 :0.262647
+
+Test Sequence 21 :0.182937
+
+Test Sequence 22 :0.301802
+
+Test Sequence 23 :0.286444
+
+Test Sequence 24 :0.440257
+
+Test Sequence 25 :0.429924
+
+Test Sequence 26 :0.378676
+
+Test Sequence 27 :0.168895
+
+Test Sequence 28 :0.147727
+
+Test Sequence 29 :0.189744
+
+Test Sequence 30 :0.136261
+
+Test Sequence 31 :0.183932
+
+Test Sequence 32 :0.170997
+
+Test Sequence 33 :0.198593
+
+Test Sequence 34 :0.265705
+
+Test Sequence 35 :0.195296
+
+Test Sequence 36 :0.221320
+
+Test Sequence 37 :0.270510
+
+Test Sequence 38 :0.252273
+
+Test Sequence 39 :0.224563
+
+Test Sequence 40 :0.184338
+
+Test Sequence 41 :0.350000
+
+Test Sequence 42 :0.204830
+
+Test Sequence 43 :0.231548
+
+Test Sequence 44 :0.243902
+
+Test Sequence 45 :0.241627
+
+Test Sequence 46 :0.256536
+
+Test Sequence 47 :0.198171
+
+Test Sequence 48 :0.447939
+
+Test Sequence 49 :0.285762
+
+Test Sequence 50 :0.243590
+
+Test Sequence 51 :0.315315
+
+Test Sequence 52 :0.416928
+
+Test Sequence 53 :0.272605
+
+Test Sequence 54 :0.305925
+
+Test Sequence 55 :0.372863
+
+Test Sequence 56 :0.272267
+
+Test Sequence 57 :0.459091
+
+Test Sequence 58 :0.283744
+
+Test Sequence 59 :0.366987
+
+Test Sequence 60 :0.302632
+
+Test Sequence 61 :0.366667
+
+Test Sequence 62 :0.191447
+
+Test Sequence 63 :0.257143
+
+Test Sequence 64 :0.234480
+
+Test Sequence 65 :0.329522
+
+Test Sequence 66 :0.177866
+
+Test Sequence 67 :0.182267
+
+Test Sequence 68 :0.268293
+
+Test Sequence 69 :0.220238
+
+Test Sequence 70 :0.407831
+
+Test Sequence 71 :0.281579
+
+Test Sequence 72 :0.264912
+
+Test Sequence 73 :0.421053
+
+Test Sequence 74 :0.278526
+
+Test Sequence 75 :0.294643
+
+Test Sequence 76 :0.378788
+
+Test Sequence 77 :0.273279
+
+Test Sequence 78 :0.350877
+
+Test Sequence 79 :0.271341
+
+Test Sequence 80 :0.301802
+
+Test Sequence 81 :0.378049
+
+Test Sequence 82 :0.293385
+
+Test Sequence 83 :0.313008
+
+Test Sequence 84 :0.280296
+
+Test Sequence 85 :0.291346
+
+Test Sequence 86 :0.233806
+
+Test Sequence 87 :0.295238
+
+Test Sequence 88 :0.230263
+
+Test Sequence 89 :0.291667
+
+Test Sequence 90 :0.229730
+
+Test Sequence 91 :0.232733
+
+Test Sequence 92 :0.381955
+
+Test Sequence 93 :0.262977
+
+Test Sequence 94 :0.487500
+
+Test Sequence 95 :0.220696
+
+Test Sequence 96 :0.194643
+
+Test Sequence 97 :0.281136
+
+Test Sequence 98 :0.241289
+
+Test Sequence 99 :0.253779
+
+Test Sequence 100 :0.250627
+
+User22
+Test Sequence 1 :0.279762
+
+Test Sequence 2 :0.362271
+
+Test Sequence 3 :0.258333
+
+Test Sequence 4 :0.246646
+
+Test Sequence 5 :0.236313
+
+Test Sequence 6 :0.345238
+
+Test Sequence 7 :0.337398
+
+Test Sequence 8 :0.378151
+
+Test Sequence 9 :0.298362
+
+Test Sequence 10 :0.337500
+
+Test Sequence 11 :0.260724
+
+Test Sequence 12 :0.285309
+
+Test Sequence 13 :0.296784
+
+Test Sequence 14 :0.288889
+
+Test Sequence 15 :0.296937
+
+Test Sequence 16 :0.139610
+
+Test Sequence 17 :0.312791
+
+Test Sequence 18 :0.262791
+
+Test Sequence 19 :0.329823
+
+Test Sequence 20 :0.256652
+
+Test Sequence 21 :0.287081
+
+Test Sequence 22 :0.231602
+
+Test Sequence 23 :0.309524
+
+Test Sequence 24 :0.169255
+
+Test Sequence 25 :0.172161
+
+Test Sequence 26 :0.166761
+
+Test Sequence 27 :0.298583
+
+Test Sequence 28 :0.211794
+
+Test Sequence 29 :0.243506
+
+Test Sequence 30 :0.230952
+
+Test Sequence 31 :0.283784
+
+Test Sequence 32 :0.270600
+
+Test Sequence 33 :0.276983
+
+Test Sequence 34 :0.231579
+
+Test Sequence 35 :0.350000
+
+Test Sequence 36 :0.343182
+
+Test Sequence 37 :0.262311
+
+Test Sequence 38 :0.315789
+
+Test Sequence 39 :0.292683
+
+Test Sequence 40 :0.235135
+
+Test Sequence 41 :0.323830
+
+Test Sequence 42 :0.423214
+
+Test Sequence 43 :0.277992
+
+Test Sequence 44 :0.565546
+
+Test Sequence 45 :0.366602
+
+Test Sequence 46 :0.351030
+
+Test Sequence 47 :0.293743
+
+Test Sequence 48 :0.334249
+
+Test Sequence 49 :0.317627
+
+Test Sequence 50 :0.282392
+
+Test Sequence 51 :0.336818
+
+Test Sequence 52 :0.236364
+
+Test Sequence 53 :0.324119
+
+Test Sequence 54 :0.302976
+
+Test Sequence 55 :0.312098
+
+Test Sequence 56 :0.310254
+
+Test Sequence 57 :0.287500
+
+Test Sequence 58 :0.314565
+
+Test Sequence 59 :0.267943
+
+Test Sequence 60 :0.280211
+
+Test Sequence 61 :0.389881
+
+Test Sequence 62 :0.293743
+
+Test Sequence 63 :0.334302
+
+Test Sequence 64 :0.338700
+
+Test Sequence 65 :0.372532
+
+Test Sequence 66 :0.281042
+
+Test Sequence 67 :0.273810
+
+Test Sequence 68 :0.302495
+
+Test Sequence 69 :0.292683
+
+Test Sequence 70 :0.293403
+
+Test Sequence 71 :0.287538
+
+Test Sequence 72 :0.278840
+
+Test Sequence 73 :0.246037
+
+Test Sequence 74 :0.305622
+
+Test Sequence 75 :0.260504
+
+Test Sequence 76 :0.376557
+
+Test Sequence 77 :0.264535
+
+Test Sequence 78 :0.204134
+
+Test Sequence 79 :0.273810
+
+Test Sequence 80 :0.279762
+
+Test Sequence 81 :0.400000
+
+Test Sequence 82 :0.351521
+
+Test Sequence 83 :0.250518
+
+Test Sequence 84 :0.237500
+
+Test Sequence 85 :0.234773
+
+Test Sequence 86 :0.314935
+
+Test Sequence 87 :0.275000
+
+Test Sequence 88 :0.275291
+
+Test Sequence 89 :0.320427
+
+Test Sequence 90 :0.147727
+
+Test Sequence 91 :0.176150
+
+Test Sequence 92 :0.332927
+
+Test Sequence 93 :0.372733
+
+Test Sequence 94 :0.247231
+
+Test Sequence 95 :0.316667
+
+Test Sequence 96 :0.320760
+
+Test Sequence 97 :0.357769
+
+Test Sequence 98 :0.246951
+
+Test Sequence 99 :0.261364
+
+Test Sequence 100 :0.178289
+
+User23
+Test Sequence 1 :0.233516
+
+Test Sequence 2 :0.253968
+
+Test Sequence 3 :0.300000
+
+Test Sequence 4 :0.247635
+
+Test Sequence 5 :0.465144
+
+Test Sequence 6 :0.499567
+
+Test Sequence 7 :0.565625
+
+Test Sequence 8 :0.541114
+
+Test Sequence 9 :0.509677
+
+Test Sequence 10 :0.297237
+
+Test Sequence 11 :0.202941
+
+Test Sequence 12 :0.226496
+
+Test Sequence 13 :0.320574
+
+Test Sequence 14 :0.109524
+
+Test Sequence 15 :0.183150
+
+Test Sequence 16 :0.322368
+
+Test Sequence 17 :0.292262
+
+Test Sequence 18 :0.224563
+
+Test Sequence 19 :0.215385
+
+Test Sequence 20 :0.207875
+
+Test Sequence 21 :0.194332
+
+Test Sequence 22 :0.206395
+
+Test Sequence 23 :0.253526
+
+Test Sequence 24 :0.357317
+
+Test Sequence 25 :0.306818
+
+Test Sequence 26 :0.365750
+
+Test Sequence 27 :0.439236
+
+Test Sequence 28 :0.338176
+
+Test Sequence 29 :0.172866
+
+Test Sequence 30 :0.198874
+
+Test Sequence 31 :0.239286
+
+Test Sequence 32 :0.168990
+
+Test Sequence 33 :0.316008
+
+Test Sequence 34 :0.225000
+
+Test Sequence 35 :0.538810
+
+Test Sequence 36 :0.655827
+
+Test Sequence 37 :0.335737
+
+Test Sequence 38 :0.232708
+
+Test Sequence 39 :0.275000
+
+Test Sequence 40 :0.207095
+
+Test Sequence 41 :0.229532
+
+Test Sequence 42 :0.328846
+
+Test Sequence 43 :0.353220
+
+Test Sequence 44 :0.266026
+
+Test Sequence 45 :0.255285
+
+Test Sequence 46 :0.311066
+
+Test Sequence 47 :0.354167
+
+Test Sequence 48 :0.235620
+
+Test Sequence 49 :0.255952
+
+Test Sequence 50 :0.441176
+
+Test Sequence 51 :0.210874
+
+Test Sequence 52 :0.177632
+
+Test Sequence 53 :0.179605
+
+Test Sequence 54 :0.176923
+
+Test Sequence 55 :0.187055
+
+Test Sequence 56 :0.132695
+
+Test Sequence 57 :0.180894
+
+Test Sequence 58 :0.162289
+
+Test Sequence 59 :0.293803
+
+Test Sequence 60 :0.200569
+
+Test Sequence 61 :0.117663
+
+Test Sequence 62 :0.146515
+
+Test Sequence 63 :0.175676
+
+Test Sequence 64 :0.117663
+
+Test Sequence 65 :0.117663
+
+Test Sequence 66 :0.117663
+
+Test Sequence 67 :0.117663
+
+Test Sequence 68 :0.117663
+
+Test Sequence 69 :0.120209
+
+Test Sequence 70 :0.282946
+
+Test Sequence 71 :0.213727
+
+Test Sequence 72 :0.209707
+
+Test Sequence 73 :0.185504
+
+Test Sequence 74 :0.294872
+
+Test Sequence 75 :0.155133
+
+Test Sequence 76 :0.144269
+
+Test Sequence 77 :0.144491
+
+Test Sequence 78 :0.108304
+
+Test Sequence 79 :0.191176
+
+Test Sequence 80 :0.178947
+
+Test Sequence 81 :0.160671
+
+Test Sequence 82 :0.137500
+
+Test Sequence 83 :0.101282
+
+Test Sequence 84 :0.117063
+
+Test Sequence 85 :0.109756
+
+Test Sequence 86 :0.415033
+
+Test Sequence 87 :1.000000
+
+Test Sequence 88 :0.195296
+
+Test Sequence 89 :0.166447
+
+Test Sequence 90 :0.150000
+
+Test Sequence 91 :0.117663
+
+Test Sequence 92 :0.117663
+
+Test Sequence 93 :0.117663
+
+Test Sequence 94 :0.117663
+
+Test Sequence 95 :0.273137
+
+Test Sequence 96 :0.246992
+
+Test Sequence 97 :0.274399
+
+Test Sequence 98 :0.256579
+
+Test Sequence 99 :0.250193
+
+Test Sequence 100 :0.517324
+
+User24
+Test Sequence 1 :0.341667
+
+Test Sequence 2 :0.455280
+
+Test Sequence 3 :0.346053
+
+Test Sequence 4 :0.466667
+
+Test Sequence 5 :0.410442
+
+Test Sequence 6 :0.596300
+
+Test Sequence 7 :0.616987
+
+Test Sequence 8 :0.298063
+
+Test Sequence 9 :0.403716
+
+Test Sequence 10 :0.507130
+
+Test Sequence 11 :0.720000
+
+Test Sequence 12 :0.379365
+
+Test Sequence 13 :0.382401
+
+Test Sequence 14 :0.654101
+
+Test Sequence 15 :0.740741
+
+Test Sequence 16 :0.358401
+
+Test Sequence 17 :0.214744
+
+Test Sequence 18 :0.446970
+
+Test Sequence 19 :0.422222
+
+Test Sequence 20 :0.322368
+
+Test Sequence 21 :0.370395
+
+Test Sequence 22 :0.348346
+
+Test Sequence 23 :0.393382
+
+Test Sequence 24 :0.484848
+
+Test Sequence 25 :0.278840
+
+Test Sequence 26 :0.387987
+
+Test Sequence 27 :0.502381
+
+Test Sequence 28 :0.645833
+
+Test Sequence 29 :0.298071
+
+Test Sequence 30 :0.364919
+
+Test Sequence 31 :0.396396
+
+Test Sequence 32 :0.567396
+
+Test Sequence 33 :0.418779
+
+Test Sequence 34 :0.368596
+
+Test Sequence 35 :0.424925
+
+Test Sequence 36 :0.420654
+
+Test Sequence 37 :0.327778
+
+Test Sequence 38 :0.482143
+
+Test Sequence 39 :0.312039
+
+Test Sequence 40 :0.367669
+
+Test Sequence 41 :0.619048
+
+Test Sequence 42 :0.692235
+
+Test Sequence 43 :0.429510
+
+Test Sequence 44 :0.281056
+
+Test Sequence 45 :0.498162
+
+Test Sequence 46 :0.639423
+
+Test Sequence 47 :0.529412
+
+Test Sequence 48 :0.317791
+
+Test Sequence 49 :0.566952
+
+Test Sequence 50 :0.651152
+
+Test Sequence 51 :0.343980
+
+Test Sequence 52 :0.607983
+
+Test Sequence 53 :0.323308
+
+Test Sequence 54 :0.280228
+
+Test Sequence 55 :0.346639
+
+Test Sequence 56 :0.511667
+
+Test Sequence 57 :0.519231
+
+Test Sequence 58 :0.531667
+
+Test Sequence 59 :0.802019
+
+Test Sequence 60 :0.267740
+
+Test Sequence 61 :0.264763
+
+Test Sequence 62 :0.555274
+
+Test Sequence 63 :0.455882
+
+Test Sequence 64 :0.335664
+
+Test Sequence 65 :0.273681
+
+Test Sequence 66 :0.573529
+
+Test Sequence 67 :0.620027
+
+Test Sequence 68 :0.359848
+
+Test Sequence 69 :0.377467
+
+Test Sequence 70 :0.337302
+
+Test Sequence 71 :0.265407
+
+Test Sequence 72 :0.267857
+
+Test Sequence 73 :0.367647
+
+Test Sequence 74 :0.603571
+
+Test Sequence 75 :0.734167
+
+Test Sequence 76 :0.630000
+
+Test Sequence 77 :0.286341
+
+Test Sequence 78 :0.350302
+
+Test Sequence 79 :0.368161
+
+Test Sequence 80 :0.692396
+
+Test Sequence 81 :0.416667
+
+Test Sequence 82 :0.225468
+
+Test Sequence 83 :0.311404
+
+Test Sequence 84 :0.372103
+
+Test Sequence 85 :0.388167
+
+Test Sequence 86 :0.394048
+
+Test Sequence 87 :0.333333
+
+Test Sequence 88 :0.355688
+
+Test Sequence 89 :0.536859
+
+Test Sequence 90 :0.784615
+
+Test Sequence 91 :0.500000
+
+Test Sequence 92 :0.277489
+
+Test Sequence 93 :0.540000
+
+Test Sequence 94 :0.500000
+
+Test Sequence 95 :0.676471
+
+Test Sequence 96 :0.551190
+
+Test Sequence 97 :0.599432
+
+Test Sequence 98 :0.381818
+
+Test Sequence 99 :0.721154
+
+Test Sequence 100 :0.659564
+
+User25
+Test Sequence 1 :0.476190
+
+Test Sequence 2 :0.279094
+
+Test Sequence 3 :0.659420
+
+Test Sequence 4 :0.440024
+
+Test Sequence 5 :0.269048
+
+Test Sequence 6 :0.243506
+
+Test Sequence 7 :0.220867
+
+Test Sequence 8 :0.358430
+
+Test Sequence 9 :0.264763
+
+Test Sequence 10 :0.659642
+
+Test Sequence 11 :0.600644
+
+Test Sequence 12 :0.399621
+
+Test Sequence 13 :0.442473
+
+Test Sequence 14 :0.712821
+
+Test Sequence 15 :0.333333
+
+Test Sequence 16 :0.630617
+
+Test Sequence 17 :0.427273
+
+Test Sequence 18 :0.292674
+
+Test Sequence 19 :0.631481
+
+Test Sequence 20 :0.289496
+
+Test Sequence 21 :0.225673
+
+Test Sequence 22 :0.531769
+
+Test Sequence 23 :0.429557
+
+Test Sequence 24 :0.214803
+
+Test Sequence 25 :0.593678
+
+Test Sequence 26 :0.380952
+
+Test Sequence 27 :0.320833
+
+Test Sequence 28 :0.307668
+
+Test Sequence 29 :0.255311
+
+Test Sequence 30 :0.482143
+
+Test Sequence 31 :0.373412
+
+Test Sequence 32 :0.277489
+
+Test Sequence 33 :0.299154
+
+Test Sequence 34 :0.347900
+
+Test Sequence 35 :0.238928
+
+Test Sequence 36 :0.396396
+
+Test Sequence 37 :0.479566
+
+Test Sequence 38 :0.303361
+
+Test Sequence 39 :0.378571
+
+Test Sequence 40 :0.703818
+
+Test Sequence 41 :0.311828
+
+Test Sequence 42 :0.444614
+
+Test Sequence 43 :0.232095
+
+Test Sequence 44 :0.220238
+
+Test Sequence 45 :0.198593
+
+Test Sequence 46 :0.204704
+
+Test Sequence 47 :0.293103
+
+Test Sequence 48 :0.220616
+
+Test Sequence 49 :0.608333
+
+Test Sequence 50 :0.401605
+
+Test Sequence 51 :0.226496
+
+Test Sequence 52 :0.309524
+
+Test Sequence 53 :0.307752
+
+Test Sequence 54 :0.395990
+
+Test Sequence 55 :0.414431
+
+Test Sequence 56 :0.231548
+
+Test Sequence 57 :0.213692
+
+Test Sequence 58 :0.181912
+
+Test Sequence 59 :0.203236
+
+Test Sequence 60 :0.412802
+
+Test Sequence 61 :0.187643
+
+Test Sequence 62 :0.387255
+
+Test Sequence 63 :0.633333
+
+Test Sequence 64 :0.433608
+
+Test Sequence 65 :0.259271
+
+Test Sequence 66 :0.318182
+
+Test Sequence 67 :0.419355
+
+Test Sequence 68 :0.241627
+
+Test Sequence 69 :0.231978
+
+Test Sequence 70 :0.296875
+
+Test Sequence 71 :0.260249
+
+Test Sequence 72 :0.385338
+
+Test Sequence 73 :0.192045
+
+Test Sequence 74 :0.287500
+
+Test Sequence 75 :0.632616
+
+Test Sequence 76 :0.312366
+
+Test Sequence 77 :0.228764
+
+Test Sequence 78 :0.235348
+
+Test Sequence 79 :0.238613
+
+Test Sequence 80 :0.367197
+
+Test Sequence 81 :0.324555
+
+Test Sequence 82 :0.214646
+
+Test Sequence 83 :0.406250
+
+Test Sequence 84 :0.208108
+
+Test Sequence 85 :0.228205
+
+Test Sequence 86 :0.188538
+
+Test Sequence 87 :0.365278
+
+Test Sequence 88 :0.252574
+
+Test Sequence 89 :0.181818
+
+Test Sequence 90 :0.216609
+
+Test Sequence 91 :0.197511
+
+Test Sequence 92 :0.258108
+
+Test Sequence 93 :0.283537
+
+Test Sequence 94 :0.499405
+
+Test Sequence 95 :0.224879
+
+Test Sequence 96 :0.252845
+
+Test Sequence 97 :0.216270
+
+Test Sequence 98 :0.677419
+
+Test Sequence 99 :0.558824
+
+Test Sequence 100 :0.250000
+
+User26
+Test Sequence 1 :1.000000
+
+Test Sequence 2 :1.000000
+
+Test Sequence 3 :1.000000
+
+Test Sequence 4 :1.000000
+
+Test Sequence 5 :1.000000
+
+Test Sequence 6 :1.000000
+
+Test Sequence 7 :1.000000
+
+Test Sequence 8 :1.000000
+
+Test Sequence 9 :1.000000
+
+Test Sequence 10 :1.000000
+
+Test Sequence 11 :1.000000
+
+Test Sequence 12 :1.000000
+
+Test Sequence 13 :1.000000
+
+Test Sequence 14 :1.000000
+
+Test Sequence 15 :1.000000
+
+Test Sequence 16 :1.000000
+
+Test Sequence 17 :1.000000
+
+Test Sequence 18 :1.000000
+
+Test Sequence 19 :1.000000
+
+Test Sequence 20 :1.000000
+
+Test Sequence 21 :1.000000
+
+Test Sequence 22 :1.000000
+
+Test Sequence 23 :1.000000
+
+Test Sequence 24 :1.000000
+
+Test Sequence 25 :1.000000
+
+Test Sequence 26 :1.000000
+
+Test Sequence 27 :1.000000
+
+Test Sequence 28 :1.000000
+
+Test Sequence 29 :1.000000
+
+Test Sequence 30 :1.000000
+
+Test Sequence 31 :1.000000
+
+Test Sequence 32 :1.000000
+
+Test Sequence 33 :0.186706
+
+Test Sequence 34 :0.135945
+
+Test Sequence 35 :0.162716
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :1.000000
+
+Test Sequence 38 :0.887352
+
+Test Sequence 39 :1.000000
+
+Test Sequence 40 :0.378571
+
+Test Sequence 41 :1.000000
+
+Test Sequence 42 :0.745471
+
+Test Sequence 43 :1.000000
+
+Test Sequence 44 :1.000000
+
+Test Sequence 45 :1.000000
+
+Test Sequence 46 :1.000000
+
+Test Sequence 47 :1.000000
+
+Test Sequence 48 :1.000000
+
+Test Sequence 49 :0.225000
+
+Test Sequence 50 :1.000000
+
+Test Sequence 51 :1.000000
+
+Test Sequence 52 :1.000000
+
+Test Sequence 53 :1.000000
+
+Test Sequence 54 :1.000000
+
+Test Sequence 55 :1.000000
+
+Test Sequence 56 :1.000000
+
+Test Sequence 57 :1.000000
+
+Test Sequence 58 :1.000000
+
+Test Sequence 59 :0.842885
+
+Test Sequence 60 :0.843846
+
+Test Sequence 61 :0.578526
+
+Test Sequence 62 :1.000000
+
+Test Sequence 63 :0.823077
+
+Test Sequence 64 :1.000000
+
+Test Sequence 65 :1.000000
+
+Test Sequence 66 :1.000000
+
+Test Sequence 67 :1.000000
+
+Test Sequence 68 :1.000000
+
+Test Sequence 69 :0.466403
+
+Test Sequence 70 :1.000000
+
+Test Sequence 71 :1.000000
+
+Test Sequence 72 :1.000000
+
+Test Sequence 73 :1.000000
+
+Test Sequence 74 :1.000000
+
+Test Sequence 75 :1.000000
+
+Test Sequence 76 :1.000000
+
+Test Sequence 77 :1.000000
+
+Test Sequence 78 :1.000000
+
+Test Sequence 79 :1.000000
+
+Test Sequence 80 :1.000000
+
+Test Sequence 81 :0.772727
+
+Test Sequence 82 :1.000000
+
+Test Sequence 83 :1.000000
+
+Test Sequence 84 :1.000000
+
+Test Sequence 85 :1.000000
+
+Test Sequence 86 :1.000000
+
+Test Sequence 87 :1.000000
+
+Test Sequence 88 :1.000000
+
+Test Sequence 89 :1.000000
+
+Test Sequence 90 :1.000000
+
+Test Sequence 91 :1.000000
+
+Test Sequence 92 :1.000000
+
+Test Sequence 93 :1.000000
+
+Test Sequence 94 :1.000000
+
+Test Sequence 95 :1.000000
+
+Test Sequence 96 :1.000000
+
+Test Sequence 97 :1.000000
+
+Test Sequence 98 :1.000000
+
+Test Sequence 99 :1.000000
+
+Test Sequence 100 :1.000000
+
+User27
+Test Sequence 1 :0.230263
+
+Test Sequence 2 :0.455882
+
+Test Sequence 3 :0.148841
+
+Test Sequence 4 :0.330449
+
+Test Sequence 5 :0.266346
+
+Test Sequence 6 :0.493254
+
+Test Sequence 7 :0.203779
+
+Test Sequence 8 :0.329268
+
+Test Sequence 9 :0.206978
+
+Test Sequence 10 :0.470905
+
+Test Sequence 11 :0.441935
+
+Test Sequence 12 :0.586207
+
+Test Sequence 13 :0.395455
+
+Test Sequence 14 :0.286765
+
+Test Sequence 15 :0.245833
+
+Test Sequence 16 :0.211966
+
+Test Sequence 17 :0.470833
+
+Test Sequence 18 :0.318681
+
+Test Sequence 19 :0.281250
+
+Test Sequence 20 :0.457875
+
+Test Sequence 21 :0.411521
+
+Test Sequence 22 :0.434165
+
+Test Sequence 23 :0.727454
+
+Test Sequence 24 :0.256777
+
+Test Sequence 25 :0.383333
+
+Test Sequence 26 :0.245833
+
+Test Sequence 27 :0.311404
+
+Test Sequence 28 :0.778846
+
+Test Sequence 29 :0.269657
+
+Test Sequence 30 :0.252904
+
+Test Sequence 31 :0.285362
+
+Test Sequence 32 :0.268452
+
+Test Sequence 33 :0.366597
+
+Test Sequence 34 :0.299020
+
+Test Sequence 35 :0.352941
+
+Test Sequence 36 :0.348485
+
+Test Sequence 37 :0.250649
+
+Test Sequence 38 :0.524602
+
+Test Sequence 39 :0.416667
+
+Test Sequence 40 :0.213675
+
+Test Sequence 41 :0.304293
+
+Test Sequence 42 :0.464286
+
+Test Sequence 43 :0.178947
+
+Test Sequence 44 :0.262977
+
+Test Sequence 45 :0.173701
+
+Test Sequence 46 :0.541558
+
+Test Sequence 47 :0.479082
+
+Test Sequence 48 :0.326190
+
+Test Sequence 49 :0.167457
+
+Test Sequence 50 :0.488426
+
+Test Sequence 51 :0.301471
+
+Test Sequence 52 :0.278175
+
+Test Sequence 53 :0.236111
+
+Test Sequence 54 :0.134985
+
+Test Sequence 55 :0.153288
+
+Test Sequence 56 :0.157350
+
+Test Sequence 57 :0.169255
+
+Test Sequence 58 :0.155966
+
+Test Sequence 59 :0.150090
+
+Test Sequence 60 :0.188034
+
+Test Sequence 61 :0.204955
+
+Test Sequence 62 :0.234756
+
+Test Sequence 63 :0.387500
+
+Test Sequence 64 :0.179464
+
+Test Sequence 65 :0.261726
+
+Test Sequence 66 :0.394086
+
+Test Sequence 67 :0.436804
+
+Test Sequence 68 :0.368729
+
+Test Sequence 69 :0.230159
+
+Test Sequence 70 :0.325829
+
+Test Sequence 71 :0.344643
+
+Test Sequence 72 :0.275899
+
+Test Sequence 73 :0.299624
+
+Test Sequence 74 :0.236710
+
+Test Sequence 75 :0.283883
+
+Test Sequence 76 :0.279570
+
+Test Sequence 77 :0.361765
+
+Test Sequence 78 :0.199889
+
+Test Sequence 79 :0.192105
+
+Test Sequence 80 :0.192105
+
+Test Sequence 81 :0.174242
+
+Test Sequence 82 :0.263340
+
+Test Sequence 83 :0.518519
+
+Test Sequence 84 :0.226496
+
+Test Sequence 85 :0.243902
+
+Test Sequence 86 :0.191151
+
+Test Sequence 87 :0.247256
+
+Test Sequence 88 :0.240385
+
+Test Sequence 89 :0.314145
+
+Test Sequence 90 :0.462121
+
+Test Sequence 91 :0.308059
+
+Test Sequence 92 :0.351587
+
+Test Sequence 93 :0.250193
+
+Test Sequence 94 :0.212316
+
+Test Sequence 95 :0.574074
+
+Test Sequence 96 :0.477232
+
+Test Sequence 97 :0.244048
+
+Test Sequence 98 :0.163993
+
+Test Sequence 99 :0.515152
+
+Test Sequence 100 :0.465625
+
+User28
+Test Sequence 1 :0.343056
+
+Test Sequence 2 :0.347222
+
+Test Sequence 3 :0.260101
+
+Test Sequence 4 :0.380952
+
+Test Sequence 5 :0.295707
+
+Test Sequence 6 :0.307792
+
+Test Sequence 7 :0.444788
+
+Test Sequence 8 :0.374662
+
+Test Sequence 9 :0.464115
+
+Test Sequence 10 :0.681159
+
+Test Sequence 11 :1.000000
+
+Test Sequence 12 :1.000000
+
+Test Sequence 13 :1.000000
+
+Test Sequence 14 :1.000000
+
+Test Sequence 15 :1.000000
+
+Test Sequence 16 :1.000000
+
+Test Sequence 17 :1.000000
+
+Test Sequence 18 :1.000000
+
+Test Sequence 19 :1.000000
+
+Test Sequence 20 :1.000000
+
+Test Sequence 21 :1.000000
+
+Test Sequence 22 :1.000000
+
+Test Sequence 23 :1.000000
+
+Test Sequence 24 :1.000000
+
+Test Sequence 25 :1.000000
+
+Test Sequence 26 :1.000000
+
+Test Sequence 27 :1.000000
+
+Test Sequence 28 :1.000000
+
+Test Sequence 29 :1.000000
+
+Test Sequence 30 :1.000000
+
+Test Sequence 31 :1.000000
+
+Test Sequence 32 :1.000000
+
+Test Sequence 33 :1.000000
+
+Test Sequence 34 :1.000000
+
+Test Sequence 35 :1.000000
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :1.000000
+
+Test Sequence 38 :1.000000
+
+Test Sequence 39 :1.000000
+
+Test Sequence 40 :0.386084
+
+Test Sequence 41 :1.000000
+
+Test Sequence 42 :0.801136
+
+Test Sequence 43 :1.000000
+
+Test Sequence 44 :1.000000
+
+Test Sequence 45 :1.000000
+
+Test Sequence 46 :1.000000
+
+Test Sequence 47 :1.000000
+
+Test Sequence 48 :1.000000
+
+Test Sequence 49 :1.000000
+
+Test Sequence 50 :1.000000
+
+Test Sequence 51 :1.000000
+
+Test Sequence 52 :1.000000
+
+Test Sequence 53 :1.000000
+
+Test Sequence 54 :1.000000
+
+Test Sequence 55 :1.000000
+
+Test Sequence 56 :0.344086
+
+Test Sequence 57 :0.437666
+
+Test Sequence 58 :1.000000
+
+Test Sequence 59 :1.000000
+
+Test Sequence 60 :1.000000
+
+Test Sequence 61 :0.214559
+
+Test Sequence 62 :0.309211
+
+Test Sequence 63 :0.236313
+
+Test Sequence 64 :1.000000
+
+Test Sequence 65 :1.000000
+
+Test Sequence 66 :0.287684
+
+Test Sequence 67 :0.219219
+
+Test Sequence 68 :0.257143
+
+Test Sequence 69 :0.322734
+
+Test Sequence 70 :0.206081
+
+Test Sequence 71 :1.000000
+
+Test Sequence 72 :0.382275
+
+Test Sequence 73 :0.303030
+
+Test Sequence 74 :0.227124
+
+Test Sequence 75 :0.201389
+
+Test Sequence 76 :0.304147
+
+Test Sequence 77 :0.323810
+
+Test Sequence 78 :0.240407
+
+Test Sequence 79 :0.309221
+
+Test Sequence 80 :0.260417
+
+Test Sequence 81 :0.202101
+
+Test Sequence 82 :1.000000
+
+Test Sequence 83 :1.000000
+
+Test Sequence 84 :0.166667
+
+Test Sequence 85 :0.241830
+
+Test Sequence 86 :0.240909
+
+Test Sequence 87 :0.311828
+
+Test Sequence 88 :0.318533
+
+Test Sequence 89 :0.171245
+
+Test Sequence 90 :0.233333
+
+Test Sequence 91 :0.354598
+
+Test Sequence 92 :0.291667
+
+Test Sequence 93 :0.345960
+
+Test Sequence 94 :0.463445
+
+Test Sequence 95 :0.301426
+
+Test Sequence 96 :0.414672
+
+Test Sequence 97 :0.457143
+
+Test Sequence 98 :0.670034
+
+Test Sequence 99 :1.000000
+
+Test Sequence 100 :0.920569
+
+User29
+Test Sequence 1 :0.281477
+
+Test Sequence 2 :0.308029
+
+Test Sequence 3 :0.369792
+
+Test Sequence 4 :0.222394
+
+Test Sequence 5 :0.282164
+
+Test Sequence 6 :0.561095
+
+Test Sequence 7 :0.374104
+
+Test Sequence 8 :0.340704
+
+Test Sequence 9 :0.560345
+
+Test Sequence 10 :0.389961
+
+Test Sequence 11 :0.652274
+
+Test Sequence 12 :0.356231
+
+Test Sequence 13 :0.519173
+
+Test Sequence 14 :0.320455
+
+Test Sequence 15 :0.199889
+
+Test Sequence 16 :0.453704
+
+Test Sequence 17 :0.255411
+
+Test Sequence 18 :0.145455
+
+Test Sequence 19 :0.294226
+
+Test Sequence 20 :0.228070
+
+Test Sequence 21 :0.484969
+
+Test Sequence 22 :0.298526
+
+Test Sequence 23 :0.400000
+
+Test Sequence 24 :0.214974
+
+Test Sequence 25 :0.212159
+
+Test Sequence 26 :0.258242
+
+Test Sequence 27 :0.303816
+
+Test Sequence 28 :0.249134
+
+Test Sequence 29 :0.209756
+
+Test Sequence 30 :0.218421
+
+Test Sequence 31 :0.152273
+
+Test Sequence 32 :0.183333
+
+Test Sequence 33 :0.182701
+
+Test Sequence 34 :0.139069
+
+Test Sequence 35 :0.169671
+
+Test Sequence 36 :0.291346
+
+Test Sequence 37 :0.219219
+
+Test Sequence 38 :0.220930
+
+Test Sequence 39 :0.277003
+
+Test Sequence 40 :0.246237
+
+Test Sequence 41 :0.107077
+
+Test Sequence 42 :0.168895
+
+Test Sequence 43 :0.247231
+
+Test Sequence 44 :0.181912
+
+Test Sequence 45 :0.176587
+
+Test Sequence 46 :0.190559
+
+Test Sequence 47 :0.180382
+
+Test Sequence 48 :0.505051
+
+Test Sequence 49 :0.426564
+
+Test Sequence 50 :0.617647
+
+Test Sequence 51 :0.453125
+
+Test Sequence 52 :0.261954
+
+Test Sequence 53 :0.291536
+
+Test Sequence 54 :0.168691
+
+Test Sequence 55 :0.199500
+
+Test Sequence 56 :0.381696
+
+Test Sequence 57 :0.462639
+
+Test Sequence 58 :0.305361
+
+Test Sequence 59 :0.227214
+
+Test Sequence 60 :0.202273
+
+Test Sequence 61 :0.171569
+
+Test Sequence 62 :0.240906
+
+Test Sequence 63 :0.141554
+
+Test Sequence 64 :0.665404
+
+Test Sequence 65 :0.224359
+
+Test Sequence 66 :0.214105
+
+Test Sequence 67 :0.133333
+
+Test Sequence 68 :0.176080
+
+Test Sequence 69 :0.303030
+
+Test Sequence 70 :0.604779
+
+Test Sequence 71 :0.187683
+
+Test Sequence 72 :0.172866
+
+Test Sequence 73 :0.220982
+
+Test Sequence 74 :0.210187
+
+Test Sequence 75 :0.279412
+
+Test Sequence 76 :0.267696
+
+Test Sequence 77 :0.399333
+
+Test Sequence 78 :0.423611
+
+Test Sequence 79 :0.432855
+
+Test Sequence 80 :0.409731
+
+Test Sequence 81 :0.447861
+
+Test Sequence 82 :0.373412
+
+Test Sequence 83 :0.186047
+
+Test Sequence 84 :0.280523
+
+Test Sequence 85 :0.206607
+
+Test Sequence 86 :0.198645
+
+Test Sequence 87 :0.204770
+
+Test Sequence 88 :0.381379
+
+Test Sequence 89 :0.312500
+
+Test Sequence 90 :0.155196
+
+Test Sequence 91 :0.220012
+
+Test Sequence 92 :0.189286
+
+Test Sequence 93 :0.180523
+
+Test Sequence 94 :0.212500
+
+Test Sequence 95 :0.247508
+
+Test Sequence 96 :0.264069
+
+Test Sequence 97 :0.559743
+
+Test Sequence 98 :0.309375
+
+Test Sequence 99 :0.157311
+
+Test Sequence 100 :0.197852
+
+User30
+Test Sequence 1 :0.507883
+
+Test Sequence 2 :0.890015
+
+Test Sequence 3 :0.838675
+
+Test Sequence 4 :1.000000
+
+Test Sequence 5 :0.987500
+
+Test Sequence 6 :0.411036
+
+Test Sequence 7 :0.386364
+
+Test Sequence 8 :0.988636
+
+Test Sequence 9 :0.296825
+
+Test Sequence 10 :0.560811
+
+Test Sequence 11 :0.867965
+
+Test Sequence 12 :0.961184
+
+Test Sequence 13 :0.961842
+
+Test Sequence 14 :0.739496
+
+Test Sequence 15 :0.186715
+
+Test Sequence 16 :0.911561
+
+Test Sequence 17 :0.410079
+
+Test Sequence 18 :0.388981
+
+Test Sequence 19 :0.848263
+
+Test Sequence 20 :0.936388
+
+Test Sequence 21 :1.000000
+
+Test Sequence 22 :1.000000
+
+Test Sequence 23 :0.637821
+
+Test Sequence 24 :0.931660
+
+Test Sequence 25 :0.912709
+
+Test Sequence 26 :0.987500
+
+Test Sequence 27 :0.813971
+
+Test Sequence 28 :0.754386
+
+Test Sequence 29 :0.749035
+
+Test Sequence 30 :0.948026
+
+Test Sequence 31 :1.000000
+
+Test Sequence 32 :0.684962
+
+Test Sequence 33 :0.828947
+
+Test Sequence 34 :0.874517
+
+Test Sequence 35 :0.987500
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :0.676170
+
+Test Sequence 38 :0.482281
+
+Test Sequence 39 :0.494734
+
+Test Sequence 40 :0.655138
+
+Test Sequence 41 :0.238095
+
+Test Sequence 42 :0.648311
+
+Test Sequence 43 :0.667183
+
+Test Sequence 44 :1.000000
+
+Test Sequence 45 :0.810334
+
+Test Sequence 46 :0.711583
+
+Test Sequence 47 :0.545455
+
+Test Sequence 48 :1.000000
+
+Test Sequence 49 :0.593874
+
+Test Sequence 50 :0.145096
+
+Test Sequence 51 :0.814969
+
+Test Sequence 52 :0.901984
+
+Test Sequence 53 :1.000000
+
+Test Sequence 54 :0.987500
+
+Test Sequence 55 :0.688394
+
+Test Sequence 56 :0.371753
+
+Test Sequence 57 :0.677372
+
+Test Sequence 58 :1.000000
+
+Test Sequence 59 :0.164493
+
+Test Sequence 60 :0.200000
+
+Test Sequence 61 :0.623311
+
+Test Sequence 62 :0.835913
+
+Test Sequence 63 :0.961842
+
+Test Sequence 64 :0.855556
+
+Test Sequence 65 :0.484416
+
+Test Sequence 66 :0.277668
+
+Test Sequence 67 :1.000000
+
+Test Sequence 68 :0.203618
+
+Test Sequence 69 :0.157071
+
+Test Sequence 70 :0.752362
+
+Test Sequence 71 :0.732972
+
+Test Sequence 72 :0.961184
+
+Test Sequence 73 :0.849807
+
+Test Sequence 74 :0.658033
+
+Test Sequence 75 :0.281797
+
+Test Sequence 76 :0.944170
+
+Test Sequence 77 :0.252035
+
+Test Sequence 78 :0.714238
+
+Test Sequence 79 :0.931660
+
+Test Sequence 80 :1.000000
+
+Test Sequence 81 :0.987500
+
+Test Sequence 82 :0.690476
+
+Test Sequence 83 :0.344873
+
+Test Sequence 84 :0.499506
+
+Test Sequence 85 :0.865119
+
+Test Sequence 86 :0.193023
+
+Test Sequence 87 :0.229365
+
+Test Sequence 88 :0.218254
+
+Test Sequence 89 :0.186715
+
+Test Sequence 90 :0.195296
+
+Test Sequence 91 :0.206349
+
+Test Sequence 92 :0.195296
+
+Test Sequence 93 :0.168434
+
+Test Sequence 94 :0.917957
+
+Test Sequence 95 :0.896537
+
+Test Sequence 96 :1.000000
+
+Test Sequence 97 :1.000000
+
+Test Sequence 98 :0.709266
+
+Test Sequence 99 :0.186047
+
+Test Sequence 100 :0.988636
+
+User31
+Test Sequence 1 :0.316667
+
+Test Sequence 2 :0.220833
+
+Test Sequence 3 :0.234756
+
+Test Sequence 4 :0.325000
+
+Test Sequence 5 :0.329167
+
+Test Sequence 6 :0.368161
+
+Test Sequence 7 :0.319380
+
+Test Sequence 8 :0.441010
+
+Test Sequence 9 :0.337719
+
+Test Sequence 10 :0.225000
+
+Test Sequence 11 :0.285762
+
+Test Sequence 12 :0.341085
+
+Test Sequence 13 :0.176080
+
+Test Sequence 14 :0.287500
+
+Test Sequence 15 :0.250000
+
+Test Sequence 16 :0.214974
+
+Test Sequence 17 :0.256410
+
+Test Sequence 18 :0.296591
+
+Test Sequence 19 :0.318459
+
+Test Sequence 20 :0.353979
+
+Test Sequence 21 :0.200099
+
+Test Sequence 22 :0.301103
+
+Test Sequence 23 :0.238613
+
+Test Sequence 24 :0.317073
+
+Test Sequence 25 :0.219114
+
+Test Sequence 26 :0.269737
+
+Test Sequence 27 :0.279846
+
+Test Sequence 28 :0.304167
+
+Test Sequence 29 :0.393560
+
+Test Sequence 30 :0.218023
+
+Test Sequence 31 :0.186147
+
+Test Sequence 32 :0.311413
+
+Test Sequence 33 :0.228177
+
+Test Sequence 34 :0.250425
+
+Test Sequence 35 :0.228741
+
+Test Sequence 36 :0.337382
+
+Test Sequence 37 :0.409722
+
+Test Sequence 38 :0.239687
+
+Test Sequence 39 :0.185714
+
+Test Sequence 40 :0.402834
+
+Test Sequence 41 :0.294370
+
+Test Sequence 42 :0.255952
+
+Test Sequence 43 :0.227996
+
+Test Sequence 44 :0.262500
+
+Test Sequence 45 :0.105599
+
+Test Sequence 46 :0.216667
+
+Test Sequence 47 :0.199889
+
+Test Sequence 48 :0.176508
+
+Test Sequence 49 :0.264763
+
+Test Sequence 50 :0.259122
+
+Test Sequence 51 :0.317627
+
+Test Sequence 52 :0.316667
+
+Test Sequence 53 :0.303008
+
+Test Sequence 54 :0.263527
+
+Test Sequence 55 :0.160317
+
+Test Sequence 56 :0.131884
+
+Test Sequence 57 :0.175109
+
+Test Sequence 58 :0.183932
+
+Test Sequence 59 :0.222561
+
+Test Sequence 60 :0.125707
+
+Test Sequence 61 :0.197256
+
+Test Sequence 62 :0.180604
+
+Test Sequence 63 :0.149123
+
+Test Sequence 64 :0.194643
+
+Test Sequence 65 :0.175439
+
+Test Sequence 66 :0.150901
+
+Test Sequence 67 :0.142995
+
+Test Sequence 68 :0.131643
+
+Test Sequence 69 :0.302326
+
+Test Sequence 70 :0.321429
+
+Test Sequence 71 :0.309132
+
+Test Sequence 72 :0.251163
+
+Test Sequence 73 :0.118421
+
+Test Sequence 74 :0.158004
+
+Test Sequence 75 :0.186090
+
+Test Sequence 76 :0.354167
+
+Test Sequence 77 :0.339893
+
+Test Sequence 78 :0.301163
+
+Test Sequence 79 :0.235050
+
+Test Sequence 80 :0.145960
+
+Test Sequence 81 :0.270510
+
+Test Sequence 82 :0.313953
+
+Test Sequence 83 :0.303571
+
+Test Sequence 84 :0.195296
+
+Test Sequence 85 :0.187708
+
+Test Sequence 86 :0.328136
+
+Test Sequence 87 :0.143775
+
+Test Sequence 88 :0.141925
+
+Test Sequence 89 :0.145960
+
+Test Sequence 90 :0.122036
+
+Test Sequence 91 :0.134596
+
+Test Sequence 92 :0.143775
+
+Test Sequence 93 :0.122036
+
+Test Sequence 94 :0.143775
+
+Test Sequence 95 :0.145960
+
+Test Sequence 96 :0.141925
+
+Test Sequence 97 :0.123485
+
+Test Sequence 98 :0.124806
+
+Test Sequence 99 :0.122036
+
+Test Sequence 100 :0.134596
+
+User32
+Test Sequence 1 :0.292172
+
+Test Sequence 2 :0.342105
+
+Test Sequence 3 :0.308730
+
+Test Sequence 4 :0.298626
+
+Test Sequence 5 :0.281056
+
+Test Sequence 6 :0.349013
+
+Test Sequence 7 :0.264535
+
+Test Sequence 8 :0.308565
+
+Test Sequence 9 :0.410569
+
+Test Sequence 10 :0.252381
+
+Test Sequence 11 :0.272727
+
+Test Sequence 12 :0.382927
+
+Test Sequence 13 :0.274879
+
+Test Sequence 14 :0.274638
+
+Test Sequence 15 :0.205263
+
+Test Sequence 16 :0.297297
+
+Test Sequence 17 :0.249612
+
+Test Sequence 18 :0.370536
+
+Test Sequence 19 :0.305648
+
+Test Sequence 20 :0.343449
+
+Test Sequence 21 :0.250000
+
+Test Sequence 22 :0.202564
+
+Test Sequence 23 :0.299837
+
+Test Sequence 24 :0.356607
+
+Test Sequence 25 :0.239744
+
+Test Sequence 26 :0.202381
+
+Test Sequence 27 :0.334901
+
+Test Sequence 28 :0.495113
+
+Test Sequence 29 :0.312162
+
+Test Sequence 30 :0.170455
+
+Test Sequence 31 :0.268293
+
+Test Sequence 32 :0.260249
+
+Test Sequence 33 :0.172087
+
+Test Sequence 34 :0.282669
+
+Test Sequence 35 :0.442308
+
+Test Sequence 36 :0.382323
+
+Test Sequence 37 :0.325758
+
+Test Sequence 38 :0.183333
+
+Test Sequence 39 :0.212500
+
+Test Sequence 40 :0.271041
+
+Test Sequence 41 :0.267292
+
+Test Sequence 42 :0.286742
+
+Test Sequence 43 :0.285714
+
+Test Sequence 44 :0.136622
+
+Test Sequence 45 :0.136622
+
+Test Sequence 46 :0.136622
+
+Test Sequence 47 :0.136622
+
+Test Sequence 48 :0.136622
+
+Test Sequence 49 :0.233468
+
+Test Sequence 50 :0.246622
+
+Test Sequence 51 :0.301051
+
+Test Sequence 52 :0.344444
+
+Test Sequence 53 :0.362414
+
+Test Sequence 54 :0.188200
+
+Test Sequence 55 :0.323649
+
+Test Sequence 56 :0.532143
+
+Test Sequence 57 :0.360606
+
+Test Sequence 58 :0.251590
+
+Test Sequence 59 :0.277220
+
+Test Sequence 60 :0.404762
+
+Test Sequence 61 :0.721063
+
+Test Sequence 62 :0.291667
+
+Test Sequence 63 :0.244891
+
+Test Sequence 64 :0.195475
+
+Test Sequence 65 :0.249827
+
+Test Sequence 66 :0.223392
+
+Test Sequence 67 :0.444335
+
+Test Sequence 68 :0.238501
+
+Test Sequence 69 :0.655914
+
+Test Sequence 70 :0.285714
+
+Test Sequence 71 :0.254329
+
+Test Sequence 72 :0.349593
+
+Test Sequence 73 :0.297619
+
+Test Sequence 74 :0.480769
+
+Test Sequence 75 :0.333333
+
+Test Sequence 76 :0.289032
+
+Test Sequence 77 :0.339189
+
+Test Sequence 78 :0.255921
+
+Test Sequence 79 :0.386438
+
+Test Sequence 80 :0.544377
+
+Test Sequence 81 :0.412467
+
+Test Sequence 82 :0.336818
+
+Test Sequence 83 :0.415720
+
+Test Sequence 84 :0.340338
+
+Test Sequence 85 :0.296618
+
+Test Sequence 86 :0.368129
+
+Test Sequence 87 :0.255556
+
+Test Sequence 88 :0.227390
+
+Test Sequence 89 :0.188889
+
+Test Sequence 90 :0.251934
+
+Test Sequence 91 :0.395349
+
+Test Sequence 92 :0.329457
+
+Test Sequence 93 :0.333522
+
+Test Sequence 94 :0.493956
+
+Test Sequence 95 :0.378846
+
+Test Sequence 96 :0.278205
+
+Test Sequence 97 :0.461230
+
+Test Sequence 98 :0.301802
+
+Test Sequence 99 :0.455049
+
+Test Sequence 100 :0.301051
+
+User33
+Test Sequence 1 :0.249134
+
+Test Sequence 2 :0.226103
+
+Test Sequence 3 :0.480741
+
+Test Sequence 4 :0.250000
+
+Test Sequence 5 :0.306926
+
+Test Sequence 6 :0.204994
+
+Test Sequence 7 :0.225000
+
+Test Sequence 8 :0.370968
+
+Test Sequence 9 :0.368382
+
+Test Sequence 10 :0.283626
+
+Test Sequence 11 :0.605556
+
+Test Sequence 12 :0.254167
+
+Test Sequence 13 :0.322443
+
+Test Sequence 14 :0.449167
+
+Test Sequence 15 :0.710345
+
+Test Sequence 16 :0.371875
+
+Test Sequence 17 :0.708333
+
+Test Sequence 18 :0.751078
+
+Test Sequence 19 :0.634250
+
+Test Sequence 20 :0.770873
+
+Test Sequence 21 :0.835000
+
+Test Sequence 22 :0.474713
+
+Test Sequence 23 :0.234927
+
+Test Sequence 24 :0.232143
+
+Test Sequence 25 :0.415720
+
+Test Sequence 26 :0.980769
+
+Test Sequence 27 :0.420168
+
+Test Sequence 28 :0.304487
+
+Test Sequence 29 :0.574242
+
+Test Sequence 30 :0.174242
+
+Test Sequence 31 :0.168354
+
+Test Sequence 32 :0.234328
+
+Test Sequence 33 :0.214056
+
+Test Sequence 34 :0.171429
+
+Test Sequence 35 :0.255311
+
+Test Sequence 36 :0.170455
+
+Test Sequence 37 :0.182767
+
+Test Sequence 38 :0.199605
+
+Test Sequence 39 :0.145707
+
+Test Sequence 40 :0.202273
+
+Test Sequence 41 :0.251163
+
+Test Sequence 42 :0.180051
+
+Test Sequence 43 :0.879630
+
+Test Sequence 44 :0.719212
+
+Test Sequence 45 :0.692971
+
+Test Sequence 46 :0.446429
+
+Test Sequence 47 :0.389541
+
+Test Sequence 48 :0.243590
+
+Test Sequence 49 :0.409926
+
+Test Sequence 50 :0.235620
+
+Test Sequence 51 :0.183584
+
+Test Sequence 52 :0.256579
+
+Test Sequence 53 :0.314732
+
+Test Sequence 54 :0.338542
+
+Test Sequence 55 :0.347862
+
+Test Sequence 56 :0.341846
+
+Test Sequence 57 :0.151163
+
+Test Sequence 58 :0.274775
+
+Test Sequence 59 :0.594330
+
+Test Sequence 60 :0.403125
+
+Test Sequence 61 :0.326979
+
+Test Sequence 62 :0.248441
+
+Test Sequence 63 :0.189519
+
+Test Sequence 64 :0.206081
+
+Test Sequence 65 :0.368421
+
+Test Sequence 66 :0.516667
+
+Test Sequence 67 :0.437500
+
+Test Sequence 68 :0.433601
+
+Test Sequence 69 :0.625611
+
+Test Sequence 70 :0.357843
+
+Test Sequence 71 :0.302495
+
+Test Sequence 72 :0.254919
+
+Test Sequence 73 :0.354839
+
+Test Sequence 74 :0.383083
+
+Test Sequence 75 :0.723325
+
+Test Sequence 76 :0.371429
+
+Test Sequence 77 :0.216216
+
+Test Sequence 78 :0.508467
+
+Test Sequence 79 :0.633333
+
+Test Sequence 80 :0.297160
+
+Test Sequence 81 :0.683333
+
+Test Sequence 82 :0.625862
+
+Test Sequence 83 :0.562072
+
+Test Sequence 84 :0.888594
+
+Test Sequence 85 :1.000000
+
+Test Sequence 86 :0.529870
+
+Test Sequence 87 :0.489130
+
+Test Sequence 88 :0.217391
+
+Test Sequence 89 :0.350000
+
+Test Sequence 90 :0.232558
+
+Test Sequence 91 :0.363636
+
+Test Sequence 92 :0.312791
+
+Test Sequence 93 :0.176080
+
+Test Sequence 94 :0.282967
+
+Test Sequence 95 :0.442308
+
+Test Sequence 96 :0.197585
+
+Test Sequence 97 :0.164493
+
+Test Sequence 98 :0.348286
+
+Test Sequence 99 :0.242005
+
+Test Sequence 100 :0.227485
+
+User34
+Test Sequence 1 :0.475000
+
+Test Sequence 2 :0.218816
+
+Test Sequence 3 :0.321617
+
+Test Sequence 4 :0.331349
+
+Test Sequence 5 :0.266026
+
+Test Sequence 6 :0.286444
+
+Test Sequence 7 :0.229651
+
+Test Sequence 8 :0.234146
+
+Test Sequence 9 :0.125000
+
+Test Sequence 10 :0.202244
+
+Test Sequence 11 :0.143023
+
+Test Sequence 12 :0.151282
+
+Test Sequence 13 :0.294020
+
+Test Sequence 14 :0.300291
+
+Test Sequence 15 :0.133929
+
+Test Sequence 16 :0.219595
+
+Test Sequence 17 :0.180523
+
+Test Sequence 18 :0.240476
+
+Test Sequence 19 :0.223145
+
+Test Sequence 20 :0.171429
+
+Test Sequence 21 :0.240708
+
+Test Sequence 22 :0.229675
+
+Test Sequence 23 :0.184982
+
+Test Sequence 24 :0.197995
+
+Test Sequence 25 :0.243506
+
+Test Sequence 26 :0.349593
+
+Test Sequence 27 :0.156794
+
+Test Sequence 28 :0.062226
+
+Test Sequence 29 :0.062226
+
+Test Sequence 30 :0.062226
+
+Test Sequence 31 :0.062226
+
+Test Sequence 32 :0.062226
+
+Test Sequence 33 :0.062226
+
+Test Sequence 34 :0.062226
+
+Test Sequence 35 :0.062226
+
+Test Sequence 36 :0.062226
+
+Test Sequence 37 :0.062226
+
+Test Sequence 38 :0.062226
+
+Test Sequence 39 :0.062226
+
+Test Sequence 40 :0.062226
+
+Test Sequence 41 :0.337662
+
+Test Sequence 42 :0.209302
+
+Test Sequence 43 :0.151923
+
+Test Sequence 44 :0.240708
+
+Test Sequence 45 :0.124060
+
+Test Sequence 46 :0.297619
+
+Test Sequence 47 :0.243883
+
+Test Sequence 48 :0.249858
+
+Test Sequence 49 :0.238928
+
+Test Sequence 50 :0.256369
+
+Test Sequence 51 :0.304236
+
+Test Sequence 52 :0.356349
+
+Test Sequence 53 :0.290584
+
+Test Sequence 54 :0.385598
+
+Test Sequence 55 :0.157126
+
+Test Sequence 56 :0.555743
+
+Test Sequence 57 :0.850000
+
+Test Sequence 58 :0.987179
+
+Test Sequence 59 :0.860077
+
+Test Sequence 60 :0.974984
+
+Test Sequence 61 :0.974984
+
+Test Sequence 62 :0.615789
+
+Test Sequence 63 :1.000000
+
+Test Sequence 64 :1.000000
+
+Test Sequence 65 :0.512571
+
+Test Sequence 66 :1.000000
+
+Test Sequence 67 :1.000000
+
+Test Sequence 68 :0.661905
+
+Test Sequence 69 :0.987805
+
+Test Sequence 70 :0.987805
+
+Test Sequence 71 :0.722222
+
+Test Sequence 72 :1.000000
+
+Test Sequence 73 :1.000000
+
+Test Sequence 74 :0.387873
+
+Test Sequence 75 :1.000000
+
+Test Sequence 76 :1.000000
+
+Test Sequence 77 :0.575000
+
+Test Sequence 78 :1.000000
+
+Test Sequence 79 :1.000000
+
+Test Sequence 80 :0.506707
+
+Test Sequence 81 :0.860077
+
+Test Sequence 82 :1.000000
+
+Test Sequence 83 :0.650000
+
+Test Sequence 84 :0.615132
+
+Test Sequence 85 :1.000000
+
+Test Sequence 86 :0.554573
+
+Test Sequence 87 :0.191279
+
+Test Sequence 88 :0.294069
+
+Test Sequence 89 :0.719017
+
+Test Sequence 90 :1.000000
+
+Test Sequence 91 :0.987805
+
+Test Sequence 92 :0.837363
+
+Test Sequence 93 :1.000000
+
+Test Sequence 94 :1.000000
+
+Test Sequence 95 :0.226035
+
+Test Sequence 96 :0.204651
+
+Test Sequence 97 :0.309554
+
+Test Sequence 98 :0.190584
+
+Test Sequence 99 :0.474951
+
+Test Sequence 100 :0.486184
+
+User35
+Test Sequence 1 :0.446985
+
+Test Sequence 2 :0.195122
+
+Test Sequence 3 :0.243902
+
+Test Sequence 4 :0.267857
+
+Test Sequence 5 :0.311404
+
+Test Sequence 6 :0.517677
+
+Test Sequence 7 :0.461111
+
+Test Sequence 8 :0.428026
+
+Test Sequence 9 :0.504404
+
+Test Sequence 10 :0.427826
+
+Test Sequence 11 :0.359921
+
+Test Sequence 12 :0.273977
+
+Test Sequence 13 :0.541667
+
+Test Sequence 14 :0.277512
+
+Test Sequence 15 :0.290116
+
+Test Sequence 16 :0.300813
+
+Test Sequence 17 :0.587607
+
+Test Sequence 18 :0.561039
+
+Test Sequence 19 :0.480014
+
+Test Sequence 20 :0.322515
+
+Test Sequence 21 :0.572154
+
+Test Sequence 22 :0.285088
+
+Test Sequence 23 :0.436111
+
+Test Sequence 24 :0.501931
+
+Test Sequence 25 :0.615260
+
+Test Sequence 26 :0.612500
+
+Test Sequence 27 :0.477580
+
+Test Sequence 28 :0.573830
+
+Test Sequence 29 :0.303440
+
+Test Sequence 30 :0.437047
+
+Test Sequence 31 :0.340822
+
+Test Sequence 32 :0.256098
+
+Test Sequence 33 :0.346053
+
+Test Sequence 34 :0.307323
+
+Test Sequence 35 :0.269048
+
+Test Sequence 36 :0.219512
+
+Test Sequence 37 :0.201923
+
+Test Sequence 38 :0.190629
+
+Test Sequence 39 :0.215385
+
+Test Sequence 40 :0.215407
+
+Test Sequence 41 :0.251605
+
+Test Sequence 42 :0.193089
+
+Test Sequence 43 :0.192105
+
+Test Sequence 44 :0.488816
+
+Test Sequence 45 :0.403723
+
+Test Sequence 46 :0.387500
+
+Test Sequence 47 :0.269737
+
+Test Sequence 48 :0.223864
+
+Test Sequence 49 :0.271037
+
+Test Sequence 50 :0.781746
+
+Test Sequence 51 :0.360618
+
+Test Sequence 52 :0.236313
+
+Test Sequence 53 :0.279872
+
+Test Sequence 54 :0.293803
+
+Test Sequence 55 :0.292188
+
+Test Sequence 56 :0.310811
+
+Test Sequence 57 :0.436111
+
+Test Sequence 58 :0.692460
+
+Test Sequence 59 :0.343434
+
+Test Sequence 60 :0.588095
+
+Test Sequence 61 :0.470383
+
+Test Sequence 62 :0.385684
+
+Test Sequence 63 :0.193182
+
+Test Sequence 64 :0.294872
+
+Test Sequence 65 :0.254201
+
+Test Sequence 66 :0.185366
+
+Test Sequence 67 :0.188261
+
+Test Sequence 68 :0.269597
+
+Test Sequence 69 :0.263663
+
+Test Sequence 70 :0.190064
+
+Test Sequence 71 :0.257326
+
+Test Sequence 72 :0.316924
+
+Test Sequence 73 :0.233925
+
+Test Sequence 74 :0.250000
+
+Test Sequence 75 :0.237500
+
+Test Sequence 76 :0.165278
+
+Test Sequence 77 :0.154566
+
+Test Sequence 78 :0.216458
+
+Test Sequence 79 :0.148476
+
+Test Sequence 80 :0.151389
+
+Test Sequence 81 :0.141804
+
+Test Sequence 82 :0.151053
+
+Test Sequence 83 :0.176136
+
+Test Sequence 84 :0.120499
+
+Test Sequence 85 :0.140521
+
+Test Sequence 86 :0.121951
+
+Test Sequence 87 :0.128326
+
+Test Sequence 88 :0.151053
+
+Test Sequence 89 :0.138528
+
+Test Sequence 90 :0.270510
+
+Test Sequence 91 :0.211197
+
+Test Sequence 92 :0.160317
+
+Test Sequence 93 :0.130176
+
+Test Sequence 94 :0.170455
+
+Test Sequence 95 :0.218421
+
+Test Sequence 96 :0.229730
+
+Test Sequence 97 :0.359868
+
+Test Sequence 98 :0.356868
+
+Test Sequence 99 :0.420762
+
+Test Sequence 100 :0.506757
+
+User36
+Test Sequence 1 :0.236842
+
+Test Sequence 2 :0.276709
+
+Test Sequence 3 :0.230769
+
+Test Sequence 4 :0.296591
+
+Test Sequence 5 :0.247086
+
+Test Sequence 6 :0.226357
+
+Test Sequence 7 :0.291667
+
+Test Sequence 8 :0.244079
+
+Test Sequence 9 :0.204351
+
+Test Sequence 10 :0.224892
+
+Test Sequence 11 :0.195971
+
+Test Sequence 12 :0.240476
+
+Test Sequence 13 :0.178389
+
+Test Sequence 14 :0.232357
+
+Test Sequence 15 :0.195652
+
+Test Sequence 16 :0.256579
+
+Test Sequence 17 :0.210526
+
+Test Sequence 18 :0.333333
+
+Test Sequence 19 :0.169048
+
+Test Sequence 20 :0.189496
+
+Test Sequence 21 :0.236111
+
+Test Sequence 22 :0.464286
+
+Test Sequence 23 :0.379596
+
+Test Sequence 24 :0.303881
+
+Test Sequence 25 :0.259109
+
+Test Sequence 26 :0.254941
+
+Test Sequence 27 :0.263784
+
+Test Sequence 28 :0.285786
+
+Test Sequence 29 :0.267070
+
+Test Sequence 30 :0.266714
+
+Test Sequence 31 :0.275542
+
+Test Sequence 32 :0.178409
+
+Test Sequence 33 :0.266026
+
+Test Sequence 34 :0.217647
+
+Test Sequence 35 :0.212029
+
+Test Sequence 36 :0.214729
+
+Test Sequence 37 :0.265705
+
+Test Sequence 38 :0.226190
+
+Test Sequence 39 :0.290192
+
+Test Sequence 40 :0.263707
+
+Test Sequence 41 :0.194332
+
+Test Sequence 42 :0.201863
+
+Test Sequence 43 :0.216318
+
+Test Sequence 44 :0.519231
+
+Test Sequence 45 :0.193089
+
+Test Sequence 46 :0.186232
+
+Test Sequence 47 :0.248447
+
+Test Sequence 48 :0.231548
+
+Test Sequence 49 :0.143182
+
+Test Sequence 50 :0.202824
+
+Test Sequence 51 :0.176910
+
+Test Sequence 52 :0.285362
+
+Test Sequence 53 :0.203013
+
+Test Sequence 54 :0.306818
+
+Test Sequence 55 :0.230921
+
+Test Sequence 56 :0.259158
+
+Test Sequence 57 :0.262870
+
+Test Sequence 58 :0.735769
+
+Test Sequence 59 :0.280392
+
+Test Sequence 60 :0.700980
+
+Test Sequence 61 :0.432471
+
+Test Sequence 62 :0.513853
+
+Test Sequence 63 :0.485294
+
+Test Sequence 64 :0.358333
+
+Test Sequence 65 :0.506746
+
+Test Sequence 66 :0.280939
+
+Test Sequence 67 :0.576037
+
+Test Sequence 68 :0.293030
+
+Test Sequence 69 :0.252778
+
+Test Sequence 70 :0.332375
+
+Test Sequence 71 :0.564286
+
+Test Sequence 72 :0.277778
+
+Test Sequence 73 :0.417411
+
+Test Sequence 74 :0.236842
+
+Test Sequence 75 :0.542484
+
+Test Sequence 76 :0.470507
+
+Test Sequence 77 :0.194395
+
+Test Sequence 78 :0.224515
+
+Test Sequence 79 :0.179960
+
+Test Sequence 80 :0.232357
+
+Test Sequence 81 :0.345560
+
+Test Sequence 82 :0.265385
+
+Test Sequence 83 :0.357843
+
+Test Sequence 84 :0.490512
+
+Test Sequence 85 :0.188889
+
+Test Sequence 86 :0.255556
+
+Test Sequence 87 :0.419192
+
+Test Sequence 88 :0.229532
+
+Test Sequence 89 :0.328526
+
+Test Sequence 90 :0.190909
+
+Test Sequence 91 :0.150974
+
+Test Sequence 92 :0.190909
+
+Test Sequence 93 :0.190909
+
+Test Sequence 94 :0.174419
+
+Test Sequence 95 :0.256098
+
+Test Sequence 96 :0.244079
+
+Test Sequence 97 :0.261726
+
+Test Sequence 98 :0.292735
+
+Test Sequence 99 :0.269231
+
+Test Sequence 100 :0.213675
+
+User37
+Test Sequence 1 :0.262500
+
+Test Sequence 2 :0.430039
+
+Test Sequence 3 :0.291346
+
+Test Sequence 4 :0.275000
+
+Test Sequence 5 :0.309524
+
+Test Sequence 6 :0.180314
+
+Test Sequence 7 :0.286290
+
+Test Sequence 8 :0.373317
+
+Test Sequence 9 :0.326058
+
+Test Sequence 10 :0.516667
+
+Test Sequence 11 :0.315278
+
+Test Sequence 12 :0.294643
+
+Test Sequence 13 :0.431233
+
+Test Sequence 14 :0.267483
+
+Test Sequence 15 :0.249552
+
+Test Sequence 16 :0.324224
+
+Test Sequence 17 :0.416667
+
+Test Sequence 18 :0.155556
+
+Test Sequence 19 :0.250000
+
+Test Sequence 20 :0.170455
+
+Test Sequence 21 :0.277778
+
+Test Sequence 22 :0.225141
+
+Test Sequence 23 :0.156818
+
+Test Sequence 24 :0.365927
+
+Test Sequence 25 :0.267857
+
+Test Sequence 26 :0.660920
+
+Test Sequence 27 :0.658293
+
+Test Sequence 28 :0.287081
+
+Test Sequence 29 :0.279872
+
+Test Sequence 30 :0.304954
+
+Test Sequence 31 :0.237754
+
+Test Sequence 32 :0.246997
+
+Test Sequence 33 :0.287829
+
+Test Sequence 34 :0.224602
+
+Test Sequence 35 :0.223938
+
+Test Sequence 36 :0.175735
+
+Test Sequence 37 :0.480769
+
+Test Sequence 38 :0.521347
+
+Test Sequence 39 :0.285809
+
+Test Sequence 40 :0.456354
+
+Test Sequence 41 :0.727513
+
+Test Sequence 42 :0.184451
+
+Test Sequence 43 :0.476310
+
+Test Sequence 44 :0.281548
+
+Test Sequence 45 :0.123232
+
+Test Sequence 46 :0.217172
+
+Test Sequence 47 :0.254762
+
+Test Sequence 48 :0.377757
+
+Test Sequence 49 :0.277778
+
+Test Sequence 50 :0.436905
+
+Test Sequence 51 :0.207152
+
+Test Sequence 52 :0.218421
+
+Test Sequence 53 :0.116962
+
+Test Sequence 54 :0.164080
+
+Test Sequence 55 :0.390805
+
+Test Sequence 56 :0.298937
+
+Test Sequence 57 :0.228571
+
+Test Sequence 58 :0.431818
+
+Test Sequence 59 :0.626437
+
+Test Sequence 60 :0.538889
+
+Test Sequence 61 :0.479911
+
+Test Sequence 62 :0.464286
+
+Test Sequence 63 :0.279682
+
+Test Sequence 64 :0.326471
+
+Test Sequence 65 :0.229605
+
+Test Sequence 66 :0.329963
+
+Test Sequence 67 :0.168124
+
+Test Sequence 68 :0.390230
+
+Test Sequence 69 :0.746429
+
+Test Sequence 70 :0.229127
+
+Test Sequence 71 :0.537264
+
+Test Sequence 72 :0.245423
+
+Test Sequence 73 :0.478653
+
+Test Sequence 74 :0.703125
+
+Test Sequence 75 :0.376109
+
+Test Sequence 76 :0.539785
+
+Test Sequence 77 :0.763889
+
+Test Sequence 78 :0.350427
+
+Test Sequence 79 :0.272894
+
+Test Sequence 80 :0.171245
+
+Test Sequence 81 :0.249337
+
+Test Sequence 82 :0.167151
+
+Test Sequence 83 :0.343137
+
+Test Sequence 84 :0.593103
+
+Test Sequence 85 :0.509921
+
+Test Sequence 86 :0.554435
+
+Test Sequence 87 :0.625869
+
+Test Sequence 88 :0.278764
+
+Test Sequence 89 :0.340887
+
+Test Sequence 90 :0.437928
+
+Test Sequence 91 :0.277090
+
+Test Sequence 92 :0.178571
+
+Test Sequence 93 :0.185061
+
+Test Sequence 94 :0.236111
+
+Test Sequence 95 :0.293103
+
+Test Sequence 96 :0.144737
+
+Test Sequence 97 :0.268908
+
+Test Sequence 98 :0.290367
+
+Test Sequence 99 :0.257237
+
+Test Sequence 100 :0.587879
+
+User38
+Test Sequence 1 :0.302787
+
+Test Sequence 2 :0.203620
+
+Test Sequence 3 :0.313008
+
+Test Sequence 4 :0.333537
+
+Test Sequence 5 :0.232558
+
+Test Sequence 6 :0.316095
+
+Test Sequence 7 :0.741627
+
+Test Sequence 8 :0.356037
+
+Test Sequence 9 :0.277778
+
+Test Sequence 10 :0.269643
+
+Test Sequence 11 :0.515584
+
+Test Sequence 12 :0.484385
+
+Test Sequence 13 :0.519231
+
+Test Sequence 14 :0.401572
+
+Test Sequence 15 :0.386298
+
+Test Sequence 16 :0.715854
+
+Test Sequence 17 :0.231136
+
+Test Sequence 18 :0.337791
+
+Test Sequence 19 :0.505814
+
+Test Sequence 20 :0.403663
+
+Test Sequence 21 :0.258583
+
+Test Sequence 22 :0.247222
+
+Test Sequence 23 :0.327986
+
+Test Sequence 24 :0.260135
+
+Test Sequence 25 :0.252941
+
+Test Sequence 26 :0.301680
+
+Test Sequence 27 :0.296937
+
+Test Sequence 28 :0.201754
+
+Test Sequence 29 :0.197427
+
+Test Sequence 30 :0.186147
+
+Test Sequence 31 :0.192105
+
+Test Sequence 32 :0.213636
+
+Test Sequence 33 :0.363051
+
+Test Sequence 34 :0.186813
+
+Test Sequence 35 :0.325815
+
+Test Sequence 36 :0.680978
+
+Test Sequence 37 :0.419414
+
+Test Sequence 38 :0.690111
+
+Test Sequence 39 :0.727356
+
+Test Sequence 40 :0.326389
+
+Test Sequence 41 :0.429076
+
+Test Sequence 42 :0.216440
+
+Test Sequence 43 :0.189959
+
+Test Sequence 44 :0.236757
+
+Test Sequence 45 :0.399749
+
+Test Sequence 46 :0.241279
+
+Test Sequence 47 :0.227273
+
+Test Sequence 48 :0.271951
+
+Test Sequence 49 :0.266026
+
+Test Sequence 50 :0.246130
+
+Test Sequence 51 :0.374389
+
+Test Sequence 52 :0.364035
+
+Test Sequence 53 :0.768336
+
+Test Sequence 54 :0.781100
+
+Test Sequence 55 :0.646094
+
+Test Sequence 56 :0.777512
+
+Test Sequence 57 :0.717054
+
+Test Sequence 58 :0.409698
+
+Test Sequence 59 :0.657722
+
+Test Sequence 60 :0.334363
+
+Test Sequence 61 :0.449495
+
+Test Sequence 62 :0.289535
+
+Test Sequence 63 :0.230110
+
+Test Sequence 64 :0.130176
+
+Test Sequence 65 :0.213840
+
+Test Sequence 66 :0.181204
+
+Test Sequence 67 :0.472960
+
+Test Sequence 68 :0.213840
+
+Test Sequence 69 :0.271053
+
+Test Sequence 70 :0.188492
+
+Test Sequence 71 :0.434470
+
+Test Sequence 72 :0.314503
+
+Test Sequence 73 :0.232095
+
+Test Sequence 74 :0.208696
+
+Test Sequence 75 :0.181574
+
+Test Sequence 76 :0.196172
+
+Test Sequence 77 :0.166447
+
+Test Sequence 78 :0.257956
+
+Test Sequence 79 :0.232684
+
+Test Sequence 80 :0.164423
+
+Test Sequence 81 :0.195825
+
+Test Sequence 82 :0.287538
+
+Test Sequence 83 :0.295395
+
+Test Sequence 84 :0.409868
+
+Test Sequence 85 :0.492674
+
+Test Sequence 86 :0.286508
+
+Test Sequence 87 :0.394689
+
+Test Sequence 88 :0.266714
+
+Test Sequence 89 :0.730921
+
+Test Sequence 90 :0.459113
+
+Test Sequence 91 :0.434874
+
+Test Sequence 92 :0.449580
+
+Test Sequence 93 :0.241516
+
+Test Sequence 94 :0.381885
+
+Test Sequence 95 :0.529942
+
+Test Sequence 96 :0.408217
+
+Test Sequence 97 :0.204521
+
+Test Sequence 98 :0.130024
+
+Test Sequence 99 :0.588346
+
+Test Sequence 100 :0.611244
+
+User39
+Test Sequence 1 :0.748094
+
+Test Sequence 2 :0.578397
+
+Test Sequence 3 :0.552384
+
+Test Sequence 4 :0.348485
+
+Test Sequence 5 :0.493612
+
+Test Sequence 6 :0.643789
+
+Test Sequence 7 :0.529070
+
+Test Sequence 8 :0.566783
+
+Test Sequence 9 :0.695764
+
+Test Sequence 10 :0.518293
+
+Test Sequence 11 :0.534959
+
+Test Sequence 12 :0.506686
+
+Test Sequence 13 :0.544872
+
+Test Sequence 14 :0.582418
+
+Test Sequence 15 :0.381944
+
+Test Sequence 16 :0.495270
+
+Test Sequence 17 :0.904141
+
+Test Sequence 18 :0.613081
+
+Test Sequence 19 :0.547362
+
+Test Sequence 20 :0.600333
+
+Test Sequence 21 :0.438347
+
+Test Sequence 22 :0.572887
+
+Test Sequence 23 :0.554878
+
+Test Sequence 24 :0.447619
+
+Test Sequence 25 :0.426190
+
+Test Sequence 26 :0.400000
+
+Test Sequence 27 :0.573810
+
+Test Sequence 28 :0.690868
+
+Test Sequence 29 :0.437461
+
+Test Sequence 30 :0.642683
+
+Test Sequence 31 :0.547362
+
+Test Sequence 32 :0.500284
+
+Test Sequence 33 :0.548864
+
+Test Sequence 34 :0.414918
+
+Test Sequence 35 :0.564826
+
+Test Sequence 36 :0.634466
+
+Test Sequence 37 :0.354167
+
+Test Sequence 38 :0.456090
+
+Test Sequence 39 :0.423026
+
+Test Sequence 40 :0.349593
+
+Test Sequence 41 :0.424812
+
+Test Sequence 42 :0.508592
+
+Test Sequence 43 :0.387873
+
+Test Sequence 44 :0.254870
+
+Test Sequence 45 :0.259978
+
+Test Sequence 46 :0.225000
+
+Test Sequence 47 :0.424603
+
+Test Sequence 48 :0.353979
+
+Test Sequence 49 :0.513821
+
+Test Sequence 50 :0.713556
+
+Test Sequence 51 :0.392796
+
+Test Sequence 52 :0.538462
+
+Test Sequence 53 :0.383232
+
+Test Sequence 54 :0.687209
+
+Test Sequence 55 :0.721221
+
+Test Sequence 56 :0.809983
+
+Test Sequence 57 :0.749007
+
+Test Sequence 58 :0.627326
+
+Test Sequence 59 :0.443910
+
+Test Sequence 60 :0.518315
+
+Test Sequence 61 :0.520147
+
+Test Sequence 62 :0.360043
+
+Test Sequence 63 :0.602497
+
+Test Sequence 64 :0.482558
+
+Test Sequence 65 :0.700794
+
+Test Sequence 66 :0.518314
+
+Test Sequence 67 :0.643222
+
+Test Sequence 68 :0.121622
+
+Test Sequence 69 :0.121622
+
+Test Sequence 70 :0.121622
+
+Test Sequence 71 :0.121622
+
+Test Sequence 72 :0.518293
+
+Test Sequence 73 :0.599501
+
+Test Sequence 74 :0.600333
+
+Test Sequence 75 :0.580682
+
+Test Sequence 76 :0.718182
+
+Test Sequence 77 :0.450907
+
+Test Sequence 78 :0.625581
+
+Test Sequence 79 :0.712698
+
+Test Sequence 80 :0.669346
+
+Test Sequence 81 :0.670543
+
+Test Sequence 82 :0.796363
+
+Test Sequence 83 :0.672672
+
+Test Sequence 84 :0.518293
+
+Test Sequence 85 :0.603078
+
+Test Sequence 86 :0.663686
+
+Test Sequence 87 :0.541020
+
+Test Sequence 88 :0.693767
+
+Test Sequence 89 :0.530814
+
+Test Sequence 90 :0.668182
+
+Test Sequence 91 :0.657143
+
+Test Sequence 92 :0.688076
+
+Test Sequence 93 :0.494207
+
+Test Sequence 94 :0.785593
+
+Test Sequence 95 :0.594872
+
+Test Sequence 96 :0.550721
+
+Test Sequence 97 :0.181395
+
+Test Sequence 98 :0.617073
+
+Test Sequence 99 :0.761135
+
+Test Sequence 100 :0.426829
+
+User40
+Test Sequence 1 :0.379545
+
+Test Sequence 2 :0.337919
+
+Test Sequence 3 :0.236111
+
+Test Sequence 4 :0.157323
+
+Test Sequence 5 :0.157323
+
+Test Sequence 6 :0.339286
+
+Test Sequence 7 :0.317308
+
+Test Sequence 8 :0.436508
+
+Test Sequence 9 :0.247738
+
+Test Sequence 10 :0.325758
+
+Test Sequence 11 :0.298890
+
+Test Sequence 12 :0.277294
+
+Test Sequence 13 :0.284799
+
+Test Sequence 14 :0.246212
+
+Test Sequence 15 :0.291667
+
+Test Sequence 16 :0.175735
+
+Test Sequence 17 :0.400000
+
+Test Sequence 18 :0.190091
+
+Test Sequence 19 :0.259100
+
+Test Sequence 20 :0.363636
+
+Test Sequence 21 :0.407317
+
+Test Sequence 22 :0.381699
+
+Test Sequence 23 :0.249291
+
+Test Sequence 24 :0.302326
+
+Test Sequence 25 :0.360465
+
+Test Sequence 26 :0.298413
+
+Test Sequence 27 :0.317276
+
+Test Sequence 28 :0.292641
+
+Test Sequence 29 :0.259722
+
+Test Sequence 30 :0.329268
+
+Test Sequence 31 :0.517712
+
+Test Sequence 32 :0.219643
+
+Test Sequence 33 :0.433798
+
+Test Sequence 34 :0.270487
+
+Test Sequence 35 :0.373984
+
+Test Sequence 36 :0.238501
+
+Test Sequence 37 :0.299154
+
+Test Sequence 38 :0.315315
+
+Test Sequence 39 :0.223493
+
+Test Sequence 40 :0.339545
+
+Test Sequence 41 :0.209179
+
+Test Sequence 42 :0.347425
+
+Test Sequence 43 :0.207490
+
+Test Sequence 44 :0.333245
+
+Test Sequence 45 :0.377772
+
+Test Sequence 46 :0.313589
+
+Test Sequence 47 :0.271053
+
+Test Sequence 48 :0.213273
+
+Test Sequence 49 :0.209957
+
+Test Sequence 50 :0.274603
+
+Test Sequence 51 :0.272351
+
+Test Sequence 52 :0.193023
+
+Test Sequence 53 :0.372835
+
+Test Sequence 54 :0.195652
+
+Test Sequence 55 :0.315152
+
+Test Sequence 56 :0.413055
+
+Test Sequence 57 :0.275899
+
+Test Sequence 58 :0.273936
+
+Test Sequence 59 :0.228605
+
+Test Sequence 60 :0.241787
+
+Test Sequence 61 :0.186715
+
+Test Sequence 62 :0.184634
+
+Test Sequence 63 :0.417208
+
+Test Sequence 64 :0.215079
+
+Test Sequence 65 :0.179078
+
+Test Sequence 66 :0.191489
+
+Test Sequence 67 :0.418605
+
+Test Sequence 68 :0.219807
+
+Test Sequence 69 :0.344873
+
+Test Sequence 70 :0.183668
+
+Test Sequence 71 :0.225948
+
+Test Sequence 72 :0.215909
+
+Test Sequence 73 :0.292857
+
+Test Sequence 74 :0.277778
+
+Test Sequence 75 :0.213131
+
+Test Sequence 76 :0.343470
+
+Test Sequence 77 :0.408425
+
+Test Sequence 78 :0.426190
+
+Test Sequence 79 :0.198476
+
+Test Sequence 80 :0.229915
+
+Test Sequence 81 :0.321591
+
+Test Sequence 82 :0.292188
+
+Test Sequence 83 :0.270487
+
+Test Sequence 84 :0.313663
+
+Test Sequence 85 :0.330876
+
+Test Sequence 86 :0.303788
+
+Test Sequence 87 :0.427800
+
+Test Sequence 88 :0.293853
+
+Test Sequence 89 :0.311404
+
+Test Sequence 90 :0.485215
+
+Test Sequence 91 :0.399306
+
+Test Sequence 92 :0.147028
+
+Test Sequence 93 :0.557576
+
+Test Sequence 94 :0.228175
+
+Test Sequence 95 :0.205556
+
+Test Sequence 96 :0.223145
+
+Test Sequence 97 :0.277778
+
+Test Sequence 98 :0.278592
+
+Test Sequence 99 :0.287162
+
+Test Sequence 100 :0.371753
+
+User41
+Test Sequence 1 :0.247256
+
+Test Sequence 2 :0.172826
+
+Test Sequence 3 :0.308029
+
+Test Sequence 4 :0.266667
+
+Test Sequence 5 :0.211966
+
+Test Sequence 6 :0.164251
+
+Test Sequence 7 :0.154762
+
+Test Sequence 8 :0.150433
+
+Test Sequence 9 :0.204351
+
+Test Sequence 10 :0.148780
+
+Test Sequence 11 :0.124603
+
+Test Sequence 12 :0.124603
+
+Test Sequence 13 :0.124603
+
+Test Sequence 14 :0.133540
+
+Test Sequence 15 :0.133540
+
+Test Sequence 16 :0.195652
+
+Test Sequence 17 :0.129014
+
+Test Sequence 18 :0.124603
+
+Test Sequence 19 :0.143246
+
+Test Sequence 20 :0.124603
+
+Test Sequence 21 :0.124603
+
+Test Sequence 22 :0.126558
+
+Test Sequence 23 :0.124603
+
+Test Sequence 24 :0.124603
+
+Test Sequence 25 :0.161797
+
+Test Sequence 26 :0.258242
+
+Test Sequence 27 :0.193651
+
+Test Sequence 28 :0.476381
+
+Test Sequence 29 :0.160317
+
+Test Sequence 30 :0.123485
+
+Test Sequence 31 :0.173171
+
+Test Sequence 32 :0.182114
+
+Test Sequence 33 :0.498842
+
+Test Sequence 34 :0.187500
+
+Test Sequence 35 :0.124603
+
+Test Sequence 36 :0.142256
+
+Test Sequence 37 :0.142256
+
+Test Sequence 38 :0.229094
+
+Test Sequence 39 :0.251880
+
+Test Sequence 40 :0.234143
+
+Test Sequence 41 :0.182095
+
+Test Sequence 42 :0.252907
+
+Test Sequence 43 :0.249858
+
+Test Sequence 44 :0.142763
+
+Test Sequence 45 :0.297419
+
+Test Sequence 46 :0.408333
+
+Test Sequence 47 :0.192151
+
+Test Sequence 48 :0.246130
+
+Test Sequence 49 :0.167568
+
+Test Sequence 50 :0.233062
+
+Test Sequence 51 :0.418056
+
+Test Sequence 52 :0.192192
+
+Test Sequence 53 :0.182540
+
+Test Sequence 54 :0.186679
+
+Test Sequence 55 :0.246646
+
+Test Sequence 56 :0.189666
+
+Test Sequence 57 :0.214773
+
+Test Sequence 58 :0.283784
+
+Test Sequence 59 :0.284314
+
+Test Sequence 60 :0.426699
+
+Test Sequence 61 :0.163350
+
+Test Sequence 62 :0.259122
+
+Test Sequence 63 :0.218816
+
+Test Sequence 64 :0.157267
+
+Test Sequence 65 :0.172866
+
+Test Sequence 66 :0.187984
+
+Test Sequence 67 :0.175000
+
+Test Sequence 68 :0.241289
+
+Test Sequence 69 :0.166447
+
+Test Sequence 70 :0.471933
+
+Test Sequence 71 :0.150433
+
+Test Sequence 72 :0.678368
+
+Test Sequence 73 :0.630208
+
+Test Sequence 74 :0.323529
+
+Test Sequence 75 :0.436406
+
+Test Sequence 76 :0.219643
+
+Test Sequence 77 :0.183333
+
+Test Sequence 78 :0.251793
+
+Test Sequence 79 :0.220867
+
+Test Sequence 80 :0.226190
+
+Test Sequence 81 :0.195587
+
+Test Sequence 82 :0.164744
+
+Test Sequence 83 :0.211794
+
+Test Sequence 84 :0.202779
+
+Test Sequence 85 :0.289141
+
+Test Sequence 86 :0.293403
+
+Test Sequence 87 :0.409091
+
+Test Sequence 88 :0.177778
+
+Test Sequence 89 :0.190476
+
+Test Sequence 90 :0.153846
+
+Test Sequence 91 :0.250642
+
+Test Sequence 92 :0.229384
+
+Test Sequence 93 :0.213016
+
+Test Sequence 94 :0.166194
+
+Test Sequence 95 :0.368797
+
+Test Sequence 96 :0.141804
+
+Test Sequence 97 :0.129291
+
+Test Sequence 98 :0.158140
+
+Test Sequence 99 :0.198214
+
+Test Sequence 100 :0.212500
+
+User42
+Test Sequence 1 :0.181395
+
+Test Sequence 2 :0.237984
+
+Test Sequence 3 :0.175109
+
+Test Sequence 4 :0.250000
+
+Test Sequence 5 :0.172222
+
+Test Sequence 6 :0.218421
+
+Test Sequence 7 :0.238248
+
+Test Sequence 8 :0.198286
+
+Test Sequence 9 :0.250000
+
+Test Sequence 10 :0.163043
+
+Test Sequence 11 :0.200899
+
+Test Sequence 12 :0.172222
+
+Test Sequence 13 :0.287526
+
+Test Sequence 14 :0.376856
+
+Test Sequence 15 :0.340887
+
+Test Sequence 16 :0.133547
+
+Test Sequence 17 :0.276190
+
+Test Sequence 18 :0.271037
+
+Test Sequence 19 :0.212607
+
+Test Sequence 20 :0.183333
+
+Test Sequence 21 :0.263725
+
+Test Sequence 22 :0.300752
+
+Test Sequence 23 :0.270764
+
+Test Sequence 24 :0.179545
+
+Test Sequence 25 :0.571862
+
+Test Sequence 26 :0.226873
+
+Test Sequence 27 :0.204413
+
+Test Sequence 28 :0.685829
+
+Test Sequence 29 :0.370495
+
+Test Sequence 30 :0.295635
+
+Test Sequence 31 :0.410526
+
+Test Sequence 32 :0.300418
+
+Test Sequence 33 :0.423684
+
+Test Sequence 34 :0.192105
+
+Test Sequence 35 :0.319737
+
+Test Sequence 36 :0.365873
+
+Test Sequence 37 :0.231982
+
+Test Sequence 38 :0.209957
+
+Test Sequence 39 :0.228409
+
+Test Sequence 40 :0.359238
+
+Test Sequence 41 :0.149313
+
+Test Sequence 42 :0.155870
+
+Test Sequence 43 :0.143798
+
+Test Sequence 44 :0.217293
+
+Test Sequence 45 :0.172040
+
+Test Sequence 46 :0.231707
+
+Test Sequence 47 :0.237469
+
+Test Sequence 48 :0.219444
+
+Test Sequence 49 :0.242254
+
+Test Sequence 50 :0.164414
+
+Test Sequence 51 :0.183932
+
+Test Sequence 52 :0.154566
+
+Test Sequence 53 :0.210187
+
+Test Sequence 54 :0.152991
+
+Test Sequence 55 :0.160366
+
+Test Sequence 56 :0.188235
+
+Test Sequence 57 :0.308929
+
+Test Sequence 58 :0.209722
+
+Test Sequence 59 :0.185714
+
+Test Sequence 60 :0.160366
+
+Test Sequence 61 :0.257453
+
+Test Sequence 62 :0.221320
+
+Test Sequence 63 :0.165909
+
+Test Sequence 64 :0.325000
+
+Test Sequence 65 :0.329522
+
+Test Sequence 66 :0.242311
+
+Test Sequence 67 :0.266775
+
+Test Sequence 68 :0.269281
+
+Test Sequence 69 :0.144767
+
+Test Sequence 70 :0.202212
+
+Test Sequence 71 :0.154566
+
+Test Sequence 72 :0.162411
+
+Test Sequence 73 :0.177255
+
+Test Sequence 74 :0.199248
+
+Test Sequence 75 :0.202381
+
+Test Sequence 76 :0.175443
+
+Test Sequence 77 :0.169366
+
+Test Sequence 78 :0.235348
+
+Test Sequence 79 :0.169595
+
+Test Sequence 80 :0.168023
+
+Test Sequence 81 :0.273810
+
+Test Sequence 82 :0.149577
+
+Test Sequence 83 :0.180894
+
+Test Sequence 84 :0.206924
+
+Test Sequence 85 :0.186957
+
+Test Sequence 86 :0.181174
+
+Test Sequence 87 :0.224563
+
+Test Sequence 88 :0.174708
+
+Test Sequence 89 :0.186473
+
+Test Sequence 90 :0.276091
+
+Test Sequence 91 :0.189076
+
+Test Sequence 92 :0.327986
+
+Test Sequence 93 :0.232160
+
+Test Sequence 94 :0.492424
+
+Test Sequence 95 :0.216270
+
+Test Sequence 96 :0.200665
+
+Test Sequence 97 :0.179221
+
+Test Sequence 98 :0.349294
+
+Test Sequence 99 :0.182767
+
+Test Sequence 100 :0.168990
+
+User43
+Test Sequence 1 :0.493590
+
+Test Sequence 2 :0.264010
+
+Test Sequence 3 :0.279846
+
+Test Sequence 4 :0.401004
+
+Test Sequence 5 :0.482143
+
+Test Sequence 6 :0.418114
+
+Test Sequence 7 :0.263800
+
+Test Sequence 8 :0.435185
+
+Test Sequence 9 :0.330882
+
+Test Sequence 10 :0.329167
+
+Test Sequence 11 :0.246955
+
+Test Sequence 12 :0.330682
+
+Test Sequence 13 :0.290698
+
+Test Sequence 14 :0.218552
+
+Test Sequence 15 :0.416928
+
+Test Sequence 16 :0.315191
+
+Test Sequence 17 :0.364341
+
+Test Sequence 18 :0.392119
+
+Test Sequence 19 :0.413690
+
+Test Sequence 20 :0.277003
+
+Test Sequence 21 :0.454712
+
+Test Sequence 22 :0.345150
+
+Test Sequence 23 :0.309402
+
+Test Sequence 24 :0.220238
+
+Test Sequence 25 :0.214286
+
+Test Sequence 26 :0.200000
+
+Test Sequence 27 :0.286924
+
+Test Sequence 28 :0.215251
+
+Test Sequence 29 :0.282418
+
+Test Sequence 30 :0.227660
+
+Test Sequence 31 :0.335705
+
+Test Sequence 32 :0.213016
+
+Test Sequence 33 :0.123357
+
+Test Sequence 34 :0.123357
+
+Test Sequence 35 :0.134226
+
+Test Sequence 36 :0.123357
+
+Test Sequence 37 :0.123357
+
+Test Sequence 38 :0.151163
+
+Test Sequence 39 :0.123357
+
+Test Sequence 40 :0.220985
+
+Test Sequence 41 :0.246951
+
+Test Sequence 42 :0.264167
+
+Test Sequence 43 :0.248264
+
+Test Sequence 44 :0.279602
+
+Test Sequence 45 :0.242857
+
+Test Sequence 46 :0.193023
+
+Test Sequence 47 :0.141353
+
+Test Sequence 48 :0.245238
+
+Test Sequence 49 :0.140919
+
+Test Sequence 50 :0.164976
+
+Test Sequence 51 :0.136364
+
+Test Sequence 52 :0.113178
+
+Test Sequence 53 :0.100000
+
+Test Sequence 54 :0.210672
+
+Test Sequence 55 :0.277778
+
+Test Sequence 56 :0.369925
+
+Test Sequence 57 :0.379762
+
+Test Sequence 58 :0.329522
+
+Test Sequence 59 :0.307955
+
+Test Sequence 60 :0.307692
+
+Test Sequence 61 :0.377162
+
+Test Sequence 62 :0.320760
+
+Test Sequence 63 :0.252904
+
+Test Sequence 64 :0.194057
+
+Test Sequence 65 :0.285714
+
+Test Sequence 66 :0.304167
+
+Test Sequence 67 :0.371970
+
+Test Sequence 68 :0.251793
+
+Test Sequence 69 :0.242491
+
+Test Sequence 70 :0.305590
+
+Test Sequence 71 :0.115222
+
+Test Sequence 72 :0.126586
+
+Test Sequence 73 :0.337398
+
+Test Sequence 74 :0.247727
+
+Test Sequence 75 :0.170732
+
+Test Sequence 76 :0.418498
+
+Test Sequence 77 :0.329966
+
+Test Sequence 78 :0.201645
+
+Test Sequence 79 :0.365476
+
+Test Sequence 80 :0.319380
+
+Test Sequence 81 :0.382784
+
+Test Sequence 82 :0.321894
+
+Test Sequence 83 :0.227214
+
+Test Sequence 84 :0.316924
+
+Test Sequence 85 :0.333333
+
+Test Sequence 86 :0.329457
+
+Test Sequence 87 :0.246951
+
+Test Sequence 88 :0.212500
+
+Test Sequence 89 :0.290698
+
+Test Sequence 90 :0.246337
+
+Test Sequence 91 :0.230478
+
+Test Sequence 92 :0.219048
+
+Test Sequence 93 :0.399431
+
+Test Sequence 94 :0.262500
+
+Test Sequence 95 :0.218023
+
+Test Sequence 96 :0.134596
+
+Test Sequence 97 :0.410174
+
+Test Sequence 98 :0.304487
+
+Test Sequence 99 :0.227214
+
+Test Sequence 100 :0.382784
+
+User44
+Test Sequence 1 :0.378655
+
+Test Sequence 2 :0.230994
+
+Test Sequence 3 :0.367983
+
+Test Sequence 4 :0.220833
+
+Test Sequence 5 :0.240921
+
+Test Sequence 6 :0.200000
+
+Test Sequence 7 :0.214803
+
+Test Sequence 8 :0.354743
+
+Test Sequence 9 :0.213016
+
+Test Sequence 10 :0.443489
+
+Test Sequence 11 :0.549107
+
+Test Sequence 12 :0.435484
+
+Test Sequence 13 :0.219173
+
+Test Sequence 14 :0.546875
+
+Test Sequence 15 :0.352431
+
+Test Sequence 16 :0.347479
+
+Test Sequence 17 :0.490148
+
+Test Sequence 18 :0.567442
+
+Test Sequence 19 :0.339683
+
+Test Sequence 20 :0.188034
+
+Test Sequence 21 :0.282895
+
+Test Sequence 22 :0.365201
+
+Test Sequence 23 :0.161797
+
+Test Sequence 24 :0.264286
+
+Test Sequence 25 :0.298362
+
+Test Sequence 26 :0.370960
+
+Test Sequence 27 :0.274670
+
+Test Sequence 28 :0.241270
+
+Test Sequence 29 :0.498958
+
+Test Sequence 30 :0.183668
+
+Test Sequence 31 :0.341362
+
+Test Sequence 32 :0.332510
+
+Test Sequence 33 :0.321882
+
+Test Sequence 34 :0.234451
+
+Test Sequence 35 :0.244071
+
+Test Sequence 36 :0.266518
+
+Test Sequence 37 :0.364286
+
+Test Sequence 38 :0.304878
+
+Test Sequence 39 :0.296703
+
+Test Sequence 40 :0.212946
+
+Test Sequence 41 :0.301394
+
+Test Sequence 42 :0.329974
+
+Test Sequence 43 :0.450318
+
+Test Sequence 44 :0.412987
+
+Test Sequence 45 :0.245833
+
+Test Sequence 46 :0.290584
+
+Test Sequence 47 :0.450000
+
+Test Sequence 48 :0.216667
+
+Test Sequence 49 :0.536988
+
+Test Sequence 50 :0.170213
+
+Test Sequence 51 :0.250156
+
+Test Sequence 52 :0.394512
+
+Test Sequence 53 :0.337352
+
+Test Sequence 54 :0.311265
+
+Test Sequence 55 :0.346037
+
+Test Sequence 56 :0.244079
+
+Test Sequence 57 :0.310714
+
+Test Sequence 58 :0.190476
+
+Test Sequence 59 :0.271978
+
+Test Sequence 60 :0.674569
+
+Test Sequence 61 :0.226885
+
+Test Sequence 62 :0.289674
+
+Test Sequence 63 :0.170284
+
+Test Sequence 64 :0.390351
+
+Test Sequence 65 :0.362414
+
+Test Sequence 66 :0.276389
+
+Test Sequence 67 :0.234146
+
+Test Sequence 68 :0.354762
+
+Test Sequence 69 :0.290584
+
+Test Sequence 70 :0.433333
+
+Test Sequence 71 :0.296703
+
+Test Sequence 72 :0.326471
+
+Test Sequence 73 :0.274436
+
+Test Sequence 74 :0.262718
+
+Test Sequence 75 :0.270510
+
+Test Sequence 76 :0.399621
+
+Test Sequence 77 :0.292278
+
+Test Sequence 78 :0.368778
+
+Test Sequence 79 :0.277003
+
+Test Sequence 80 :0.466667
+
+Test Sequence 81 :0.311066
+
+Test Sequence 82 :0.218552
+
+Test Sequence 83 :0.360465
+
+Test Sequence 84 :0.467014
+
+Test Sequence 85 :0.269861
+
+Test Sequence 86 :0.470996
+
+Test Sequence 87 :0.317096
+
+Test Sequence 88 :0.340808
+
+Test Sequence 89 :0.262621
+
+Test Sequence 90 :0.280808
+
+Test Sequence 91 :0.325000
+
+Test Sequence 92 :0.344862
+
+Test Sequence 93 :0.355556
+
+Test Sequence 94 :0.303056
+
+Test Sequence 95 :0.380952
+
+Test Sequence 96 :0.261905
+
+Test Sequence 97 :0.211111
+
+Test Sequence 98 :0.411111
+
+Test Sequence 99 :0.290043
+
+Test Sequence 100 :0.297619
+
+User45
+Test Sequence 1 :0.228261
+
+Test Sequence 2 :0.218552
+
+Test Sequence 3 :0.476326
+
+Test Sequence 4 :0.307998
+
+Test Sequence 5 :0.233202
+
+Test Sequence 6 :0.391385
+
+Test Sequence 7 :0.363636
+
+Test Sequence 8 :0.269231
+
+Test Sequence 9 :0.230159
+
+Test Sequence 10 :0.287234
+
+Test Sequence 11 :0.268293
+
+Test Sequence 12 :0.384740
+
+Test Sequence 13 :0.476651
+
+Test Sequence 14 :0.508621
+
+Test Sequence 15 :0.418519
+
+Test Sequence 16 :0.224975
+
+Test Sequence 17 :0.323413
+
+Test Sequence 18 :0.289286
+
+Test Sequence 19 :0.375000
+
+Test Sequence 20 :0.306624
+
+Test Sequence 21 :0.280839
+
+Test Sequence 22 :0.329487
+
+Test Sequence 23 :0.543981
+
+Test Sequence 24 :0.617063
+
+Test Sequence 25 :0.293237
+
+Test Sequence 26 :0.243577
+
+Test Sequence 27 :0.252907
+
+Test Sequence 28 :0.259136
+
+Test Sequence 29 :0.325216
+
+Test Sequence 30 :0.311314
+
+Test Sequence 31 :0.311265
+
+Test Sequence 32 :0.233696
+
+Test Sequence 33 :0.323810
+
+Test Sequence 34 :0.212766
+
+Test Sequence 35 :0.202128
+
+Test Sequence 36 :0.265957
+
+Test Sequence 37 :0.362500
+
+Test Sequence 38 :0.944048
+
+Test Sequence 39 :0.292614
+
+Test Sequence 40 :0.301062
+
+Test Sequence 41 :0.298246
+
+Test Sequence 42 :0.252643
+
+Test Sequence 43 :0.322562
+
+Test Sequence 44 :0.305648
+
+Test Sequence 45 :0.351587
+
+Test Sequence 46 :0.322134
+
+Test Sequence 47 :0.402128
+
+Test Sequence 48 :0.340667
+
+Test Sequence 49 :0.253779
+
+Test Sequence 50 :0.251414
+
+Test Sequence 51 :0.490512
+
+Test Sequence 52 :0.383523
+
+Test Sequence 53 :0.346728
+
+Test Sequence 54 :0.279167
+
+Test Sequence 55 :0.609890
+
+Test Sequence 56 :0.242491
+
+Test Sequence 57 :0.441954
+
+Test Sequence 58 :0.264535
+
+Test Sequence 59 :0.228632
+
+Test Sequence 60 :0.343980
+
+Test Sequence 61 :0.204931
+
+Test Sequence 62 :0.252885
+
+Test Sequence 63 :0.422222
+
+Test Sequence 64 :0.295090
+
+Test Sequence 65 :0.295151
+
+Test Sequence 66 :0.287262
+
+Test Sequence 67 :0.373180
+
+Test Sequence 68 :0.508065
+
+Test Sequence 69 :0.353846
+
+Test Sequence 70 :0.428812
+
+Test Sequence 71 :0.278355
+
+Test Sequence 72 :0.245423
+
+Test Sequence 73 :0.499444
+
+Test Sequence 74 :0.167832
+
+Test Sequence 75 :0.231146
+
+Test Sequence 76 :0.363025
+
+Test Sequence 77 :0.259146
+
+Test Sequence 78 :0.556753
+
+Test Sequence 79 :0.477778
+
+Test Sequence 80 :0.660714
+
+Test Sequence 81 :0.249612
+
+Test Sequence 82 :0.474798
+
+Test Sequence 83 :0.264354
+
+Test Sequence 84 :0.572917
+
+Test Sequence 85 :0.490148
+
+Test Sequence 86 :0.571429
+
+Test Sequence 87 :0.289674
+
+Test Sequence 88 :0.648148
+
+Test Sequence 89 :0.824495
+
+Test Sequence 90 :0.648148
+
+Test Sequence 91 :0.240372
+
+Test Sequence 92 :0.380601
+
+Test Sequence 93 :0.411255
+
+Test Sequence 94 :0.305901
+
+Test Sequence 95 :0.313663
+
+Test Sequence 96 :0.271951
+
+Test Sequence 97 :0.424731
+
+Test Sequence 98 :0.349026
+
+Test Sequence 99 :0.308029
+
+Test Sequence 100 :0.257583
+
+User46
+Test Sequence 1 :0.462500
+
+Test Sequence 2 :0.204134
+
+Test Sequence 3 :0.344322
+
+Test Sequence 4 :0.166502
+
+Test Sequence 5 :0.159173
+
+Test Sequence 6 :0.166502
+
+Test Sequence 7 :0.166502
+
+Test Sequence 8 :0.166502
+
+Test Sequence 9 :0.166502
+
+Test Sequence 10 :0.293237
+
+Test Sequence 11 :0.166502
+
+Test Sequence 12 :0.166502
+
+Test Sequence 13 :0.166502
+
+Test Sequence 14 :0.177372
+
+Test Sequence 15 :0.344016
+
+Test Sequence 16 :0.380601
+
+Test Sequence 17 :0.533550
+
+Test Sequence 18 :0.227907
+
+Test Sequence 19 :0.433333
+
+Test Sequence 20 :0.377162
+
+Test Sequence 21 :0.326163
+
+Test Sequence 22 :0.392344
+
+Test Sequence 23 :0.343056
+
+Test Sequence 24 :0.366667
+
+Test Sequence 25 :0.455128
+
+Test Sequence 26 :0.432558
+
+Test Sequence 27 :0.292857
+
+Test Sequence 28 :0.380295
+
+Test Sequence 29 :0.582996
+
+Test Sequence 30 :0.347222
+
+Test Sequence 31 :0.508413
+
+Test Sequence 32 :0.261278
+
+Test Sequence 33 :0.318681
+
+Test Sequence 34 :0.367137
+
+Test Sequence 35 :0.244444
+
+Test Sequence 36 :0.535862
+
+Test Sequence 37 :0.287538
+
+Test Sequence 38 :0.324662
+
+Test Sequence 39 :0.308537
+
+Test Sequence 40 :0.258108
+
+Test Sequence 41 :0.334211
+
+Test Sequence 42 :0.516611
+
+Test Sequence 43 :0.287538
+
+Test Sequence 44 :0.250000
+
+Test Sequence 45 :0.272727
+
+Test Sequence 46 :0.270487
+
+Test Sequence 47 :0.207827
+
+Test Sequence 48 :0.243506
+
+Test Sequence 49 :0.522727
+
+Test Sequence 50 :0.319444
+
+Test Sequence 51 :0.324836
+
+Test Sequence 52 :0.417112
+
+Test Sequence 53 :0.274547
+
+Test Sequence 54 :0.360597
+
+Test Sequence 55 :0.312500
+
+Test Sequence 56 :0.250425
+
+Test Sequence 57 :0.166502
+
+Test Sequence 58 :0.157323
+
+Test Sequence 59 :0.161205
+
+Test Sequence 60 :0.166502
+
+Test Sequence 61 :0.155138
+
+Test Sequence 62 :0.166502
+
+Test Sequence 63 :0.166502
+
+Test Sequence 64 :0.166502
+
+Test Sequence 65 :0.166502
+
+Test Sequence 66 :0.166502
+
+Test Sequence 67 :0.166502
+
+Test Sequence 68 :0.166502
+
+Test Sequence 69 :0.166502
+
+Test Sequence 70 :0.166502
+
+Test Sequence 71 :0.166502
+
+Test Sequence 72 :0.166502
+
+Test Sequence 73 :0.166502
+
+Test Sequence 74 :0.166502
+
+Test Sequence 75 :0.166502
+
+Test Sequence 76 :0.166502
+
+Test Sequence 77 :0.166502
+
+Test Sequence 78 :0.166502
+
+Test Sequence 79 :0.166502
+
+Test Sequence 80 :0.166502
+
+Test Sequence 81 :0.166502
+
+Test Sequence 82 :0.166502
+
+Test Sequence 83 :0.166502
+
+Test Sequence 84 :0.166502
+
+Test Sequence 85 :0.166502
+
+Test Sequence 86 :0.166502
+
+Test Sequence 87 :0.166502
+
+Test Sequence 88 :0.166502
+
+Test Sequence 89 :0.166502
+
+Test Sequence 90 :0.166502
+
+Test Sequence 91 :0.166502
+
+Test Sequence 92 :0.166502
+
+Test Sequence 93 :0.166502
+
+Test Sequence 94 :0.166502
+
+Test Sequence 95 :0.166502
+
+Test Sequence 96 :0.166502
+
+Test Sequence 97 :0.166502
+
+Test Sequence 98 :0.176877
+
+Test Sequence 99 :0.166502
+
+Test Sequence 100 :0.138194
+
+User47
+Test Sequence 1 :0.364372
+
+Test Sequence 2 :0.308553
+
+Test Sequence 3 :0.369444
+
+Test Sequence 4 :0.341463
+
+Test Sequence 5 :0.188555
+
+Test Sequence 6 :0.395188
+
+Test Sequence 7 :0.379487
+
+Test Sequence 8 :0.546070
+
+Test Sequence 9 :0.320413
+
+Test Sequence 10 :0.353571
+
+Test Sequence 11 :0.313953
+
+Test Sequence 12 :0.374609
+
+Test Sequence 13 :0.357143
+
+Test Sequence 14 :0.432432
+
+Test Sequence 15 :0.358232
+
+Test Sequence 16 :0.480769
+
+Test Sequence 17 :0.347368
+
+Test Sequence 18 :0.377976
+
+Test Sequence 19 :0.411654
+
+Test Sequence 20 :0.317625
+
+Test Sequence 21 :0.335470
+
+Test Sequence 22 :0.457875
+
+Test Sequence 23 :0.626984
+
+Test Sequence 24 :0.405098
+
+Test Sequence 25 :0.507060
+
+Test Sequence 26 :0.364219
+
+Test Sequence 27 :0.476461
+
+Test Sequence 28 :0.442308
+
+Test Sequence 29 :0.353846
+
+Test Sequence 30 :0.380804
+
+Test Sequence 31 :0.389286
+
+Test Sequence 32 :0.353716
+
+Test Sequence 33 :0.312500
+
+Test Sequence 34 :0.406843
+
+Test Sequence 35 :0.527686
+
+Test Sequence 36 :0.468864
+
+Test Sequence 37 :0.289474
+
+Test Sequence 38 :0.469512
+
+Test Sequence 39 :0.383634
+
+Test Sequence 40 :0.384211
+
+Test Sequence 41 :0.367137
+
+Test Sequence 42 :0.401689
+
+Test Sequence 43 :0.364865
+
+Test Sequence 44 :0.400250
+
+Test Sequence 45 :0.401786
+
+Test Sequence 46 :0.392490
+
+Test Sequence 47 :0.455920
+
+Test Sequence 48 :0.482558
+
+Test Sequence 49 :0.369112
+
+Test Sequence 50 :0.259023
+
+Test Sequence 51 :0.340000
+
+Test Sequence 52 :0.192509
+
+Test Sequence 53 :0.442230
+
+Test Sequence 54 :0.449656
+
+Test Sequence 55 :0.412907
+
+Test Sequence 56 :0.359921
+
+Test Sequence 57 :0.392308
+
+Test Sequence 58 :0.306202
+
+Test Sequence 59 :0.409868
+
+Test Sequence 60 :0.382622
+
+Test Sequence 61 :0.382622
+
+Test Sequence 62 :0.382622
+
+Test Sequence 63 :0.382622
+
+Test Sequence 64 :0.382622
+
+Test Sequence 65 :0.352976
+
+Test Sequence 66 :0.464460
+
+Test Sequence 67 :0.243902
+
+Test Sequence 68 :0.585811
+
+Test Sequence 69 :0.417230
+
+Test Sequence 70 :0.350877
+
+Test Sequence 71 :0.515278
+
+Test Sequence 72 :0.426743
+
+Test Sequence 73 :0.494257
+
+Test Sequence 74 :0.387821
+
+Test Sequence 75 :0.499341
+
+Test Sequence 76 :0.369063
+
+Test Sequence 77 :0.355263
+
+Test Sequence 78 :0.502189
+
+Test Sequence 79 :0.364189
+
+Test Sequence 80 :0.364766
+
+Test Sequence 81 :0.490278
+
+Test Sequence 82 :0.377703
+
+Test Sequence 83 :0.385308
+
+Test Sequence 84 :0.379167
+
+Test Sequence 85 :0.359868
+
+Test Sequence 86 :0.370427
+
+Test Sequence 87 :0.375235
+
+Test Sequence 88 :0.343609
+
+Test Sequence 89 :0.365476
+
+Test Sequence 90 :0.319934
+
+Test Sequence 91 :0.508784
+
+Test Sequence 92 :0.440171
+
+Test Sequence 93 :0.450595
+
+Test Sequence 94 :0.426635
+
+Test Sequence 95 :0.325581
+
+Test Sequence 96 :0.269153
+
+Test Sequence 97 :0.289535
+
+Test Sequence 98 :0.362762
+
+Test Sequence 99 :0.295788
+
+Test Sequence 100 :0.383333
+
+User48
+Test Sequence 1 :0.332046
+
+Test Sequence 2 :0.489532
+
+Test Sequence 3 :0.475754
+
+Test Sequence 4 :0.450000
+
+Test Sequence 5 :0.412802
+
+Test Sequence 6 :0.361290
+
+Test Sequence 7 :0.425269
+
+Test Sequence 8 :0.370395
+
+Test Sequence 9 :0.325611
+
+Test Sequence 10 :0.430976
+
+Test Sequence 11 :0.390351
+
+Test Sequence 12 :0.432855
+
+Test Sequence 13 :0.465909
+
+Test Sequence 14 :0.331575
+
+Test Sequence 15 :0.347479
+
+Test Sequence 16 :0.363777
+
+Test Sequence 17 :0.379173
+
+Test Sequence 18 :0.403125
+
+Test Sequence 19 :0.313725
+
+Test Sequence 20 :0.349713
+
+Test Sequence 21 :0.392677
+
+Test Sequence 22 :0.414261
+
+Test Sequence 23 :0.323529
+
+Test Sequence 24 :0.437120
+
+Test Sequence 25 :0.522727
+
+Test Sequence 26 :0.360133
+
+Test Sequence 27 :0.304167
+
+Test Sequence 28 :0.567857
+
+Test Sequence 29 :0.611928
+
+Test Sequence 30 :0.405172
+
+Test Sequence 31 :0.305357
+
+Test Sequence 32 :0.337500
+
+Test Sequence 33 :0.411905
+
+Test Sequence 34 :0.384535
+
+Test Sequence 35 :0.576923
+
+Test Sequence 36 :0.567857
+
+Test Sequence 37 :0.498366
+
+Test Sequence 38 :0.372116
+
+Test Sequence 39 :0.180894
+
+Test Sequence 40 :0.491935
+
+Test Sequence 41 :0.786429
+
+Test Sequence 42 :0.492870
+
+Test Sequence 43 :0.563960
+
+Test Sequence 44 :0.515625
+
+Test Sequence 45 :0.792857
+
+Test Sequence 46 :0.615057
+
+Test Sequence 47 :0.722222
+
+Test Sequence 48 :0.359846
+
+Test Sequence 49 :0.368100
+
+Test Sequence 50 :0.482949
+
+Test Sequence 51 :0.625160
+
+Test Sequence 52 :0.616319
+
+Test Sequence 53 :0.368676
+
+Test Sequence 54 :0.433217
+
+Test Sequence 55 :0.302632
+
+Test Sequence 56 :0.276389
+
+Test Sequence 57 :0.445238
+
+Test Sequence 58 :0.504608
+
+Test Sequence 59 :0.570565
+
+Test Sequence 60 :0.582126
+
+Test Sequence 61 :0.749756
+
+Test Sequence 62 :0.532407
+
+Test Sequence 63 :0.827064
+
+Test Sequence 64 :0.578905
+
+Test Sequence 65 :0.578125
+
+Test Sequence 66 :0.527778
+
+Test Sequence 67 :0.483397
+
+Test Sequence 68 :0.417344
+
+Test Sequence 69 :0.313634
+
+Test Sequence 70 :0.329268
+
+Test Sequence 71 :0.222222
+
+Test Sequence 72 :0.375000
+
+Test Sequence 73 :0.590278
+
+Test Sequence 74 :0.568966
+
+Test Sequence 75 :0.536555
+
+Test Sequence 76 :0.525862
+
+Test Sequence 77 :0.692130
+
+Test Sequence 78 :0.521836
+
+Test Sequence 79 :0.524194
+
+Test Sequence 80 :0.640523
+
+Test Sequence 81 :0.642857
+
+Test Sequence 82 :0.794255
+
+Test Sequence 83 :0.548387
+
+Test Sequence 84 :0.529412
+
+Test Sequence 85 :0.572727
+
+Test Sequence 86 :0.563050
+
+Test Sequence 87 :0.614058
+
+Test Sequence 88 :0.272605
+
+Test Sequence 89 :0.445906
+
+Test Sequence 90 :0.330650
+
+Test Sequence 91 :0.171245
+
+Test Sequence 92 :0.532407
+
+Test Sequence 93 :0.654936
+
+Test Sequence 94 :0.656513
+
+Test Sequence 95 :0.566667
+
+Test Sequence 96 :0.579179
+
+Test Sequence 97 :0.594828
+
+Test Sequence 98 :0.576246
+
+Test Sequence 99 :0.400000
+
+Test Sequence 100 :0.466562
+
+User49
+Test Sequence 1 :0.226496
+
+Test Sequence 2 :0.492868
+
+Test Sequence 3 :0.400000
+
+Test Sequence 4 :0.308232
+
+Test Sequence 5 :0.269231
+
+Test Sequence 6 :0.416667
+
+Test Sequence 7 :0.524194
+
+Test Sequence 8 :0.285714
+
+Test Sequence 9 :0.432401
+
+Test Sequence 10 :0.194099
+
+Test Sequence 11 :0.194099
+
+Test Sequence 12 :0.204413
+
+Test Sequence 13 :0.183230
+
+Test Sequence 14 :0.194099
+
+Test Sequence 15 :0.231602
+
+Test Sequence 16 :0.246622
+
+Test Sequence 17 :0.380021
+
+Test Sequence 18 :0.195007
+
+Test Sequence 19 :0.344609
+
+Test Sequence 20 :0.380128
+
+Test Sequence 21 :0.409217
+
+Test Sequence 22 :0.220779
+
+Test Sequence 23 :0.709302
+
+Test Sequence 24 :0.241270
+
+Test Sequence 25 :0.225564
+
+Test Sequence 26 :0.381599
+
+Test Sequence 27 :0.482292
+
+Test Sequence 28 :0.225547
+
+Test Sequence 29 :0.441554
+
+Test Sequence 30 :0.298890
+
+Test Sequence 31 :0.358629
+
+Test Sequence 32 :0.325000
+
+Test Sequence 33 :0.421603
+
+Test Sequence 34 :0.214773
+
+Test Sequence 35 :0.551533
+
+Test Sequence 36 :0.208937
+
+Test Sequence 37 :0.738636
+
+Test Sequence 38 :0.373547
+
+Test Sequence 39 :0.452535
+
+Test Sequence 40 :0.270396
+
+Test Sequence 41 :0.617051
+
+Test Sequence 42 :0.474383
+
+Test Sequence 43 :0.558824
+
+Test Sequence 44 :0.235327
+
+Test Sequence 45 :0.250000
+
+Test Sequence 46 :0.243421
+
+Test Sequence 47 :0.336988
+
+Test Sequence 48 :0.361345
+
+Test Sequence 49 :0.435764
+
+Test Sequence 50 :0.359804
+
+Test Sequence 51 :0.223072
+
+Test Sequence 52 :0.225141
+
+Test Sequence 53 :0.188735
+
+Test Sequence 54 :0.183668
+
+Test Sequence 55 :0.514107
+
+Test Sequence 56 :0.328664
+
+Test Sequence 57 :0.542593
+
+Test Sequence 58 :0.243967
+
+Test Sequence 59 :0.454113
+
+Test Sequence 60 :0.387645
+
+Test Sequence 61 :0.362782
+
+Test Sequence 62 :0.271646
+
+Test Sequence 63 :0.414137
+
+Test Sequence 64 :0.465944
+
+Test Sequence 65 :0.266026
+
+Test Sequence 66 :0.385714
+
+Test Sequence 67 :0.301802
+
+Test Sequence 68 :0.342308
+
+Test Sequence 69 :0.275000
+
+Test Sequence 70 :0.267696
+
+Test Sequence 71 :0.344322
+
+Test Sequence 72 :0.390856
+
+Test Sequence 73 :0.221951
+
+Test Sequence 74 :0.337719
+
+Test Sequence 75 :0.308841
+
+Test Sequence 76 :0.526316
+
+Test Sequence 77 :0.356982
+
+Test Sequence 78 :0.230444
+
+Test Sequence 79 :0.283979
+
+Test Sequence 80 :0.234756
+
+Test Sequence 81 :0.406566
+
+Test Sequence 82 :0.287262
+
+Test Sequence 83 :0.259447
+
+Test Sequence 84 :0.265385
+
+Test Sequence 85 :0.244484
+
+Test Sequence 86 :0.727273
+
+Test Sequence 87 :0.223058
+
+Test Sequence 88 :0.241279
+
+Test Sequence 89 :0.350219
+
+Test Sequence 90 :0.500541
+
+Test Sequence 91 :0.214582
+
+Test Sequence 92 :0.243292
+
+Test Sequence 93 :0.216200
+
+Test Sequence 94 :0.379757
+
+Test Sequence 95 :0.336580
+
+Test Sequence 96 :0.275000
+
+Test Sequence 97 :0.261278
+
+Test Sequence 98 :0.483871
+
+Test Sequence 99 :0.490741
+
+Test Sequence 100 :0.522321
+
+User50
+Test Sequence 1 :0.420427
+
+Test Sequence 2 :0.459073
+
+Test Sequence 3 :0.743243
+
+Test Sequence 4 :0.628947
+
+Test Sequence 5 :0.492949
+
+Test Sequence 6 :0.671154
+
+Test Sequence 7 :0.645833
+
+Test Sequence 8 :0.836257
+
+Test Sequence 9 :0.849099
+
+Test Sequence 10 :0.437500
+
+Test Sequence 11 :0.214407
+
+Test Sequence 12 :0.561560
+
+Test Sequence 13 :0.692745
+
+Test Sequence 14 :0.545547
+
+Test Sequence 15 :0.689189
+
+Test Sequence 16 :0.726351
+
+Test Sequence 17 :0.594551
+
+Test Sequence 18 :0.404487
+
+Test Sequence 19 :0.377703
+
+Test Sequence 20 :0.343328
+
+Test Sequence 21 :0.719772
+
+Test Sequence 22 :0.488881
+
+Test Sequence 23 :0.287500
+
+Test Sequence 24 :0.487805
+
+Test Sequence 25 :0.894664
+
+Test Sequence 26 :0.636961
+
+Test Sequence 27 :0.538020
+
+Test Sequence 28 :0.842689
+
+Test Sequence 29 :0.666667
+
+Test Sequence 30 :0.802632
+
+Test Sequence 31 :0.892959
+
+Test Sequence 32 :0.824561
+
+Test Sequence 33 :0.564685
+
+Test Sequence 34 :0.469231
+
+Test Sequence 35 :0.567766
+
+Test Sequence 36 :1.000000
+
+Test Sequence 37 :0.506410
+
+Test Sequence 38 :0.705903
+
+Test Sequence 39 :0.767643
+
+Test Sequence 40 :0.800142
+
+Test Sequence 41 :0.712087
+
+Test Sequence 42 :0.440442
+
+Test Sequence 43 :0.786499
+
+Test Sequence 44 :0.467001
+
+Test Sequence 45 :0.632692
+
+Test Sequence 46 :0.557529
+
+Test Sequence 47 :0.409722
+
+Test Sequence 48 :0.437500
+
+Test Sequence 49 :0.578659
+
+Test Sequence 50 :0.641941
+
+Test Sequence 51 :0.684211
+
+Test Sequence 52 :0.494551
+
+Test Sequence 53 :0.402220
+
+Test Sequence 54 :0.408263
+
+Test Sequence 55 :0.693436
+
+Test Sequence 56 :0.553235
+
+Test Sequence 57 :0.783626
+
+Test Sequence 58 :0.320732
+
+Test Sequence 59 :0.237663
+
+Test Sequence 60 :0.480432
+
+Test Sequence 61 :0.736111
+
+Test Sequence 62 :0.802778
+
+Test Sequence 63 :0.851351
+
+Test Sequence 64 :0.430128
+
+Test Sequence 65 :0.595833
+
+Test Sequence 66 :0.825292
+
+Test Sequence 67 :0.720154
+
+Test Sequence 68 :0.707722
+
+Test Sequence 69 :0.679605
+
+Test Sequence 70 :0.736111
+
+Test Sequence 71 :0.671474
+
+Test Sequence 72 :0.311757
+
+Test Sequence 73 :0.566912
+
+Test Sequence 74 :0.507143
+
+Test Sequence 75 :0.373016
+
+Test Sequence 76 :0.558704
+
+Test Sequence 77 :0.681624
+
+Test Sequence 78 :0.739432
+
+Test Sequence 79 :0.269426
+
+Test Sequence 80 :0.180382
+
+Test Sequence 81 :0.361789
+
+Test Sequence 82 :0.788462
+
+Test Sequence 83 :0.580103
+
+Test Sequence 84 :0.540043
+
+Test Sequence 85 :0.598214
+
+Test Sequence 86 :0.889386
+
+Test Sequence 87 :0.733642
+
+Test Sequence 88 :0.617216
+
+Test Sequence 89 :0.288889
+
+Test Sequence 90 :0.455128
+
+Test Sequence 91 :0.433150
+
+Test Sequence 92 :0.543956
+
+Test Sequence 93 :0.698574
+
+Test Sequence 94 :0.450000
+
+Test Sequence 95 :0.368056
+
+Test Sequence 96 :0.573613
+
+Test Sequence 97 :0.525868
+
+Test Sequence 98 :0.810811
+
+Test Sequence 99 :0.506731
+
+Test Sequence 100 :0.604297
+

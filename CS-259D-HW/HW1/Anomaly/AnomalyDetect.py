@@ -24,7 +24,7 @@ def get_global_vars():
 	#Curently we assign 1 for each co-occurence within window irrespective of distance
 	SCOPE = 6
 
-	THRESHOLD = 0.1
+	THRESHOLD = 0.5
 
 	#Dimension of reduced space
 	N = 48
@@ -76,6 +76,15 @@ def get_layered_network_similarity(X, Y):
 	
 	return np.mean(np.divide((score.sum(axis=1))[np.where(den!= 0)], den[np.where(den!= 0)]))
 
+#Add function to return the R largest values in each row of the pca matrix
+def find_largest_pca(orig_pca, R):
+	y = []
+	x = []
+	data = []
+	for i in range(1):
+		max = orig_pca.max(axis=1)
+		print max
+	return orig_pca
 
 #To read through all the files for the 50 users and generate co-occurence matrices for training sequences for the 50 users
 def get_pca_decompositions():
@@ -174,6 +183,8 @@ def find_malicious_users():
 			print key, val
 	pca = np.loadtxt(open("pca.csv","rb"),delimiter=",")
 	mean_data = np.loadtxt(open("mean.csv","rb"),delimiter=",")
+	R = 50
+	pca = find_largest_pca(pca, R)
 	
 	test_data_malicious = np.zeros(shape = (100, 50))
 	
@@ -228,33 +239,39 @@ def find_malicious_users():
                         #print sim
                     test_data_malicious[seq_no-1, i] = max_similarity
 		    print "Test Sequence %d :%f\n" %(seq_no, max_similarity)
-	np.savetxt("results.csv", test_data_malicious, delimiter=",")
+	np.savetxt("THRESHOLD_05/results.csv", test_data_malicious, delimiter=",")
 
 def find_best_threshold():
 	M, NUM_SEQUENCES, LENGTH_SEQUENCES, TOTAL_TRAINING_SEQUENCES,TRAINING_SEQ, SCOPE, THRESHOLD, N = get_global_vars()
-	m2 = np.loadtxt(open("results.csv", 'rb'), delimiter = ',')
-	m1 = np.loadtxt(open("reference.txt", 'rb'), delimiter = ' ')
-	
-	m1 = m1 > -0.5
-	true_users = np.sum(m1) + 100
-	lis = list(xrange(100))
+	m2 = np.matrix(np.loadtxt(open("THRESHOLD_05/results.csv", 'rb'), delimiter = ','))
+	m1 = np.matrix(np.loadtxt(open("reference.txt", 'rb'), delimiter = ' '))
+	user_21_sim = m2[:,20]
+	print m1[1, 20]
+	m2 = np.delete(m2, 20, axis=1)
+	m1 = np.delete(m1, 20, axis=1)
+	malicious_users = np.sum(m1)
+	#lis = list(xrange(100))
+	lis = range(100)
 	fp = []
 	fn = []
+	acc = []
 	for thr in lis:
 		thres = .01*thr
-		temp = m2 > thres
-		true_correctly_predicted = np.sum(np.multiply(m1, temp))
+		temp = m2 < thres
+		#print temp
+		malicious_correctly_predicted = np.sum(np.multiply(m1, temp))
 		#print true_correctly_predicted
-		true_total_predicted = np.sum(temp)
+		malicious_total_predicted = np.sum(temp)
 		#print true_total_predicted
-		fp.append((true_users - true_correctly_predicted)/true_users)
-		fn.append((true_total_predicted - true_correctly_predicted)/(9000-true_users))
-	with open("threshold_finding.txt", "a") as myfile:
-		
-	
+		fp.append((malicious_total_predicted - malicious_correctly_predicted)/(9000-malicious_users))
+		fn.append((malicious_users - malicious_correctly_predicted)/(malicious_users))
+		#acc.append(malicious_correctly_predicted/malicious_users)
+	with open("THRESHOLD_05/threshold_finding.txt", "w") as myfile:
+		myfile.write("False Positives")
 		for item in fp:
 			myfile.write("%f," % item)
 		myfile.write("\n")
+		myfile.write("False Negatives")
 		for iter in fn:
 			myfile.write("%f," % iter )
 		myfile.write("\n")	
