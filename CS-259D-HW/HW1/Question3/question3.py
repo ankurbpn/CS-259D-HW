@@ -3,6 +3,7 @@ import numpy as np
 import csv
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
+from sklearn.covariance import empirical_covariance
 
 TRAINING_DATA_FILENAME = "KeyboardData.csv"
 TEST_DATA_FILENAME = "KeyboardTestData.csv"
@@ -60,5 +61,53 @@ def pca_visual_analysis():
 	plt.xlim(0,4)
 	plt.ylim(-1, 1)
 	plt.show()
-pca_visual_analysis()
+
+def remove_redundant_features(subject_to_means, subject_to_values, list_of_redundant_columns):
+	for key in subject_to_values.keys():
+		subject_to_values[key] = np.delete(subject_to_values[key], list_of_redundant_columns, 1)
+		subject_to_means[key] = np.delete(subject_to_means[key], list_of_redundant_columns, 1)
+	return subject_to_means, subject_to_values
+
+def covariances():
+	subject_to_means, subject_to_values = load_data(TRAINING_DATA_FILENAME, True)
+	subject_to_covariance = {}
+	full_matrix = None
+	for key in subject_to_values.keys():
+		if full_matrix is None:	
+			full_matrix = subject_to_values[key]
+			subject_to_covariance[key] = empirical_covariance(subject_to_values[key])
+			print subject_to_means[key]
+			print subject_to_covariance[key]
+		else:
+			full_matrix = np.append(full_matrix, subject_to_values[key], axis = 0)
+			subject_to_covariance[key] = empirical_covariance(subject_to_values[key])
+	
+	full_mean = full_matrix.mean(axis=0)
+	full_covariance = empirical_covariance(full_matrix)
+	print full_mean
+	print full_covariance
+	return subject_to_covariance, full_covariance, full_mean
+
+def manhattan_distance(x, y):
+	return np.sum(np.absolute(x-y))
+
+def mahalanobis_distance(x, y, Sig):
+	return np.sqrt((x-y)*np.linalg.pinv(Sig)*(x-y).T)
+	
+def mahalanobis_nearest_neighbor(x, Y, Sig):
+	min_distance = 100000000000000
+	for i in range(Y.shape[0]):
+		temp = mahalanobis_distance(x, Y[i, :], Sig)
+		if temp<min_distance
+			min_distance = temp
+	return min_distance
+
+def manhattan_nearest_neighbor(x, Y):
+	min_distance = 10000000000000
+	for i in range(Y.shape[0]):
+		temp = manhattan_distance(x, Y[i, :])
+		if temp < min_distance
+			min_distance = temp
+	return min_distance
+
 
