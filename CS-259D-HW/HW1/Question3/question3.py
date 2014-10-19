@@ -45,8 +45,7 @@ def load_data(file_name, training):
 
     return subject_to_means_map, subject_to_values_map
 
-def pca_visual_analysis():
-	subject_to_means, subject_to_values = load_data(TRAINING_DATA_FILENAME, True)
+def pca_visual_analysis(subject_to_means, subject_to_values):
 	full_matrix = None
 	for key in subject_to_values.keys():
 		#print subject_to_values[key].shape
@@ -98,7 +97,7 @@ def mahalanobis_nearest_neighbor(x, Y, Sig):
 	min_distance = 100000000000000
 	for i in range(Y.shape[0]):
 		temp = mahalanobis_distance(x, Y[i, :], Sig)
-		if temp<min_distance
+		if temp<min_distance:
 			min_distance = temp
 	return min_distance
 
@@ -106,8 +105,26 @@ def manhattan_nearest_neighbor(x, Y):
 	min_distance = 10000000000000
 	for i in range(Y.shape[0]):
 		temp = manhattan_distance(x, Y[i, :])
-		if temp < min_distance
+		if temp < min_distance:
 			min_distance = temp
 	return min_distance
 
+def output_manhattan_distances(training__subject_means):
+	with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
+    		output_file_writer = csv.writer(output_file)
+    	with open(TEST_DATA_FILENAME, 'rb') as csvfile:
+        	for i, row in enumerate(csv.reader(csvfile)):
+            		subject_nameect = row[CSV_COLUMN_SUBJECT_NAME]
+            		data = np.array(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
+            		means_for_subject = training__subject_means[subject]
+            
+            		manhattan_distance = scipy.spatial.distance.cityblock(means_for_subject, data)
+            
+            		output_file_writer.writerow([subject, manhattan_distance])
 
+
+training__subject_to_means, training__subject_to_values = load_data(TRAINING_DATA_FILENAME, training=True)
+
+pca_visual_analysis(training__subject_to_means, training__subject_to_values)
+
+output_manhattan_distances(training__subject_to_means)
