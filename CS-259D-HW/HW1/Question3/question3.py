@@ -44,8 +44,7 @@ def load_data(file_name, training):
 
     return subject_to_means_map, subject_to_values_map
 
-def pca_visual_analysis():
-	subject_to_means, subject_to_values = load_data(TRAINING_DATA_FILENAME, True)
+def pca_visual_analysis(subject_to_means, subject_to_values):
 	full_matrix = None
 	for key in subject_to_values.keys():
 		#print subject_to_values[key].shape
@@ -60,5 +59,23 @@ def pca_visual_analysis():
 	plt.xlim(0,4)
 	plt.ylim(-1, 1)
 	plt.show()
-pca_visual_analysis()
 
+def output_manhattan_distances(training__subject_means):
+	with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
+    	output_file_writer = csv.writer(output_file)
+    	with open(TEST_DATA_FILENAME, 'rb') as csvfile:
+        	for i, row in enumerate(csv.reader(csvfile)):
+            	subject_nameect = row[CSV_COLUMN_SUBJECT_NAME]
+            	data = np.array(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
+            	means_for_subject = training__subject_means[subject]
+            
+            	manhattan_distance = scipy.spatial.distance.cityblock(means_for_subject, data)
+            
+            	output_file_writer.writerow([subject, manhattan_distance])
+
+
+training__subject_to_means, training__subject_to_values = load_data(TRAINING_DATA_FILENAME, training=True)
+
+pca_visual_analysis(training__subject_to_means)
+
+output_manhattan_distances(training__subject_to_means, test__subject_to_values)
