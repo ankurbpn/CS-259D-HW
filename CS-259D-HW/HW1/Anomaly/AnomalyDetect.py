@@ -3,6 +3,8 @@ from scipy.sparse import lil_matrix
 import numpy as np
 from sklearn.decomposition import RandomizedPCA
 import csv
+import matplotlib.pyplot as plt
+import pylab as py
 
 def get_global_vars():
 	#Global parameters
@@ -263,6 +265,59 @@ def find_best_threshold():
 		for iter in fn:
 			myfile.write("%f," % iter )
 		myfile.write("\n")	
-		
-find_malicious_users()
-find_best_threshold()
+
+def final_analysis():	
+	false_vals = np.matrix(np.loadtxt(open("THRESHOLD_03/threshold_finding.csv", 'rb'), delimiter = ","))
+	#print false_vals.shape
+	plt.xlabel('False Negatives')
+	plt.ylabel('False Positives')
+	plt.plot(np.squeeze(false_vals[1,:]),np.squeeze(false_vals[0, :]), 'bo')
+	plt.show()
+	threshold = 0.34
+	m2 = np.matrix(np.loadtxt(open("THRESHOLD_03/results.csv", 'rb'), delimiter = ','))
+	m1 = np.matrix(np.loadtxt(open("reference.txt", 'rb'), delimiter = ' '))
+	user_21_sim = m2[:,20]
+	print m1[1, 20]
+	m2 = np.delete(m2, 20, axis=1)
+	m1 = np.delete(m1, 20, axis=1)
+	with open("user21.csv", 'w') as fil:
+		for i in range(user_21_sim.shape[0]):
+			temp = 0
+			if user_21_sim[i, 0]<threshold:
+				temp = 1
+			fil.write("%f," % temp)
+	
+	#Userwise false positive negative results
+	lis_acc = []
+	fp = []
+	fn = []
+	for i in range(m2.shape[1]):
+		threshold = 0.3*np.mean(m2[:, i])
+		temp = 0.0
+		for j in range(m2.shape[0]):
+			res = 0
+			if m2[j, i] < threshold:	
+				res = 1
+			m2[j, i] = res
+			if res==m1[j, i]:
+				temp = temp+1
+		lis_acc.append(temp/100)
+	malicious_users = np.sum(m1)
+	malicious_correctly_predicted = np.sum(np.multiply(m1, m2))
+	#print true_correctly_predicted
+	malicious_total_predicted = np.sum(m2)
+	#print true_total_predicted
+	fp.append((malicious_total_predicted - malicious_correctly_predicted)/(9000-malicious_users))
+	fn.append((malicious_users - malicious_correctly_predicted)/(malicious_users))
+	
+	print lis_acc
+	py.hist(lis_acc)
+	py.figure()
+	py.show()
+	print fp
+	print fn
+	
+
+final_analysis()	
+#find_malicious_users()
+#find_best_threshold()
