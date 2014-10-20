@@ -1,7 +1,9 @@
 #!/usr/bin/python
 import numpy as np
 import csv
+import math
 import matplotlib.pyplot as plt
+import random
 import scipy
 from sklearn.decomposition import PCA
 from sklearn.covariance import empirical_covariance
@@ -13,6 +15,8 @@ ANSWERS_OUTPUT_FILENAME = "answer.csv"
 
 CSV_COLUMN_SUBJECT_NAME = 0
 CSV_COLUMN_KEY_DATA_START = 3
+
+MANHATTAN = 0
 
 def load_data(file_name, training):
     cur_subject_values = None
@@ -126,8 +130,9 @@ def output_manhattan_distances(training__subject_means):
                 output_file_writer.writerow([subject, manhattan_distance])
 
 
-def get_manhattan_distances(training__subject_means):
+def get_manhattan_distances_from_test_file(training__subject_means):
     distances = []
+
     with open(TEST_DATA_FILENAME, 'rb') as csvfile:
         for row in csv.reader(csvfile):
             subject_nameect = row[CSV_COLUMN_SUBJECT_NAME]
@@ -140,6 +145,18 @@ def get_manhattan_distances(training__subject_means):
 
     return distances
             
+
+def get_manhattan_distances(training_means, test_sequences):
+    distances = []
+    
+    for subject in test_sequences:
+        subject_mean = training_means[subject]
+        for test_sequence in test_sequences[subject]:
+            manhattan_distance = scipy.spatial.distance.cityblock(subject_mean, test_sequence)
+            distances.append( (subject, manhattan_distance) )
+
+    return distances
+
             		
 def get_1_norm_data(training__subject_to_means, training__subject_to_values):
     subject_to_1_norm_means = {}
@@ -174,21 +191,73 @@ def get_distance_thresholds(subjects_to_values, subjects_to_means):
     return subject_to_distance_thresholds
 
 
-def print_answers(input_labels_vector):
+def output_answers(input_labels_vector):
     with open(ANSWERS_OUTPUT_FILENAME, 'wb') as output_file:
         output_file_writer = csv.writer(output_file)
         for row in input_labels_vector:
             output_file_writer.writerow([row])
 
 
+def label_test_input_manhattan(training__subject_to_means, training__subject_to_values):
+    distance_thresholds = get_distance_thresholds(training__subject_to_values, training__subject_to_means)
+    
+    manhattan_distances = get_manhattan_distances_from_test_file(training__subject_to_means)
+    
+    input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
+    
+    output_answers(input_labels_vector)
+
+
+
+def get_validation_and_training_sequences(training__subject_to_values):
+    validation_sequences = {}
+    for subject in training__subject_to_values:
+        training_sequences = training__subject_to_values[subject]
+        
+        num_training_sequences = len(training_sequences)
+        sample_size = int(math.floor(0.2 * num_training_sequences))
+        
+        # Pick random indeces of training sequences to convert to validation sequences
+        training_sequences_to_remove = random.sample(xrange(num_training_sequences), sample_size)
+
+        # Copy over the validation sequences
+        validation_sequences[subject] = training_sequences.take(training_sequences_to_remove, axis=0)
+
+        # Remove the training sequences
+        training__subject_to_values[subject] = np.delete(training_sequences, training_sequences_to_remove, 0)
+
+    return validation_sequences, training__subject_to_values
+
+
+def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
+    validation_seqs, training_seqs = get_validation_and_training_sequences(training__subject_to_values)
+
+    training_means = {}
+    for subject in training_seqs:
+        training_means[subject] = np.mean(training_seqs[subject])
+
+    input_labels_vector = None
+
+    if algorithm == MANHATTAN:
+        distance_thresholds = get_distance_thresholds(training_seqs, training_means)
+        manhattan_distances = get_manhattan_distances(training_means, validation_seqs)
+        input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
+
+    # Number of incorrect classifications is the number of passwords rejected from the validation sequences
+    # The number of rejected passwords is just the sum of each element in the input labels vector, as every
+    # element is an indicator variable
+    percent_false_negative = float(np.sum(input_labels_vector)) / len(input_labels_vector)
+    percent_accuracy = 1 - percent_false_negative
+
+    return (percent_false_negative, percent_accuracy)
+    
 training__subject_to_means, training__subject_to_values = load_data(TRAINING_DATA_FILENAME, training=True)
 
 #pca_visual_analysis(training__subject_to_means, training__subject_to_values)
 
-distance_thresholds = get_distance_thresholds(training__subject_to_values, training__subject_to_means)
+label_test_input_manhattan(training__subject_to_means, training__subject_to_values)
 
-manhattan_distances = get_manhattan_distances(training__subject_to_means)
+(manhattan_false_negative_rate, manhattan_accuracy_rate) = measure_performance(training__subject_to_values, algorithm=MANHATTAN)
 
-input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
-
-print_answers(input_labels_vector)
+print "Manhattan false negative rate: %f" % manhattan_false_negative_rate
+print "Manhattan accuracy rate: %f" % manhattan_accuracy_rate
