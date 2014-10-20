@@ -2,11 +2,14 @@
 import numpy as np
 import csv
 import matplotlib.pyplot as plt
+import scipy
 from sklearn.decomposition import PCA
 from sklearn.covariance import empirical_covariance
 
 TRAINING_DATA_FILENAME = "KeyboardData.csv"
 TEST_DATA_FILENAME = "KeyboardTestData.csv"
+DISTANCES_OUTPUT_FILENAME = "ManhattanDistances.csv"
+ANSWERS_OUTPUT_FILENAME = "answer.csv"
 
 CSV_COLUMN_SUBJECT_NAME = 0
 CSV_COLUMN_KEY_DATA_START = 3
@@ -110,21 +113,82 @@ def manhattan_nearest_neighbor(x, Y):
 	return min_distance
 
 def output_manhattan_distances(training__subject_means):
-	with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
-    		output_file_writer = csv.writer(output_file)
-    	with open(TEST_DATA_FILENAME, 'rb') as csvfile:
-        	for i, row in enumerate(csv.reader(csvfile)):
-            		subject_nameect = row[CSV_COLUMN_SUBJECT_NAME]
-            		data = np.array(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
-            		means_for_subject = training__subject_means[subject]
+    with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
+        output_file_writer = csv.writer(output_file)
+        with open(TEST_DATA_FILENAME, 'rb') as csvfile:
+            for i, row in enumerate(csv.reader(csvfile)):
+                subject = row[CSV_COLUMN_SUBJECT_NAME]
+                data = np.array(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
+                means_for_subject = training__subject_means[subject]
+                
+                manhattan_distance = scipy.spatial.distance.cityblock(means_for_subject, data)
+                
+                output_file_writer.writerow([subject, manhattan_distance])
+
+
+def get_manhattan_distances(training__subject_means):
+    distances = []
+    with open(TEST_DATA_FILENAME, 'rb') as csvfile:
+        for row in csv.reader(csvfile):
+            subject_nameect = row[CSV_COLUMN_SUBJECT_NAME]
+            data = np.array(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
+            means_for_subject = training__subject_means[subject_nameect]
             
-            		manhattan_distance = scipy.spatial.distance.cityblock(means_for_subject, data)
+            manhattan_distance = scipy.spatial.distance.cityblock(means_for_subject, data)
+
+            distances.append( (subject_nameect, manhattan_distance) )
+
+    return distances
             
-            		output_file_writer.writerow([subject, manhattan_distance])
+            		
+def get_1_norm_data(training__subject_to_means, training__subject_to_values):
+    subject_to_1_norm_means = {}
+    subject_to_1_norm_stddvs = {}
+
+    for subject in training__subject_to_means:
+        features_means = training__subject_to_means[subject]
+        features_values = training__subject_to_values[subject]
+
+        norms = [np.linalg.norm(S_i - features_means, ord=1) for S_i in features_values]
+        
+        norms_mean = np.mean(norms)
+        norms_stddv = np.std(norms)
+        
+        subject_to_1_norm_means[subject] = norms_mean
+        subject_to_1_norm_stddvs[subject] = norms_stddv
+
+    return (subject_to_1_norm_means, subject_to_1_norm_stddvs)
+
+
+def get_distance_thresholds(subjects_to_values, subjects_to_means):
+    subject_to_1_norms_means, subject_to_1_norms_stddvs = get_1_norm_data(training__subject_to_means, training__subject_to_values)
+
+    subject_to_distance_thresholds = {}
+
+    for subject in subject_to_1_norms_means:
+        norm_mean = subject_to_1_norms_means[subject]
+        norm_stddv = subject_to_1_norms_stddvs[subject]
+
+        subject_to_distance_thresholds[subject] = norm_mean+norm_stddv
+
+    return subject_to_distance_thresholds
+
+
+def print_answers(input_labels_vector):
+    with open(ANSWERS_OUTPUT_FILENAME, 'wb') as output_file:
+        output_file_writer = csv.writer(output_file)
+        for row in input_labels_vector:
+            output_file_writer.writerow([row])
 
 
 training__subject_to_means, training__subject_to_values = load_data(TRAINING_DATA_FILENAME, training=True)
 
-pca_visual_analysis(training__subject_to_means, training__subject_to_values)
+#pca_visual_analysis(training__subject_to_means, training__subject_to_values)
 
-output_manhattan_distances(training__subject_to_means)
+distance_thresholds = get_distance_thresholds(training__subject_to_values, training__subject_to_means)
+
+manhattan_distances = get_manhattan_distances(training__subject_to_means)
+
+input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
+
+print_answers(input_labels_vector)
