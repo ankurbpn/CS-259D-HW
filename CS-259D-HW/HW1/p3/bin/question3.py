@@ -19,6 +19,7 @@ CSV_COLUMN_KEY_DATA_START = 3
 NUM_NEGATIVES_PER_VALIDATION_SEQ = 150
 
 MANHATTAN = 0
+MANHATTAN_NN = 1
 
 def load_data(file_name, training):
     cur_subject_values = None
@@ -112,11 +113,15 @@ def mahalanobis_nearest_neighbor(x, Y, Sig):
 
 def manhattan_nearest_neighbor(x, Y):
 	min_distance = 10000000000000
-	for i in range(Y.shape[0]):
-		temp = manhattan_distance(x, Y[i, :])
-		if temp < min_distance:
-			min_distance = temp
-	return min_distance
+	index = -1
+	for key in Y.keys():
+		for i in range(Y[key].shape[0]):
+			temp = manhattan_distance(x, (Y[key])[i, :])
+			if temp < min_distance:
+				min_distance = temp
+				index = key
+	print index
+	return index
 
 def output_manhattan_distances(training__subject_means, training_subject_data = {}):
     with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
@@ -146,6 +151,16 @@ def get_manhattan_distances_from_test_file(training__subject_means, training_sub
             distances.append( (subject_nameect, manhattan_distance) )
 
     return distances
+
+def manhattan_nn_test(training_data):
+	ind = []
+	with open(TEST_DATA_FILENAME, 'rb') as csvfile:
+		for row in csv.reader(csvfile):
+			seq = {}
+			key = row[CSV_COLUMN_SUBJECT_NAME]
+			seq[key] = np.matrix(row[CSV_COLUMN_KEY_DATA_START:], dtype=float)
+			ind.extend(get_manhattan_nn(training_data, seq))
+	return ind
             
 
 def get_manhattan_distances(training_means, test_sequences):
@@ -159,6 +174,20 @@ def get_manhattan_distances(training_means, test_sequences):
 
     return distances
 
+def get_manhattan_nn(training_seqs, validation_seqs):
+	nn = []
+	counter = 1
+	for key in validation_seqs:
+		for i in range(validation_seqs[key].shape[0]):
+			seq = validation_seqs[key][i, :]
+			ind = manhattan_nearest_neighbor(seq, training_seqs)
+			if ind==key:
+				nn.append(0)
+			else:
+				nn.append(1)
+			print 'sequence ', counter
+			counter = counter + 1
+	return nn
             		
 def get_1_norm_data(training__subject_to_means, training__subject_to_values):
     subject_to_1_norm_means = {}
@@ -199,14 +228,18 @@ def output_answers(input_labels_vector):
         output_file_writer.writerow(input_labels_vector)
 
 
-def label_test_input_manhattan(training__subject_to_means, training__subject_to_values):
-    distance_thresholds = get_distance_thresholds(training__subject_to_values, training__subject_to_means)
+def label_test_input_manhattan(training__subject_to_means, training__subject_to_values, algorithm = MANHATTAN_NN, training_data = {}):
+    if algorithm == MANHATTAN_NN:
+	output_answers(manhattan_nn_test(training_data))
+	
+    else:
+    	distance_thresholds = get_distance_thresholds(training__subject_to_values, training__subject_to_means)
     
-    manhattan_distances = get_manhattan_distances_from_test_file(training__subject_to_means)
+    	manhattan_distances = get_manhattan_distances_from_test_file(training__subject_to_means)
     
-    input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
+    	input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
     
-    output_answers(input_labels_vector)
+    	output_answers(input_labels_vector)
 
 
 
@@ -230,23 +263,10 @@ def get_validation_and_training_sequences(training__subject_to_values):
 
         # Remove the training sequences
         training__subject_to_values[subject] = np.delete(training_sequences, training_sequences_to_remove, 0)
-
-        # Insert negatives into validation sequences
-        candidate_sequences = []
-        for different_subject in training__subject_to_values:
-            if subject == different_subject:
-                continue
-            candidate_sequences.extend(training__subject_to_values[different_subject])
-
-        known_negative_sequences = random.sample(candidate_sequences, NUM_NEGATIVES_PER_VALIDATION_SEQ)
-
-        validation_sequences[subject] = np.append(validation_sequences[subject], known_negative_sequences, axis=0)
-
-
     return validation_sequences, training__subject_to_values, NUM_POSITIVES_PER_VALIDATION_SEQ
 
 
-def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
+def measure_performance(training__subject_to_values, algorithm=MANHATTAN_NN):
     validation_seqs, training_seqs, NUM_POSITIVES_PER_VALIDATION_SEQ = get_validation_and_training_sequences(training__subject_to_values)
 
     training_means = {}
@@ -274,6 +294,11 @@ def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
 
             true_positive_rates.append(percent_true_positive)
             false_positive_rates.append(percent_false_positive)
+    if algorithm == MANHATTAN_NN:
+	manhattan_nn = get_manhattan_nn(training_seqs, validation_seqs)
+	accuracy = 1 - (1.0*np.sum(manhattan_nn))/len(list(manhattan_nn))
+	print 'accuracy', accuracy
+	return
 
     plt.plot(false_positive_rates, true_positive_rates)
     plt.axis([0, 1, 0, 1])
@@ -289,10 +314,10 @@ print "Performing PCA visual analysis (close plot to continue)..."
 pca_visual_analysis(training__subject_to_means, training__subject_to_values)
 
 print "Classifying test data set..."
-label_test_input_manhattan(training__subject_to_means, training__subject_to_values)
+label_test_input_manhattan(training__subject_to_means, training__subject_to_values, MANHATTAN_NN, training__subject_to_values)
 
 print "Generating ROC curve for detector..."
-measure_performance(training__subject_to_values, algorithm=MANHATTAN)
+measure_performance(training__subject_to_values, algorithm=MANHATTAN_NN)
 
 print "Done"
 
