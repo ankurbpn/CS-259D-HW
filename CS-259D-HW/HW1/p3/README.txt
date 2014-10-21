@@ -5,6 +5,3 @@ Our initial approach was to take a relatively simple detector and train it with 
 
 We see that our classifier has a consistently high true positive rate, but a moderately high false positive rate as well (where we define a true positive to be a user labeled as authentic when the user is indeed authentic, and a false positive to be a masquerader labeled as authentic). For example, the classifier would achieve a 88% true positive at roughly a 50% false positive rate.
 
----
-TODO: PCA analysis discussion
----

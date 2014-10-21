@@ -1,15 +1,15 @@
 SUNetIDs
 ----------
 gavilan@stanford.edu
-TODO: sunetid
+ankurbpn
 
 
 Amount of time spent on problems
 --------------------------------
 P1: 3 hours
-TODO: p2
+P2: ~15 hrs
 P3: 10 hours
 
 Thoughts on homework
 --------------------
-TODO: any thoughts?
+Yay, we're done!! 

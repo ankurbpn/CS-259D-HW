@@ -118,7 +118,7 @@ def manhattan_nearest_neighbor(x, Y):
 			min_distance = temp
 	return min_distance
 
-def output_manhattan_distances(training__subject_means):
+def output_manhattan_distances(training__subject_means, training_subject_data = {}):
     with open(DISTANCES_OUTPUT_FILENAME, 'wb') as output_file:
         output_file_writer = csv.writer(output_file)
         with open(TEST_DATA_FILENAME, 'rb') as csvfile:
@@ -132,7 +132,7 @@ def output_manhattan_distances(training__subject_means):
                 output_file_writer.writerow([subject, manhattan_distance])
 
 
-def get_manhattan_distances_from_test_file(training__subject_means):
+def get_manhattan_distances_from_test_file(training__subject_means, training_subject_data = {}):
     distances = []
 
     with open(TEST_DATA_FILENAME, 'rb') as csvfile:
