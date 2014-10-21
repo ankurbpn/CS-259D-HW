@@ -16,6 +16,8 @@ ANSWERS_OUTPUT_FILENAME = "answer.csv"
 CSV_COLUMN_SUBJECT_NAME = 0
 CSV_COLUMN_KEY_DATA_START = 3
 
+NUM_NEGATIVES_PER_VALIDATION_SEQ = 150
+
 MANHATTAN = 0
 
 def load_data(file_name, training):
@@ -211,12 +213,16 @@ def label_test_input_manhattan(training__subject_to_means, training__subject_to_
 
 def get_validation_and_training_sequences(training__subject_to_values):
     validation_sequences = {}
+    NUM_POSITIVES_PER_VALIDATION_SEQ = None
     for subject in training__subject_to_values:
         training_sequences = training__subject_to_values[subject]
         
         num_training_sequences = len(training_sequences)
         sample_size = int(math.floor(0.2 * num_training_sequences))
         
+        if (NUM_POSITIVES_PER_VALIDATION_SEQ is None):
+            NUM_POSITIVES_PER_VALIDATION_SEQ = sample_size
+
         # Pick random indeces of training sequences to convert to validation sequences
         training_sequences_to_remove = random.sample(xrange(num_training_sequences), sample_size)
 
@@ -226,17 +232,23 @@ def get_validation_and_training_sequences(training__subject_to_values):
         # Remove the training sequences
         training__subject_to_values[subject] = np.delete(training_sequences, training_sequences_to_remove, 0)
 
-        break
+        # Insert negatives into validation sequences
+        candidate_sequences = []
+        for different_subject in training__subject_to_values:
+            if subject == different_subject:
+                continue
+            candidate_sequences.extend(training__subject_to_values[different_subject])
 
-    return validation_sequences, training__subject_to_values
+        known_negative_sequences = random.sample(candidate_sequences, NUM_NEGATIVES_PER_VALIDATION_SEQ)
+
+        validation_sequences[subject] = np.append(validation_sequences[subject], known_negative_sequences, axis=0)
+
+
+    return validation_sequences, training__subject_to_values, NUM_POSITIVES_PER_VALIDATION_SEQ
 
 
 def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
-    validation_seqs, training_seqs = get_validation_and_training_sequences(training__subject_to_values)
-
-    print "Validation sequences: "
-    print validation_seqs
-    print "\n\n\n"
+    validation_seqs, training_seqs, NUM_POSITIVES_PER_VALIDATION_SEQ = get_validation_and_training_sequences(training__subject_to_values)
 
     training_means = {}
     for subject in training_seqs:
@@ -244,26 +256,44 @@ def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
 
     input_labels_vector = None
 
+    true_positive_rates = []
+    false_positive_rates = []
+
     if algorithm == MANHATTAN:
         distance_thresholds = get_distance_thresholds(training_seqs, training_means)
         manhattan_distances = get_manhattan_distances(training_means, validation_seqs)
-        input_labels_vector = [0 if distance <= distance_thresholds[subject] else 1 for (subject, distance) in manhattan_distances]
 
-    # Number of incorrect classifications is the number of passwords rejected from the validation sequences
-    # The number of rejected passwords is just the sum of each element in the input labels vector, as every
-    # element is an indicator variable
-    percent_false_negative = float(np.sum(input_labels_vector)) / len(input_labels_vector)
-    percent_accuracy = 1 - percent_false_negative
+        #for multiplier in np.arange(0, 2, 0.04):
+        for multiplier in np.arange(0.1, 2, 0.05):
+            input_labels_vector = [0 if distance <= distance_thresholds[subject]*multiplier else 1 for (subject, distance) in manhattan_distances]
 
-    return (percent_false_negative, percent_accuracy)
+            known_positives = input_labels_vector[:NUM_POSITIVES_PER_VALIDATION_SEQ-1]
+            known_negatives = input_labels_vector[NUM_POSITIVES_PER_VALIDATION_SEQ:]
+
+            percent_true_positive = 1 - float(np.sum(known_positives)) / len(known_positives)
+            percent_false_positive = 1 - float(np.sum(known_negatives)) / len(known_negatives)
+
+            true_positive_rates.append(percent_true_positive)
+            false_positive_rates.append(percent_false_positive)
+
+    plt.plot(false_positive_rates, true_positive_rates)
+    plt.axis([0, 1, 0, 1])
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("ROC curve for Manhattan distance detector")
+    plt.show()
+
     
 training__subject_to_means, training__subject_to_values = load_data(TRAINING_DATA_FILENAME, training=True)
 
-#pca_visual_analysis(training__subject_to_means, training__subject_to_values)
+print "Performing PCA visual analysis (close plot to continue)..."
+pca_visual_analysis(training__subject_to_means, training__subject_to_values)
 
+print "Classifying test data set..."
 label_test_input_manhattan(training__subject_to_means, training__subject_to_values)
 
-(manhattan_false_negative_rate, manhattan_accuracy_rate) = measure_performance(training__subject_to_values, algorithm=MANHATTAN)
+print "Generating ROC curve for detector..."
+measure_performance(training__subject_to_values, algorithm=MANHATTAN)
 
-print "Manhattan false negative rate: %f" % manhattan_false_negative_rate
-print "Manhattan accuracy rate: %f" % manhattan_accuracy_rate
+print "Done"
+
