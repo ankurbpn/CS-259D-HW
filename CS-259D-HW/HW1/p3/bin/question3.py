@@ -11,7 +11,7 @@ from sklearn.covariance import empirical_covariance
 TRAINING_DATA_FILENAME = "KeyboardData.csv"
 TEST_DATA_FILENAME = "KeyboardTestData.csv"
 DISTANCES_OUTPUT_FILENAME = "ManhattanDistances.csv"
-ANSWERS_OUTPUT_FILENAME = "answer.csv"
+ANSWERS_OUTPUT_FILENAME = "../answer.csv"
 
 CSV_COLUMN_SUBJECT_NAME = 0
 CSV_COLUMN_KEY_DATA_START = 3
@@ -195,9 +195,8 @@ def get_distance_thresholds(subjects_to_values, subjects_to_means):
 
 def output_answers(input_labels_vector):
     with open(ANSWERS_OUTPUT_FILENAME, 'wb') as output_file:
-        output_file_writer = csv.writer(output_file)
-        for row in input_labels_vector:
-            output_file_writer.writerow([row])
+        output_file_writer = csv.writer(output_file, delimiter=',')
+        output_file_writer.writerow(input_labels_vector)
 
 
 def label_test_input_manhattan(training__subject_to_means, training__subject_to_values):
