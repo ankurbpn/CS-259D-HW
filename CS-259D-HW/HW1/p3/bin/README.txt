@@ -3,6 +3,8 @@ To run the classifier:
 cd bin
 python question3.py
 
+You'll need to add the test and training dtaa files to the same folder.
+
 Close the plots to allow the script to continue.
 
 Dependencies: numpy, scipy, matplotlib, sklearn
