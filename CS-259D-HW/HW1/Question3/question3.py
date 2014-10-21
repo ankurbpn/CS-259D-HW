@@ -226,15 +226,21 @@ def get_validation_and_training_sequences(training__subject_to_values):
         # Remove the training sequences
         training__subject_to_values[subject] = np.delete(training_sequences, training_sequences_to_remove, 0)
 
+        break
+
     return validation_sequences, training__subject_to_values
 
 
 def measure_performance(training__subject_to_values, algorithm=MANHATTAN):
     validation_seqs, training_seqs = get_validation_and_training_sequences(training__subject_to_values)
 
+    print "Validation sequences: "
+    print validation_seqs
+    print "\n\n\n"
+
     training_means = {}
     for subject in training_seqs:
-        training_means[subject] = np.mean(training_seqs[subject])
+        training_means[subject] = np.mean(training_seqs[subject], axis=0)
 
     input_labels_vector = None
 
