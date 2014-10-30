@@ -86,7 +86,7 @@ def read_features():
 	#print user
 	return user, features
 
-def mutual_information(feature_index):
+def rel_entropy(feature_index):
 	user, features = read_features()
 	user = np.squeeze(user)
 	feature = np.squeeze(features[:, feature_index])
@@ -140,7 +140,32 @@ def mutual_information(feature_index):
 			HU += user_count[key]*math.log(total_count/user_count[key])
 	print 'Relative entropy is ', MIUF/HU
  
-for i in range(32):
+def correlation():
+	user, features = read_features()
+	user = np.squeeze(user)
 	dic = get_feature_dict()
-	print dic[i]
-	mutual_information(i)
+	for key in dic.keys():
+		print key, dic[key]
+	cov = covariance.EmpiricalCovariance() 
+	cov.fit(features)
+	cor = cov.covariance_
+	for i in range(cor.shape[0]):
+		for j in range(cor.shape[1]):
+			if i != j:
+				cor[i, j] = cor[i, j]/math.sqrt(cor[i, i]*cor[j, j])
+
+	for i in range(cor.shape[0]):
+		cor[i, i] = 1
+	print dic[30]
+	print cor[30, :]
+	print dic[31]
+	print cor[31, :]
+
+def print_rel_entropy():
+	dic = get_feature_dict()
+	for i in range(32):
+		print dic[i]
+		rel_entropy(i)
+
+print_rel_entropy()
+correlation()
