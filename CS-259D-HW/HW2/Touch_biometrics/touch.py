@@ -4,6 +4,7 @@ import csv
 import matplotlib.pyplot as plt
 import pylab as py
 import math 
+from heapq import *
 
 def get_feature_dict():
 	featureStr = {}
@@ -139,6 +140,7 @@ def rel_entropy(feature_index):
 		if user_count[key]>0:
 			HU += user_count[key]*math.log(total_count/user_count[key])
 	print 'Relative entropy is ', MIUF/HU
+	return MIUF/HU
  
 def correlation():
 	user, features = read_features()
@@ -160,6 +162,7 @@ def correlation():
 	print cor[30, :]
 	print dic[31]
 	print cor[31, :]
+	return cor
 
 def print_rel_entropy():
 	dic = get_feature_dict()
@@ -167,5 +170,43 @@ def print_rel_entropy():
 		print dic[i]
 		rel_entropy(i)
 
-print_rel_entropy()
-correlation()
+##This function selects the list of features based on maximum mutual information with the user from the 30 old features
+def select_feature_1():
+	feat = []
+	lis = []
+	dic = get_feature_dict()
+	for i in range(30):
+		temp = rel_entropy(i)
+		heappush(feat, (1/temp, i))
+	
+	for j in range(10):
+		temp = heappop(feat)[1]
+		lis.append(temp)
+		print dic[temp]
+	return lis
+
+##This function selects the list of features based on mini max correlation with the features currently in the list - the first feature is the one with the maximum relative entropy
+
+def select_feature_2():
+	#First feature is mid stroke pressure which is feature number 26
+	feat = [26]
+	cor = correlation()
+	dic = get_feature_dict()
+	for k in range(9):
+		min_index = -1
+		min = 1
+		for i in range(30):
+			temp = np.amax(cor[i, feat])
+			if temp < min:
+				min_index = i
+				min = temp
+		feat.append(min_index)
+	for j in range(10):
+		print dic[feat[j]]
+	
+	return feat
+		
+##print_rel_entropy()
+##correlation()
+##select_feature_1()
+select_feature_2()
