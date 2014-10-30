@@ -205,8 +205,15 @@ def select_feature_2():
 		print dic[feat[j]]
 	
 	return feat
-		
+
+##This function trains a tree for multi-class classification and chooses the features with highest importance for classification
+def select_feature_3():
+	user, features = read_features()
+	tree = ensemble.ExtraTreesClassifer()
+	tree.fit(features[:, [0:29]], user)
+	print tree.feature_inportances_
 ##print_rel_entropy()
 ##correlation()
 ##select_feature_1()
-select_feature_2()
+##select_feature_2()
+select_feature_3()
