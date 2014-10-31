@@ -192,6 +192,7 @@ def select_feature_2():
 	feat = [26]
 	cor = correlation()
 	dic = get_feature_dict()
+	print dic[feat[0]]
 	for k in range(9):
 		min_index = -1
 		min = 1
@@ -201,19 +202,53 @@ def select_feature_2():
 				min_index = i
 				min = temp
 		feat.append(min_index)
-	for j in range(10):
-		print dic[feat[j]]
+		print dic[min_index]
 	
 	return feat
 
 ##This function trains a tree for multi-class classification and chooses the features with highest importance for classification
 def select_feature_3():
 	user, features = read_features()
-	tree = ensemble.ExtraTreesClassifer()
-	tree.fit(features[:, [0:29]], user)
-	print tree.feature_inportances_
+	dic = get_feature_dict()
+	tree = ensemble.ExtraTreesClassifier()
+	tree.fit(features[:, range(30)], user)
+	imp = tree.feature_importances_
+	lis = []
+	feat = []
+	for i in range(30):
+		heappush(lis, (1/imp[i], i))
+	for i in range(10):
+		temp = heappop(lis)[1]
+		feat.append(temp)
+		print dic[temp]
+	return feat
+
+##Use L-1 norm with a linear classifer to select most important features
+def select_feature_4():
+	user, features = read_features()
+	dic = get_feature_dict()
+	factor = 10
+	pen_factor = 1
+	check = True
+	while True:
+		select = linear_model.LogisticRegression(penalty='l1', C=pen_factor)
+		select.fit(features[:, range(30)], user)
+		feat = select.transform(np.array(range(30)))
+		print list(feat)
+		if len(feat) < 10:
+			pen_factor = pen_factor/factor
+			factor = factor/2
+		if len(feat) > 10:
+			pen_factor = pen_factor*factor
+			factor = factor/2
+		if len(feat)==10:
+			for item in feat:
+				print dic[item]
+			return list(feat)
+			
 ##print_rel_entropy()
 ##correlation()
 ##select_feature_1()
 ##select_feature_2()
-select_feature_3()
+##select_feature_3()
+select_feature_4()
