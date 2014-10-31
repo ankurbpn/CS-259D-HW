@@ -1,10 +1,11 @@
 import numpy as np
 from sklearn import *
 import csv
-import matplotlib.pyplot as plt
-import pylab as py
+##import matplotlib.pyplot as plt
+##import pylab as py
 import math 
 from heapq import *
+import multiprocessing
 
 def get_feature_dict():
 	featureStr = {}
@@ -225,30 +226,44 @@ def select_feature_3():
 
 ##Use L-1 norm with a linear classifer to select most important features
 def select_feature_4():
+	pen_factor = [.1, .5, 1, 5, 10, 50, 100, 500, 1000]
+	lis = multiprocessing.Pool(len(pen_factor)).map(get_selected_features, pen_factor)	
+	for item in lis:
+		print item.shape
+
+def get_selected_features(p):
 	user, features = read_features()
-	dic = get_feature_dict()
-	factor = 10
-	pen_factor = 1
-	check = True
-	while True:
-		select = linear_model.LogisticRegression(penalty='l1', C=pen_factor)
-		select.fit(features[:, range(30)], user)
-		feat = select.transform(np.array(range(30)))
-		print list(feat)
-		if len(feat) < 10:
-			pen_factor = pen_factor/factor
-			factor = factor/2
-		if len(feat) > 10:
-			pen_factor = pen_factor*factor
-			factor = factor/2
-		if len(feat)==10:
-			for item in feat:
-				print dic[item]
-			return list(feat)
-			
+	select = linear_model.LogisticRegression(penalty='l1', C=p, dual=False)
+	select.fit(features[:, range(30)], user)
+	feat = select.transform(np.matrix(range(30)))
+	return feat
+
+def get_F1_score():
+	user, features = read_features()
+	user_set = set(list(np.squeeze(user)))
+	##Select features
+	feat = select_feature_1()
+	print user_set
+	F1 = []
+	for u in user_set:
+		y = 0*user
+		for i in range(user.shape[0]):
+			if user[i]!=u:
+				y[i]=1
+		##Use SVM Classifier
+		model = svm.SVC(kernel = 'rbf')
+		##Use Log reg classifier
+		#model = linear_model.LogisticRegression
+		F1.append(np.mean(cross_validation.cross_val_score(model, features[:, feat], y, cv=10)))
+	print 'F1 score is ',np.mean(np.array(F1)) 
+					
+
 ##print_rel_entropy()
 ##correlation()
 ##select_feature_1()
 ##select_feature_2()
 ##select_feature_3()
-select_feature_4()
+##select_feature_4()
+
+get_F1_score()
+
