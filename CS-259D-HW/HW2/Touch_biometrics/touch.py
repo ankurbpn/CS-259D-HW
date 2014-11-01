@@ -143,7 +143,7 @@ def rel_entropy(feature_index):
 	for key in user_count.keys():
 		if user_count[key]>0:
 			HU += user_count[key]*math.log(total_count/user_count[key])
-	print 'Relative entropy is ', MIUF/HU
+	#print 'Relative entropy is ', MIUF/HU
 	return MIUF/HU
  
 def correlation():
@@ -163,16 +163,15 @@ def correlation():
 	for i in range(cor.shape[0]):
 		cor[i, i] = 1
 	print dic[30]
-	print cor[30, :]
+	print np.round(cor[30, :], 3)
 	print dic[31]
-	print cor[31, :]
+	print np.round(cor[31, :], 3)
 	return cor
 
 def print_rel_entropy():
 	dic = get_feature_dict()
 	for i in range(32):
-		print dic[i]
-		rel_entropy(i)
+		print dic[i], rel_entropy(i)
 
 ##This function selects the list of features based on maximum mutual information with the user from the 30 old features
 def select_feature_1():
@@ -251,10 +250,10 @@ def get_F1_score():
 	user_set = set(list(np.squeeze(user)))
 	dic = get_feature_dict()
 	##Select features
-	feat = select_feature_4()
-	#feat = range(30)
+	##feat = select_feature_2()
+	feat = range(30)
 	##Add last 2 features
-	#feat.extend((30, 31))
+	feat.extend((30, 31))
 	print user_set
 	F1 = []
 	for u in user_set:
@@ -273,7 +272,7 @@ def get_F1_score():
 		##Use SVM Classifier
 		model = svm.SVC(kernel = 'rbf')
 		##Use Log reg classifier
-		#model = linear_model.LogisticRegression
+		##model = linear_model.LogisticRegression()
 		F1.append(np.mean(cross_validation.cross_val_score(model, x[:, feat], y[:, :], cv=10, scoring = 'f1')))
 	print 'The features used are'
 	for item in feat:
