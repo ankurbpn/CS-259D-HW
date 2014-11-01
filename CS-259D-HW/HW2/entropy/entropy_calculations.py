@@ -16,8 +16,8 @@ def get_entropy_from_dict(dic, total):
 	return H
 
 def get_all_entropy_lists():
-	lis_features = [3, 4, 5, 6, 7, 8]
-	#lis_features = [3]
+	#lis_features = [3, 4, 5, 6, 7, 8]
+	lis_features = [3]
 	pairwise_ent = {}
 	ent = {}
 	pairwise_count = {}
@@ -75,12 +75,15 @@ def plot_all_entropy_lists():
 	count = 0
 	time, ent, pairwise_ent = get_all_entropy_lists()
 	feat = get_feature_name()
+	plt.switch_backend('TkAgg')
 	for i in ent.keys():
 		fig = plt.figure(count)
 		count+=1
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i] )
 		plt.plot(time, ent[i])
+		mng = plt.get_current_fig_manager()
+		mng.resize(*mng.window.maxsize())
 		fig.savefig(feat[i] + '.png')
 	for i in pairwise_ent.keys():
 		fig = plt.figure(count)
@@ -88,6 +91,8 @@ def plot_all_entropy_lists():
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
 		plt.plot(time, pairwise_ent[i])
+		mng = plt.get_current_fig_manager()
+		mng.resize(*mng.window.maxsize())
 		fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
 
 
