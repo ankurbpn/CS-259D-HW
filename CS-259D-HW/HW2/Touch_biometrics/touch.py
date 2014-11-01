@@ -6,6 +6,8 @@ import csv
 import math 
 from heapq import *
 import multiprocessing
+from sklearn import ensemble
+import random
 
 def get_feature_dict():
 	featureStr = {}
@@ -86,6 +88,7 @@ def read_features():
 	#print features.shape
 	user = data_matrix[:, [0]]
 	#print user
+	features = preprocessing.scale(features)
 	return user, features
 
 def rel_entropy(feature_index):
@@ -224,37 +227,57 @@ def select_feature_3():
 		print dic[temp]
 	return feat
 
-##Use L-1 norm with a linear classifer to select most important features
+##Use L-1 norm with a logistic regression classifer to select most important features, we select the 10 features with highest coefficients
 def select_feature_4():
-	pen_factor = [.1, .5, 1, 5, 10, 50, 100, 500, 1000]
-	lis = multiprocessing.Pool(len(pen_factor)).map(get_selected_features, pen_factor)	
-	for item in lis:
-		print item.shape
-
-def get_selected_features(p):
 	user, features = read_features()
-	select = linear_model.LogisticRegression(penalty='l1', C=p, dual=False)
+	dic = get_feature_dict()
+	select = linear_model.LogisticRegression(penalty='l1', C=1.0, dual=False)
 	select.fit(features[:, range(30)], user)
-	feat = select.transform(np.matrix(range(30)))
-	return feat
+	print select.coef_
+	lis = []
+	tem = np.max(np.absolute(select.coef_), axis=0)
+	for i in range(30):
+		if tem[i]>0:
+			heappush(lis, (1/tem[i], i))
+	feat = []
+	for i in range(10):
+		temp = heappop(lis)[1]
+		feat.append(temp)
+		print dic[temp]
+	return feat	
 
 def get_F1_score():
 	user, features = read_features()
 	user_set = set(list(np.squeeze(user)))
+	dic = get_feature_dict()
 	##Select features
-	feat = select_feature_1()
+	feat = select_feature_4()
+	#feat = range(30)
+	##Add last 2 features
+	#feat.extend((30, 31))
 	print user_set
 	F1 = []
 	for u in user_set:
+		x = features
 		y = 0*user
+		lis = []
 		for i in range(user.shape[0]):
 			if user[i]!=u:
 				y[i]=1
+			else:
+				lis.append(i)	
+		
+		for i in range(39):
+			x = np.append(x, features[lis,:], axis=0)
+			y = np.append(y, y[lis, :], axis=0)
 		##Use SVM Classifier
 		model = svm.SVC(kernel = 'rbf')
 		##Use Log reg classifier
 		#model = linear_model.LogisticRegression
-		F1.append(np.mean(cross_validation.cross_val_score(model, features[:, feat], y, cv=10)))
+		F1.append(np.mean(cross_validation.cross_val_score(model, x[:, feat], y[:, :], cv=10, scoring = 'f1')))
+	print 'The features used are'
+	for item in feat:
+		print dic[item]
 	print 'F1 score is ',np.mean(np.array(F1)) 
 					
 
