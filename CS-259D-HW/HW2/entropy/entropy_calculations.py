@@ -72,18 +72,23 @@ def get_feature_name():
 	return dict
 
 def plot_all_entropy_lists():
+	count = 0
 	time, ent, pairwise_ent = get_all_entropy_lists()
 	feat = get_feature_name()
 	for i in ent.keys():
+		fig = plt.figure(count)
+		count+=1
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i] )
 		plt.plot(time, ent[i])
-		plt.show()
+		fig.savefig(feat[i] + '.png')
 	for i in pairwise_ent.keys():
+		fig = plt.figure(count)
+		count += 1
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
 		plt.plot(time, pairwise_ent[i])
-		plt.show()
+		fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
 
 
 				
