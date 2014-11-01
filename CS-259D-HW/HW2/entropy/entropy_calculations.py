@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import math
 from datetime import datetime
+import pickle
 
 def read_data_from_file():
 	data = []
@@ -16,8 +17,8 @@ def get_entropy_from_dict(dic, total):
 	return H
 
 def get_all_entropy_lists():
-	#lis_features = [3, 4, 5, 6, 7, 8]
-	lis_features = [3]
+	lis_features = [3, 4, 5, 6, 7, 8]
+	#lis_features = [3]
 	pairwise_ent = {}
 	ent = {}
 	pairwise_count = {}
@@ -59,7 +60,7 @@ def get_all_entropy_lists():
 					else:
 						pairwise_ent[(i, j)] = [get_entropy_from_dict(pairwise_count[(i, j)], total)]
 		print tim[total-1]
-	return tim, ent, pairwise_ent
+	pickle.dump((time, ent, pairwise_ent), open('entropies.pickle',  'rb'))
 
 def get_feature_name():
 	dict = {}
@@ -73,17 +74,14 @@ def get_feature_name():
 
 def plot_all_entropy_lists():
 	count = 0
-	time, ent, pairwise_ent = get_all_entropy_lists()
+	time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'w'))
 	feat = get_feature_name()
-	plt.switch_backend('TkAgg')
 	for i in ent.keys():
 		fig = plt.figure(count)
 		count+=1
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i] )
 		plt.plot(time, ent[i])
-		mng = plt.get_current_fig_manager()
-		mng.resize(*mng.window.maxsize())
 		fig.savefig(feat[i] + '.png')
 	for i in pairwise_ent.keys():
 		fig = plt.figure(count)
@@ -91,11 +89,9 @@ def plot_all_entropy_lists():
 		plt.xlabel('Time')
 		plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
 		plt.plot(time, pairwise_ent[i])
-		mng = plt.get_current_fig_manager()
-		mng.resize(*mng.window.maxsize())
 		fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
 
 
-				
+get_all_entropy_lists()
 plot_all_entropy_lists()
 #read_data_from_file()
