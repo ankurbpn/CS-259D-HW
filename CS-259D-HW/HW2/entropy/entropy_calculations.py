@@ -16,8 +16,8 @@ def get_entropy_from_dict(dic, total):
 	return H
 
 def get_all_entropy_lists():
-	#lis_features = [3, 4, 5, 6, 7, 8]
-	lis_features = [3]
+	lis_features = [3, 4, 5, 6, 7, 8]
+	#lis_features = [3]
 	pairwise_ent = {}
 	ent = {}
 	pairwise_count = {}
