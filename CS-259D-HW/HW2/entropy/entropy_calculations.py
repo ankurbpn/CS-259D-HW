@@ -1,4 +1,4 @@
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import math
 from datetime import datetime
 import pickle
@@ -215,9 +215,9 @@ def normalize_ent_for_comparison(ent):
 			ent[i] = ent[i]/math.log(i)
 	return ent
 
-get_sliding_window_entropy_list()
+#get_sliding_window_entropy_list()
 #get_triplet_entropy()
 #get_all_entropy_lists()
-#plot_all_entropy_lists()
+plot_all_entropy_lists()
 #read_data_from_file()
 
