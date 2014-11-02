@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import math
 from datetime import datetime
 import pickle
@@ -73,6 +73,26 @@ def get_feature_name():
 	dict [8] = 'Dest IP'
 	return dict
 
+def get_triplet_entropy():
+	trip = [4, 7, 8]
+	ent = []
+	count = {}
+	dat = read_data_from_file()
+	tim = []
+	total = 0
+	for item in dat:
+		total+=1
+		tim.append(datetime.strptime(item[2], '%H:%M:%S'))
+		key = (item[trip[0]], item[trip[1]], item[trip[2]])
+		if key in count.keys():
+			count[key]+=1
+		else:
+			count[key]=1
+		ent.append(get_entropy_from_dict(count, total))	
+		print tim[total-1]	
+	pickle.dump((tim, ent), open('trip_entropy.pickle',  'wb'))
+
+
 def plot_all_entropy_lists():
 	count = 0
 	time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'rb'))
@@ -92,7 +112,7 @@ def plot_all_entropy_lists():
 		plt.plot(time, pairwise_ent[i])
 		fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
 
-
-get_all_entropy_lists()
-plot_all_entropy_lists()
+get_triplet_entropy()
+#get_all_entropy_lists()
+#plot_all_entropy_lists()
 #read_data_from_file()
