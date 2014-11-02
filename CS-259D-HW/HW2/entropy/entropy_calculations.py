@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import math
 from datetime import datetime
 import pickle
+import multiprocessing
 
 def read_data_from_file():
 	data = []
@@ -60,7 +61,7 @@ def get_all_entropy_lists():
 					else:
 						pairwise_ent[(i, j)] = [get_entropy_from_dict(pairwise_count[(i, j)], total)]
 		print tim[total-1]
-	pickle.dump((time, ent, pairwise_ent), open('entropies.pickle',  'rb'))
+	pickle.dump((tim, ent, pairwise_ent), open('entropies.pickle',  'wb'))
 
 def get_feature_name():
 	dict = {}
@@ -74,7 +75,7 @@ def get_feature_name():
 
 def plot_all_entropy_lists():
 	count = 0
-	time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'w'))
+	time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'rb'))
 	feat = get_feature_name()
 	for i in ent.keys():
 		fig = plt.figure(count)
