@@ -103,7 +103,7 @@ def get_sliding_window_entropy_list():
 				new_count[i][item[i]]=1				
 			
 			if total%Nby2==0:
-							if i in ent.keys():
+				if i in ent.keys():
 					ent[i].append(get_entropy_from_dict(count[i], N))
 				else:
 					ent[i] = [get_entropy_from_dict(count[i], N)]
