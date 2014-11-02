@@ -64,8 +64,8 @@ def get_all_entropy_lists():
 	pickle.dump((tim, ent, pairwise_ent), open('entropies.pickle',  'wb'))
 
 def get_sliding_window_entropy_list():
-	N = 100
-	Nby2 = 50
+	N = 2000
+	Nby10 = 200
 	lis_features = [3, 4, 5, 6, 7, 8]
 	#lis_features = [3]
 	pairwise_ent = {}
@@ -77,10 +77,13 @@ def get_sliding_window_entropy_list():
 	dat = read_data_from_file()
 	tim = []
 	total = 0
+	for iter in range(9):
+		new_count[iter] = {}
+		new_p_count[iter] = {}
 	for item in dat:
 		#tim.append(datetime.strptime(item[2], '%H:%M:%S'))
 		total += 1
-		if total%Nby2==0:
+		if total%Nby10==0:
 			tim.append(datetime.strptime(item[2],  '%H:%M:%S'))
 
 		for i in lis_features:
@@ -92,23 +95,26 @@ def get_sliding_window_entropy_list():
 			else:
 				count[i] = {}
 				count[i][item[i]]=1
-
-			if i in new_count.keys():
-				if item[i] in new_count[i].keys():
-					new_count[i][item[i]]+=1
-				else:
-					new_count[i][item[i]]=1
-			else:
-				new_count[i] = {}
-				new_count[i][item[i]]=1				
 			
-			if total%Nby2==0:
+			for iter in range(9):
+				if i in new_count[iter].keys():
+					if item[i] in new_count[iter][i].keys():
+						new_count[iter][i][item[i]]+=1
+					else:
+						new_count[iter][i][item[i]]=1
+				else:
+					new_count[iter][i] = {}
+					new_count[iter][i][item[i]]=1				
+			
+			if total%Nby10==0:
 				if i in ent.keys():
 					ent[i].append(get_entropy_from_dict(count[i], N))
 				else:
 					ent[i] = [get_entropy_from_dict(count[i], N)]
-				count[i] = new_count[i]
-				new_count[i] = {}
+				count[i] = new_count[0][i]
+				for iter in range(8):
+					new_count[iter] = new_count[iter+1]
+				new_count[8] = {}
 
 			for j in lis_features:
 				if i!=j:
@@ -120,24 +126,26 @@ def get_sliding_window_entropy_list():
 					else:
 						pairwise_count[(i, j)] = {}
 						pairwise_count[(i, j)][(item[i], item[j])]=1				
-					
-					if (i, j) in new_p_count.keys():
-						if (item[i], item[j]) in new_p_count[(i, j)].keys():
-							new_p_count[(i, j)][(item[i], item[j])]+=1
+					for iter in range(9):
+						if (i, j) in new_p_count[iter].keys():
+							if (item[i], item[j]) in new_p_count[iter][(i, j)].keys():
+								new_p_count[iter][(i, j)][(item[i], item[j])]+=1
+							else:
+								new_p_count[iter][(i, j)][(item[i], item[j])]=1
 						else:
-							new_p_count[(i, j)][(item[i], item[j])]=1
-					else:
-						new_p_count[(i, j)] = {}
-						new_p_count[(i, j)][(item[i], item[j])]=1				
+							new_p_count[iter][(i, j)] = {}
+							new_p_count[iter][(i, j)][(item[i], item[j])]=1				
 
-					if total%Nby2==0:
+					if total%Nby10==0:
 		
 						if (i, j) in pairwise_ent.keys():
 							pairwise_ent[(i, j)].append(get_entropy_from_dict(pairwise_count[(i, j)], N))
 						else:
 							pairwise_ent[(i, j)] = [get_entropy_from_dict(pairwise_count[(i, j)], N)]
-						pairwise_count[(i, j)] = new_p_count[(i, j)]
-						new_p_count[(i, j)] = {}
+						pairwise_count[(i, j)] = new_p_count[0][(i, j)]
+						for iter in range(8):
+							new_p_count[iter] = new_p_count[iter+1]
+						new_p_count[8][(i, j)] = {}
 		print item[2]
 	pickle.dump((tim, ent, pairwise_ent), open('windowed_entropies.pickle',  'wb'))
 
