@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import math
 from datetime import datetime
 import pickle
@@ -63,6 +63,83 @@ def get_all_entropy_lists():
 		print tim[total-1]
 	pickle.dump((tim, ent, pairwise_ent), open('entropies.pickle',  'wb'))
 
+def get_sliding_window_entropy_list():
+	N = 100
+	Nby2 = 50
+	lis_features = [3, 4, 5, 6, 7, 8]
+	#lis_features = [3]
+	pairwise_ent = {}
+	ent = {}
+	pairwise_count = {}
+	count = {}
+	new_count = {}
+	new_p_count = {}
+	dat = read_data_from_file()
+	tim = []
+	total = 0
+	for item in dat:
+		#tim.append(datetime.strptime(item[2], '%H:%M:%S'))
+		total += 1
+		for i in lis_features:
+			if i in count.keys():
+				if item[i] in count[i].keys():
+					count[i][item[i]]+=1
+				else:
+					count[i][item[i]]=1
+			else:
+				count[i] = {}
+				count[i][item[i]]=1
+
+			if i in new_count.keys():
+				if item[i] in new_count[i].keys():
+					new_count[i][item[i]]+=1
+				else:
+					new_count[i][item[i]]=1
+			else:
+				new_count[i] = {}
+				new_count[i][item[i]]=1				
+			
+			if total%Nby2==0:
+				tim.append(datetime.strptime(item[2],  '%H:%M:%S'))
+				if i in ent.keys():
+					ent[i].append(get_entropy_from_dict(count[i], N))
+				else:
+					ent[i] = [get_entropy_from_dict(count[i], N)]
+				count[i] = new_count[i]
+				new_count[i] = {}
+
+			for j in lis_features:
+				if i!=j:
+					if (i, j) in pairwise_count.keys():
+						if (item[i], item[j]) in pairwise_count[(i, j)].keys():
+							pairwise_count[(i, j)][(item[i], item[j])]+=1
+						else:
+							pairwise_count[(i, j)][(item[i], item[j])]=1
+					else:
+						pairwise_count[(i, j)] = {}
+						pairwise_count[(i, j)][(item[i], item[j])]=1				
+					
+					if (i, j) in new_p_count.keys():
+						if (item[i], item[j]) in new_p_count[(i, j)].keys():
+							new_p_count[(i, j)][(item[i], item[j])]+=1
+						else:
+							new_p_count[(i, j)][(item[i], item[j])]=1
+					else:
+						new_p_count[(i, j)] = {}
+						new_p_count[(i, j)][(item[i], item[j])]=1				
+
+					if total%Nby2==0:
+		
+						if (i, j) in pairwise_ent.keys():
+							pairwise_ent[(i, j)].append(get_entropy_from_dict(pairwise_count[(i, j)], N))
+						else:
+							pairwise_ent[(i, j)] = [get_entropy_from_dict(pairwise_count[(i, j)], N)]
+						pairwise_count[(i, j)] = new_p_count[(i, j)]
+						new_p_count[(i, j)] = {}
+		print item[2]
+	pickle.dump((tim, ent, pairwise_ent), open('windowed_entropies.pickle',  'wb'))
+
+
 def get_feature_name():
 	dict = {}
 	dict[3] = 'Duration'
@@ -96,7 +173,7 @@ def get_triplet_entropy():
 def plot_all_entropy_lists(Triplet = False):
 	if Triplet:
 		time, ent = pickle.load(open('trip_entropy.pickle',  'rb'))
-		ent = normalize_ent_for_comparison(ent)
+		#ent = normalize_ent_for_comparison(ent)
 		feat = get_feature_name()	
 		fig = plt.figure()
 	#	count += 1
@@ -112,7 +189,7 @@ def plot_all_entropy_lists(Triplet = False):
 		feat = get_feature_name()
 		for i in ent.keys():
 			fig = plt.figure(count)
-			ent[i] = normalize_ent_for_comparison(ent[i])
+		#	ent[i] = normalize_ent_for_comparison(ent[i])
 			count+=1
 			plt.xlabel('Time')
 			plt.ylabel('entropy ' + feat[i] )
@@ -124,7 +201,7 @@ def plot_all_entropy_lists(Triplet = False):
 			count += 1
 			plt.xlabel('Time')
 			plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
-			pairwise_ent[i] = normalize_ent_for_comparison(pairwise_ent[i])
+		#	pairwise_ent[i] = normalize_ent_for_comparison(pairwise_ent[i])
 			plt.plot(time, pairwise_ent[i])
 			#plt.show()
 			fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
@@ -134,8 +211,10 @@ def normalize_ent_for_comparison(ent):
 		if i>1:
 			ent[i] = ent[i]/math.log(i)
 	return ent
+
+get_sliding_window_entropy_list()
 #get_triplet_entropy()
 #get_all_entropy_lists()
-plot_all_entropy_lists(True)
+#plot_all_entropy_lists(True)
 #read_data_from_file()
 
