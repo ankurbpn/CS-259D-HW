@@ -1,4 +1,4 @@
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import math
 from datetime import datetime
 import pickle
@@ -67,10 +67,10 @@ def get_feature_name():
 	dict = {}
 	dict[3] = 'Duration'
 	dict[4] = 'Serv'
-	dict[5] = 'Src port'
-	dict[6] = 'Dest Port'
-	dict[7] = 'Src IP'
-	dict [8] = 'Dest IP'
+	dict[5] = 'SrcPort'
+	dict[6] = 'DestPort'
+	dict[7] = 'SrcIP'
+	dict [8] = 'DestIP'
 	return dict
 
 def get_triplet_entropy():
@@ -93,26 +93,49 @@ def get_triplet_entropy():
 	pickle.dump((tim, ent), open('trip_entropy.pickle',  'wb'))
 
 
-def plot_all_entropy_lists():
-	count = 0
-	time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'rb'))
-	feat = get_feature_name()
-	for i in ent.keys():
-		fig = plt.figure(count)
-		count+=1
+def plot_all_entropy_lists(Triplet = False):
+	if Triplet:
+		time, ent = pickle.load(open('trip_entropy.pickle',  'rb'))
+		ent = normalize_ent_for_comparison(ent)
+		feat = get_feature_name()	
+		fig = plt.figure()
+	#	count += 1
 		plt.xlabel('Time')
-		plt.ylabel('entropy ' + feat[i] )
-		plt.plot(time, ent[i])
-		fig.savefig(feat[i] + '.png')
-	for i in pairwise_ent.keys():
-		fig = plt.figure(count)
-		count += 1
-		plt.xlabel('Time')
-		plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
-		plt.plot(time, pairwise_ent[i])
-		fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
+		plt.ylabel('entropy ' + feat[4] + ' + ' + feat[7] + ' + ' + feat[8])
+		plt.plot(time, ent)
+		plt.show()
+		fig.savefig('triplet.png')
 
-get_triplet_entropy()
+	else:
+		count = 0
+		time, ent, pairwise_ent = pickle.load(open('entropies.pickle', 'rb'))
+		feat = get_feature_name()
+		for i in ent.keys():
+			fig = plt.figure(count)
+			ent[i] = normalize_ent_for_comparison(ent[i])
+			count+=1
+			plt.xlabel('Time')
+			plt.ylabel('entropy ' + feat[i] )
+			plt.plot(time, ent[i])
+			#plt.show()
+			fig.savefig(feat[i] + '.png')
+		for i in pairwise_ent.keys():
+			fig = plt.figure(count)
+			count += 1
+			plt.xlabel('Time')
+			plt.ylabel('entropy ' + feat[i[0]] + ' + ' + feat[i[1]])
+			pairwise_ent[i] = normalize_ent_for_comparison(pairwise_ent[i])
+			plt.plot(time, pairwise_ent[i])
+			#plt.show()
+			fig.savefig(feat[i[0]] + '_' + feat[i[1]] + '.png')
+
+def normalize_ent_for_comparison(ent):
+	for i in range(len(ent)):
+		if i>1:
+			ent[i] = ent[i]/math.log(i)
+	return ent
+#get_triplet_entropy()
 #get_all_entropy_lists()
-#plot_all_entropy_lists()
+plot_all_entropy_lists(True)
 #read_data_from_file()
+
