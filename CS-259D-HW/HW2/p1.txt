@@ -1,0 +1,21 @@
+1a. True. 
+
+If the IDS is anomaly-based, it is fundamentally harder to create a detector with a low rate of false positives than false negatives. This is because anomaly-based IDS's rely on the existence of a model for all "good" behavior in a system, and classify anything outside that model as "bad." It is infeasible to train these models on every possible benign event that could occur, and thus some good events will inevitably be misclassified.
+
+1b. False
+
+TLS encrypts everything underneath the TCP header with a randomly chosen symmetric key for every session. The two clients will (most likely) decide on different symmetric keys and initialization vectors, and thus the encrypted bytes will be different.
+
+1c. False
+
+Firewalls do not match traffic against known malicious behavior. Instead, users define traffic they want to allow to flow through the network, and any traffic not matching a user-defined rule is dropped.
+
+1d. True
+
+1e. True
+
+DNSSec uses a public-key infrastructure to authenticate domain name servers to each other, thus an adversary cannot inject false name resolutions into a DNS server.
+
+1f. Alice could use IP fragmentation to split the malicious payload across multiple IP packets. Catie would need to buffer every IP fragment and reconstruct the original packet for her regex approach to work. Additionally, if Bob supports secure communication protocols, Alice could simply use a different encryption key every time to vary the byte pattern of her malicious payload.
+
+1g. TOR makes it impossible to correlate events by source IP addresses. Each session would originate from a random host out of a set of hosts acting as nodes in the TOR network. Thus the source IP address could not be used as a feature when developing intrusion detection systems.
