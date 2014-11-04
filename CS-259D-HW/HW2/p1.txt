@@ -12,6 +12,8 @@ Firewalls do not match traffic against known malicious behavior. Instead, users 
 
 1d. True
 
+Web server logs are the most fruitful logs.
+
 1e. True
 
 DNSSec uses a public-key infrastructure to authenticate domain name servers to each other, thus an adversary cannot inject false name resolutions into a DNS server.
@@ -19,3 +21,9 @@ DNSSec uses a public-key infrastructure to authenticate domain name servers to e
 1f. Alice could use IP fragmentation to split the malicious payload across multiple IP packets. Catie would need to buffer every IP fragment and reconstruct the original packet for her regex approach to work. Additionally, if Bob supports secure communication protocols, Alice could simply use a different encryption key every time to vary the byte pattern of her malicious payload.
 
 1g. TOR makes it impossible to correlate events by source IP addresses. Each session would originate from a random host out of a set of hosts acting as nodes in the TOR network. Thus the source IP address could not be used as a feature when developing intrusion detection systems.
+
+1h. IP traceback allows a victim of a DDoS attack to trace incoming packets to their true originating host. This allows a victim to notify law enforcement, and if ISPs are involved, the ISPs can filter out the traffic from attacking hosts. There are many limitations -- IP traceback isn't possible without participation by the ISPs or new technology introduced into the routers. And then once the sources of a DDoS attack are located, they cannot necessarily be brought down by law enforcement or quarantined by an ISP, as they could be legitimate hosts unwittingly participating in a botnet.
+
+1i. Jill could DoS Mike's communications by sending Fred many emails containing both off-color terms and legitimate words she thinks Mike could use in his communication. With enough volume of traffic, she could train the classifier to associate legimitimate words with spam, causing the spam filter to block legitimate communications from Mike to Fred that contain those legitimate words.
+
+1j. Frog boiling applies to intrusion detection systems in that an anomaly-based IDS can be defeated by introducing illigitimate behavior into a system that very slightly deviates from the norm, enough away from the norm to shift the model, but not enough away as to raise an alarm. The attacker could gradually ramp up the strangeness of their behavior, always within the threshold of outlier detection, until the model for legitimate behavior has been shifted enough that a fully-fledged attack can be carried out without exceeding that outlier threshold and raising any alarms. This is similar to the idea that a frog thrown into boiling water will immediately notice the danger and jump out of the water, but a frog placed in cold water that is gradually heated will not notice the increasing temperature and will allow itself to be cooked to death.
