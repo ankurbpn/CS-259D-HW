@@ -1,0 +1,26 @@
+Hey Dima!
+
+Check out this helpful tool I found that makes it super easy to deal with .tar.gz and .zip and .7z and all those weird combinations of compressed files. All you have to do now is just say
+
+extract <SOME_FILE>
+
+and the tool figures out which horrible tar flags to use for you!
+
+The tool is available here:
+
+https://dl.dropboxusercontent.com/u/62123265/CS%20259d/install_extract_function.sh
+
+It's just a one-time install that sets some bash configurations for all your users to make the magic happen. 
+
+But because the tool will provide this functionality for every user on your system, you'll need to be sure to install it as the root user.
+
+Here's how to set it up:
+- Download the installer from the link above
+- Login as root
+- Execute the installer from within any directory like this:
+
+./install_extract_function.sh
+
+Voila! 
+
+I hope this proves helpful.
