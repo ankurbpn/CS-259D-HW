@@ -1,0 +1,1 @@
+One interesting question could be to provide the students an anomaly detection dataset with malicious training datapoints that tries to misguide the classifier in a certain direction using a boiling frog attack. The students would try building systems (robust statistics?, RONI? etc.) to train a system that performs best on an unseen test set. 

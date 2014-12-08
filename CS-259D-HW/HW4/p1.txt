@@ -1,0 +1,56 @@
+---------------------------------------------------------------------
+Describe the relationship between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS). Which one is more commonly used and why?
+IDS systems are passive. They detect traffic from inside the firewall and match it to a signature or anomaly detection system. It sets off an alarm if it detects anything suspicious and logs the data. 
+An IPS is more powerful in the sense that it is active and has the ability to cut off traffic when it detects anything suspicious. 
+IDS are more commonly used since IPS have much higher penalties for false positives since it affects live traffic. 
+
+---------------------------------------------------------------------
+Explain why an attacker would use fast-flux and why the operator is hard to discover.
+FAst lux involves multiple nodes within the network registering and de-registering their addresses as part of the DNS record list for a single DNS name with very short TTLs. This creates a long dynamic list of destination addresses for the same DNS. This provides an additional layer of redundancy and survivability inside the malware network.
+During an attack, DNS records will usually point to a compromised proxy system which evades systems like IP based access lists etc. It also makes it possible to disguise the attackers' network via a series of proxies thus making it harder to discover.
+
+---------------------------------------------------------------------
+Using the characteristics of polymorphic shellcode, explain why multi-classifier systems (MCS) provide a good approach to payload-based anomaly detection?
+Polymorphic shellcode attacks try to evade packet inspection by adjusting their byte frequency to match that of legitimate traffic. Each instance of malicious code looks different but does not resemble normal traffic. However, it is difficult to develop a single classifier that models all the different features that distinguish normal traffic from malicious code. 
+It is very simple to beat systems like PAYL that try to train a very general model to detect malicious data by using simple greedy substitution methods to morph traffic. This presents a need to train multiple systems that model specific aspects of the problem and combine their outputs to distinguish regular traffic from attack packets.
+
+---------------------------------------------------------------------
+Why are the features chosen by McPAD a good fit for an ensemble model?
+In an ideal scenario with infinite computational power and training data, we would like to analyze the n-gram for each packet for the largest n possible and compare it against existing information to determine whether it's an attack packet. However, training systems for n more than 2 is impossible to use in a practical system since the number of parameters exceeds reasonable bounds. 
+McPAD tries to train multiple classifiers to learn the correlation between 2 bytes v positions apart for different values of v in order to model the distribution of characters across the entire n-gram. As a result, it enables the different systems to learn from orthogonal feature
+
+---------------------------------------------------------------------
+Give two reasons why the PAYL method for a payload-based anomaly detection cannot gain significantly from ensemble classification.
+The PAYL method tries to learn the distribution of n-grams in normal traffic distributions.
+It cannot gain significantly from ensemble methods because:
+1. It is not possible to train systems on orthogonal features (For eg. Learning different classifiers for different values of n is a possible ensemble method which can't be used since it is impossible to learn a system for n > 2).
+2. Learning different systems on the same features wouldn't lead to much improvement in the system's performance.
+
+---------------------------------------------------------------------
+Using Baysian detection rate, explain why machine learning may not be a good detection mechanism for network intrusions? 
+Suppose the probability of an alert being an intrusion is P(I|A). We would want this value to be very high for a good intrusion alert system. Let the probability of an intrusion be P(I). Then the probability of there not being an intrusion is 1 - P(I). Let the probability of an alert being raised during an intrusion be P(A|I) and the probability of an alert being raised in the absence of an intrusion be P(A|NI). Then the probability of an alert being an intrusion is P(I|A) = P(A|I)*P(I)/(P(A|I)*P(I) + P(A|NI)*(1 - P(I))). Since the probability of an intrusion is very small this results in most of the alerts being false positives, making it very expensive to have experts monitor each alert. This makes the use of machine learning unsuitable for network intrusion detection.
+
+--------------------------------------------------------------------- 
+Building on (f), explain why machine learning is good fit for forensics. 
+Since P(I) and (1 - P(I)) will have comparable values in forensics, the number of false positives would be comparable to true positives. This makes analysis of the results by an expert less time consuming and expensive.
+
+---------------------------------------------------------------------
+Explain why detecting polymorphic shellcode is essentially infeasible.
+Using systems like CLET, it is possible to encrypt shell code so it seems completely similar to normal traffic. When combined with ADMutate, even the decoder can be made to seem completely random, thus making it impossible to train any models to detect polymorphic shellcode.
+
+-------------------------------------------------------------------
+Explain how robust statistics can tolerate adversarial boiling frog attacks.
+Robust statistics are invariant to outliers in the training data. To change the position of the median, a huge number of data points will need to be added near the decision boundary compared to the mean which can be moved by a significantly lesser number of malicious training points. 
+As a result, when carrying out a boiling frog attack on a system using robust statistics, the attack points will have to be moved very slowly in the direction of the actual attack distribution, comapred to a non-robust system which would get distorted by the attack points much faster.
+
+----------------------------------------------------------------------
+Explain when a security company should “pull the bag off of the inspection conveyor” or when it should “make a copy of the bag instead of pulling it off and catch the intruder later”. (The analogy follows is derived from one of the lectures -- email me if you want an explanation)
+When the kind of attacks being carried out on the system are slow moving or carried out in multiple stages, it is better to 'make a copy of the bag and catch the intruder later' instead of disrupting the normal traffic.
+However, in systems where a small intrusion can result in significant losses very fast, it is better to err on the safer side and 'pull the bag off the inspection conveyor'.
+
+---------------------------------------------------------------------- 
+Why would attackers not care to change their IP address when attacking fake government website set up to draw the attacks, according to McAfee?
+The attackers were confident that while the attacks were being carried out the owners of the system wouldn't be able to detect them until it was too late (which proved to be correct).
+
+---------------------------------------------------------------------- 
+
