@@ -1,4 +1,4 @@
----------------------------------------------------------------------
+﻿---------------------------------------------------------------------
 Describe the relationship between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS). Which one is more commonly used and why?
 IDS systems are passive. They detect traffic from inside the firewall and match it to a signature or anomaly detection system. It sets off an alarm if it detects anything suspicious and logs the data. 
 An IPS is more powerful in the sense that it is active and has the ability to cut off traffic when it detects anything suspicious. 
@@ -6,7 +6,7 @@ IDS are more commonly used since IPS have much higher penalties for false positi
 
 ---------------------------------------------------------------------
 Explain why an attacker would use fast-flux and why the operator is hard to discover.
-FAst lux involves multiple nodes within the network registering and de-registering their addresses as part of the DNS record list for a single DNS name with very short TTLs. This creates a long dynamic list of destination addresses for the same DNS. This provides an additional layer of redundancy and survivability inside the malware network.
+Fast lux involves multiple nodes within the network registering and de-registering their addresses as part of the DNS record list for a single DNS name with very short TTLs. This creates a long dynamic list of destination addresses for the same DNS. This provides an additional layer of redundancy and survivability inside the malware network.
 During an attack, DNS records will usually point to a compromised proxy system which evades systems like IP based access lists etc. It also makes it possible to disguise the attackers' network via a series of proxies thus making it harder to discover.
 
 ---------------------------------------------------------------------
